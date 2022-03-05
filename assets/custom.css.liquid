@@ -3,8 +3,6 @@
 .ud-section ul,
 .ud-section ol,
 .ud-section li {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -28,13 +26,27 @@
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 16px 10px;
+  padding: 16px 10px
+}
+.banner-list__item .banner__cont {
+  position: absolute;
+  bottom: 24px;
+  left: 16px;
 }
 .banner-list__item .banner__header {
   color: white;
   font-size: 16px;
+  margin-bottom: 8px;
 }
-@media screen and (min-width: 641px) {
+.banner-list__item .banner__link {
+  /* background-color: var(--button-background);
+  color: white; */
+  padding: .6em .8em;
+}
+.banner-list__item .banner__link::before {
+  transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+@media screen and (min-width: 769px) {
   .banner-list__list {
     display: flex;
     justify-content: space-between;
@@ -43,6 +55,10 @@
     width: calc((100% - (12px * 2)) / 3 );
     position: relative;
     margin: 2.4rem 0;
+  }
+  .banner-list__item .banner__cont {
+    bottom: 32px;
+    left: 16px;
   }
   .banner-list__item .banner__header {
     font-size: 20px;
