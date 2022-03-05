@@ -84,7 +84,9 @@
           {%- if section.settings.show_collection_info -%}
             <div class="Container">
               <div class="SectionHeader SectionHeader--center">
+                {%- comment -%}
                 <h1 class="SectionHeader__Heading Heading u-h1">{{ collection.title }}</h1>
+                {%- endcomment -%}
 
                 {%- if collection.description != blank -%}
                   <div class="SectionHeader__Description Rte">
@@ -100,7 +102,9 @@
       <header class="PageHeader">
         <div class="Container">
           <div class="SectionHeader SectionHeader--center">
+            {%- comment -%}
             <h1 class="SectionHeader__Heading Heading u-h1">{{ collection.title }}</h1>
+            {%- endcomment -%}
 
             {%- if collection.description != blank -%}
               <div class="SectionHeader__Description Rte">
