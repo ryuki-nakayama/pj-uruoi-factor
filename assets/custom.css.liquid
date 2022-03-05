@@ -1,11 +1,3 @@
-/* common
---------------------------------------------------*/
-.ud-section ul,
-.ud-section ol,
-.ud-section li {
-  list-style: none;
-}
-
 /* banner-list
 --------------------------------------------------*/
 .banner-list__item {
@@ -39,8 +31,6 @@
   margin-bottom: 8px;
 }
 .banner-list__item .banner__link {
-  /* background-color: var(--button-background);
-  color: white; */
   padding: .6em .8em;
 }
 .banner-list__item .banner__link::before {
@@ -71,4 +61,35 @@
   .banner-list__item .banner__inner {
     padding: 32px 24px;
   }
+}
+
+/* icon-link-list
+--------------------------------------------------*/
+.icon-link-list__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem;
+}
+.icon-link-list__item {
+  width: 50%;
+  padding-top: 50%;
+  list-style: none;
+  position: relative;
+}
+.icon-link-list__item .icon-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80px;
+  width: 100%;
+}
+.icon-link-list__item .icon-link__link {
+  width: 100%;
+  height: 100%;
+}
+.icon-link-list__item .icon-link__text {
+  text-align: center;
+  margin-top: 10px;
 }
