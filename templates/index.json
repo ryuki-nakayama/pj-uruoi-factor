@@ -374,11 +374,21 @@
             "link": "https:\/\/uruoi-factor-product.com\/collections\/%E3%82%AE%E3%83%95%E3%83%88%E5%8C%85%E8%A3%85-0",
             "btn-text": "READ MORE"
           }
+        },
+        "c817b3d7-0cca-4dba-8718-aba5a3651ca0": {
+          "type": "banner",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/gazou3.jpg",
+            "header": "HEADER",
+            "link": "https:\/\/uruoi-factor-product.com\/pages\/%E5%AE%9A%E6%9C%9F%E8%B3%BC%E5%85%A5%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6?_pos=1&_sid=e1aab9feb&_ss=r",
+            "btn-text": "READ MORE"
+          }
         }
       },
       "block_order": [
         "1c15e960-2f90-4f98-9f5c-63d651f7097b",
-        "728309f2-bf3e-41b9-b908-9c540cf6efb3"
+        "728309f2-bf3e-41b9-b908-9c540cf6efb3",
+        "c817b3d7-0cca-4dba-8718-aba5a3651ca0"
       ],
       "settings": {
       }
