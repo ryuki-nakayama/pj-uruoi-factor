@@ -1078,7 +1078,7 @@ body {
   font-style: var(--text-font-style);
   color: var(--text-color);
   background: var(--background);
-  line-height: 1.65;
+  line-height: 2;
 }
 
 .Link {
