@@ -1,0 +1,52 @@
+<div class="Container">
+  <ul class="banner-list__list">
+    {% for block in section.blocks %}
+      <li class="banner-list__item" style="background-image: url({{ block.img | image_url: 'master' }});">
+        <p class="banner-list__header">{{ block.header }}</p>
+        <a href="{{ block.link }}" class="banner-list__list">{{ block.btn-text }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% schema %}
+{
+  "name": "Banner List",
+  "tag": "section",
+  "class": "ud-section spaced-section banner-list",
+  "blocks": [
+    {
+      "name": "Banner",
+      "type": "banner",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Banner Image"
+        },
+        {
+          "type": "text",
+          "id": "header",
+          "label": "Header"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "btn-text",
+          "label": "Button Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+  {
+    "category": "Ud Section",
+    "name": "Ud Banner List"
+  }
+]
+}
+{% endschema %}
