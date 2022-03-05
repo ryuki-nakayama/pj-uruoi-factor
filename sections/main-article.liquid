@@ -52,6 +52,7 @@
 
   <div class="Article__Wrapper">
     <div class="Article__Content">
+      {%- comment -%}
       <header class="Article__Header">
         {%- capture article_meta -%}
           {%- if section.settings.show_date -%}
@@ -71,6 +72,7 @@
 
         <h1 class="Article__Title Heading u-h1">{{ article.title }}</h1>
       </header>
+      {%- endcomment -%}
 
       <div class="Article__Body Rte">
         {{ article.content }}
