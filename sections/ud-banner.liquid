@@ -1,9 +1,10 @@
 <div class="Container">
   <ul class="banner-list__list">
     {% for block in section.blocks %}
-      <li class="banner-list__item" style="background-image: url({{ block.img | image_url: 'master' }});">
-        <p class="banner-list__header">{{ block.header }}</p>
-        <a href="{{ block.link }}" class="banner-list__list">{{ block.btn-text }}</a>
+      <li class="banner-list__item">
+        <img src="{{ block.settings.img | img_url: 'master' }}" alt="Banner">
+        <p class="banner-list__header">{{ block.settings.header }}</p>
+        <a href="{{ block.settings.link }}" class="banner-list__list">{{ block.btn-text }}</a>
       </li>
     {% endfor %}
   </ul>
