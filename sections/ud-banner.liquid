@@ -2,9 +2,12 @@
   <ul class="banner-list__list">
     {% for block in section.blocks %}
       <li class="banner-list__item">
-        <img src="{{ block.settings.img | img_url: 'master' }}" alt="Banner">
-        <p class="banner-list__header">{{ block.settings.header }}</p>
-        <a href="{{ block.settings.link }}" class="banner-list__list">{{ block.btn-text }}</a>
+        <div class="banner" style="background-image: url({{ block.settings.img | img_url: 'master' }});">
+          <div class="banner__inner">
+            <p class="banner__header">{{ block.settings.header }}</p>
+            <a href="{{ block.settings.link }}" class="banner-list__list">{{ block.settings.btn_text }}</a>
+          </div>
+        </div>
       </li>
     {% endfor %}
   </ul>
@@ -37,7 +40,7 @@
         },
         {
           "type": "text",
-          "id": "btn-text",
+          "id": "btn_text",
           "label": "Button Text"
         }
       ]
