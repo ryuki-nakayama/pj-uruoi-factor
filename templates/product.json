@@ -43,6 +43,11 @@
             "show_price_in_button": false,
             "show_payment_button": true
           }
+        },
+        "opinew-stars-plugin-product": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -51,7 +56,8 @@
         "share_buttons",
         "variant_selector",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "opinew-stars-plugin-product"
       ],
       "settings": {
         "image_size": "large",

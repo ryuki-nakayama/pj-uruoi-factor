@@ -1,0 +1,19 @@
+<link rel="preload" id="opinew-font-awesome" href="https://cdn.opinew.com/styles/opw-icons/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.opinew.com/styles/opw-icons/style.css"></noscript>
+<style id='opinew_product_plugin_css'>{{shop.metafields.opinew['opinew_product_plugin_css']}}</style>
+<div id='opinew_config_container' style='display:none;' data-opw-lang='{{shop.metafields.opinew['opinew_lang']}}'  data-opwconfig='{{shop.metafields.opinew['opinew_config']}}'></div>
+<script> 
+  var OPW_PUBLIC_KEY = "9NEJ7UHD0XSO0RRGDMBQ";
+  var OPW_API_ENDPOINT = "https://api.opinew.com";
+  var OPW_CHECKER_ENDPOINT = "https://shop-status.opinew.workers.dev";
+  var OPW_BACKEND_VERSION = "1.10.4-0-g89ab6f829";
+</script>
+<script src="https://cdn.opinew.com/shop-widgets/static/js/index.fda202d3.js" defer></script>
+{% if shop.metafields.opinew['opinew_dynamic_js'] == 'enabled' %}
+<script id="opinew-dynamic-js" src="https://cdn.opinew.com/js/util/opwdynamic.js" defer></script>
+{% endif %}
+{% if shop.metafields.opinew['opinew_floating_widget'] == 'enabled' %}
+<div data-opw-prodreviews="{{ shop.metafields.opinew['opinew_all_reviews'] }}">
+  <div id="opinew_product_floating_widget"></div>
+</div>
+{% endif %}
