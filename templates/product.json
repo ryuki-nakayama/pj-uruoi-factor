@@ -46,6 +46,7 @@
         },
         "opinew-stars-plugin-product": {
           "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "disabled": true,
           "settings": {
           }
         }
@@ -72,6 +73,7 @@
       "blocks": {
         "f0a528f9-9a42-449d-9cea-c21cfa39c9e5": {
           "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "disabled": true,
           "settings": {
           }
         }
