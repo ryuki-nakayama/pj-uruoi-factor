@@ -20,6 +20,8 @@
     {%- endif -%}
   </h1>
 
+  <div class='opinew-stars-plugin-product-list'>{% render 'opinew_review_stars_lists' product:product %}</div>
+
   {%- if block.settings.show_product_rating -%}
     <div class="ProductMeta__Rating Heading Text--subdued u-h7">
       {%- render 'product-rating', product: product -%}
