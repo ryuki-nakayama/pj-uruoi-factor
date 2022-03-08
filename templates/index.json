@@ -118,14 +118,6 @@
         "show_mobile_product_info": false
       }
     },
-    "1643528422d8f5c273": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0502\/2570\/9206\/files\/1_ce64ff28-0da5-4690-9898-981486ac22fd.jpg?v=1646114778\" alt=\"URUOIFACTOR\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0502\/2570\/9206\/files\/2_858bf233-2ecf-4467-9aac-54faf4fb77cb.jpg?v=1646114778\" alt=\"URUOIFACTOR\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0502\/2570\/9206\/files\/3_735a4821-0e8f-4e68-939d-2be271cd6607.jpg?v=1646114779\" alt=\"URUOIFACTOR\">"
-      }
-    },
     "1643566570e445fe2f": {
       "type": "featured-collections",
       "disabled": true,
@@ -398,7 +390,6 @@
     "slideshow",
     "16424748910bc2c50b",
     "1643566978fa4b891d",
-    "1643528422d8f5c273",
     "1643566570e445fe2f",
     "164247234116113261",
     "shop-the-look",
