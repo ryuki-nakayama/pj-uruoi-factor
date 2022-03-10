@@ -22,3 +22,25 @@
  *   bubbles: true
  * }));
  */
+jQuery(function($) {
+  /**
+   * accordion
+   * アコーディオンメニューの開閉
+   */
+  {
+    var toggle = $('.js-pullDownHead');
+    var body = $('.js-pullDownBody');
+    $(document).ready(function() {
+      body.slideUp();
+    })
+    toggle.click(function() {
+      if($(this).hasClass('_open')) {
+        $(this).removeClass('_open');
+        $(this).next(body).slideUp();
+      } else {
+        $(this).addClass('_open');
+        $(this).next(body).slideDown();
+      }
+    });
+  }
+});
