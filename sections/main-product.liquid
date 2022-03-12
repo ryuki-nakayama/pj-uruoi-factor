@@ -513,6 +513,11 @@ This is the root container for the zoom functionality. Must not be removed, as o
   ShopifyXR('addModels', {{ product.media | where: 'media_type', 'model' | json }});
 </script>
 
+{%- comment -%}
+{% render 'product-reviews' %}
+{%- endcomment -%}
+
+
 {% schema %}
 {
   "name": "Product page",

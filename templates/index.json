@@ -3,11 +3,26 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_29161abf-eb43-4997-a48a-ea524b75f5ef.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1_29161abf-eb43-4997-a48a-ea524b75f5ef.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "All item",
+            "button_1_link": "shopify:\/\/collections\/frontpage",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
         "slide-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/10.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/10.jpg",
+            "image": "shopify:\/\/shop_images\/3_36b2f0f1-982d-492f-b099-499f6f5eab0b.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/3_36b2f0f1-982d-492f-b099-499f6f5eab0b.jpg",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
@@ -21,23 +36,8 @@
         "33031ff1-4196-410b-b750-73cb45f0ce38": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/13.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/13.jpg",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "All item",
-            "button_1_link": "shopify:\/\/collections\/frontpage",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/11_7e536d4a-424c-4423-9dfa-36f5c59de63d.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/11_7e536d4a-424c-4423-9dfa-36f5c59de63d.jpg",
+            "image": "shopify:\/\/shop_images\/e34250aaa408da51db884d6661bbf403.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/e34250aaa408da51db884d6661bbf403.jpg",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
@@ -50,9 +50,9 @@
         }
       },
       "block_order": [
+        "slide-1",
         "slide-0",
-        "33031ff1-4196-410b-b750-73cb45f0ce38",
-        "slide-1"
+        "33031ff1-4196-410b-b750-73cb45f0ce38"
       ],
       "settings": {
         "show_fullscreen": false,
@@ -116,14 +116,6 @@
         "subheading": "",
         "title": "Review",
         "show_mobile_product_info": false
-      }
-    },
-    "1643528422d8f5c273": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0502\/2570\/9206\/files\/1_ce64ff28-0da5-4690-9898-981486ac22fd.jpg?v=1646114778\" alt=\"URUOIFACTOR\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0502\/2570\/9206\/files\/2_858bf233-2ecf-4467-9aac-54faf4fb77cb.jpg?v=1646114778\" alt=\"URUOIFACTOR\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0502\/2570\/9206\/files\/3_735a4821-0e8f-4e68-939d-2be271cd6607.jpg?v=1646114779\" alt=\"URUOIFACTOR\">"
       }
     },
     "1643566570e445fe2f": {
@@ -398,7 +390,6 @@
     "slideshow",
     "16424748910bc2c50b",
     "1643566978fa4b891d",
-    "1643528422d8f5c273",
     "1643566570e445fe2f",
     "164247234116113261",
     "shop-the-look",

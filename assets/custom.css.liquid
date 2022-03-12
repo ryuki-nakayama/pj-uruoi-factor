@@ -129,3 +129,34 @@
   margin: 0;
   margin-right: 24px;
 }
+
+/* pull-down
+--------------------------------------------------*/
+.pull-down {
+  margin-bottom: 1.6em;
+}
+.pull-down__head {
+  margin-bottom: .6em !important;
+  border-bottom: 1px solid rgba(106, 106, 106, .6);
+  position: relative;
+}
+.pull-down__head::before,
+.pull-down__head::after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  right: 16px;
+  width: 12px;
+  height: 1px;
+  background-color: #6a6a6a;
+  transition: transform .3s ease;
+}
+.pull-down__head::after {
+  transform: rotate(90deg);
+}
+.pull-down__head._open::after {
+  transform: rotate(0);
+}
+.pull-down__body {
+  display: none;
+}

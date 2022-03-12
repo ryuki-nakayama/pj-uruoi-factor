@@ -106,6 +106,7 @@
       <script src="{{ 'customer_area.js' | shopify_asset_url }}" defer></script>
     {%- endif -%}
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="{{ 'libs.min.js' | asset_url }}" defer></script>
     <script src="{{ 'theme.js' | asset_url }}" defer></script>
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
@@ -131,7 +132,8 @@
     </script>
 
     {% render 'microdata-schema' %}
-  </head>
+  {% render 'opinew_head' %}
+</head>
 
   {%- capture classes -%}features--heading-{{ settings.heading_size }}{%- endcapture -%}
 

@@ -1,8 +1,14 @@
-<div class="{% if section.settings.include_margins %}Container{% endif %}">
-  {%- for block in section.blocks -%}
-    {%- render block -%}
-  {%- endfor -%}
-</div>
+{% if template == 'product'  %}
+  <div class="Product">
+{% endif %}
+    <div class="{% if section.settings.include_margins %}Container{% endif %}">
+      {%- for block in section.blocks -%}
+      {%- render block -%}
+      {%- endfor -%}
+    </div>
+{% if template == 'product' %}
+  </div>
+{% endif %}
 
 {% schema %}
 {
