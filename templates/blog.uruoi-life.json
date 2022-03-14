@@ -1,11 +1,12 @@
 {
-  "sections":{
-    "main":{
-      "type":"main-blog-uruoi-life",
-      "settings":{}
+  "sections": {
+    "main": {
+      "type": "main-blog-uruoi-life",
+      "settings": {
+      }
     }
   },
-  "order":[
+  "order": [
     "main"
   ]
 }
