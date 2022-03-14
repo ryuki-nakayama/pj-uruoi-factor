@@ -1,0 +1,11 @@
+{
+  "sections":{
+    "main":{
+      "type":"main-blog-uruoi-life",
+      "settings":{}
+    }
+  },
+  "order":[
+    "main"
+  ]
+}
