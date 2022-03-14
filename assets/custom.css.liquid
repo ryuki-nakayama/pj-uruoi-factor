@@ -29,6 +29,9 @@
   color: white;
   font-size: 16px;
   margin-bottom: 8px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, .1);
+  text-align: center;
 }
 .banner-list__item .banner__link {
   padding: .6em .8em;
@@ -49,9 +52,6 @@
   .banner-list__item .banner__cont {
     bottom: 32px;
     left: 16px;
-  }
-  .banner-list__item .banner__header {
-    font-size: 20px;
   }
 }
 @media screen and (min-width: 1008px) {
@@ -97,6 +97,25 @@
 
 /* blog
 --------------------------------------------------*/
+.blog__header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+.blog__header .blog__title {
+  font-size: 26px;
+}
+.blog__header .blog__sub-title {
+  font-size: 14px;
+}
+.blog__header .fw-b {
+  font-weight: bold;
+}
+.blog__header .ff-serif {
+  font-family: 'Stardos Stencil', cursive, serif;
+}
 .blog-video {
   width: 100%;
   margin: 0 auto;
