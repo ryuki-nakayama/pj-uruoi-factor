@@ -1,11 +1,19 @@
 {
-  "sections":{
-    "main":{
-      "type":"main-blog-uruoi-life",
-      "settings":{}
+  "sections": {
+    "main": {
+      "type": "main-blog-uruoi-life",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0502\/2570\/9206\/t\/10\/assets\/movie.mp4?v=8252848420928496659",
+        "title": "URUOI LIFE<br>interview",
+        "text": "うるおう と心を手にして\n「うるおいのある生活」を\nしている人達がいます。",
+        "show_rss": false,
+        "show_tags": false,
+        "show_featured_article": true,
+        "show_category": false
+      }
     }
   },
-  "order":[
+  "order": [
     "main"
   ]
 }
