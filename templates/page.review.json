@@ -2,43 +2,12 @@
   "sections": {
     "16435245431c3b35ec": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "b2ca84ed-1028-44f7-b38b-c02f96dc2c79": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/URUOI_FACTOR_dec1cb17-189c-4b48-866c-ecb1c51f5971.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/URUOI_FACTOR_dec1cb17-189c-4b48-866c-ecb1c51f5971.jpg",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "ba6d3954-6397-4618-8f63-0ecb4526e439": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/URUOI_FACTOR_dec1cb17-189c-4b48-866c-ecb1c51f5971.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/URUOI_FACTOR_dec1cb17-189c-4b48-866c-ecb1c51f5971.jpg",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "390e1534-0a2c-4a33-a162-12cbd1a1c0d2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/URUOI_FACTOR_dec1cb17-189c-4b48-866c-ecb1c51f5971.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/URUOI_FACTOR_dec1cb17-189c-4b48-866c-ecb1c51f5971.jpg",
+            "image": "shopify:\/\/shop_images\/4_04ced784-a69f-427e-a040-0ea783f7a747.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/4_04ced784-a69f-427e-a040-0ea783f7a747.jpg",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
@@ -51,9 +20,7 @@
         }
       },
       "block_order": [
-        "b2ca84ed-1028-44f7-b38b-c02f96dc2c79",
-        "ba6d3954-6397-4618-8f63-0ecb4526e439",
-        "390e1534-0a2c-4a33-a162-12cbd1a1c0d2"
+        "b2ca84ed-1028-44f7-b38b-c02f96dc2c79"
       ],
       "settings": {
         "show_fullscreen": false,
@@ -65,6 +32,14 @@
         "button_background": "#ffffff"
       }
     },
+    "164733513674275075": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "\\ ご感想をお聞かせください！ \/",
+        "title": "review",
+        "html": "商品到着後、レビュー投稿で<br>\namazonギフト券をプレゼント！"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -74,6 +49,7 @@
   },
   "order": [
     "16435245431c3b35ec",
+    "164733513674275075",
     "main"
   ]
 }
