@@ -45,11 +45,59 @@
       "settings": {
         "show_large": false
       }
+    },
+    "1647335853440d2b3c": {
+      "type": "featured-product",
+      "blocks": {
+        "164733585209c96098-0": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        }
+      },
+      "block_order": [
+        "164733585209c96098-0"
+      ],
+      "settings": {
+        "subheading": "レビューを募集しているアイテム",
+        "title": "recruit the review",
+        "show_headings_on_mobile": true,
+        "product": "定期購入-ufオールインワンジェル"
+      }
+    },
+    "1647336328900608c2": {
+      "type": "featured-product",
+      "blocks": {
+        "1647336328fa00ecb3-0": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        }
+      },
+      "block_order": [
+        "1647336328fa00ecb3-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_headings_on_mobile": true,
+        "product": "charveil美容オイル"
+      }
     }
   },
   "order": [
     "16435245431c3b35ec",
     "164733513674275075",
-    "main"
+    "main",
+    "1647335853440d2b3c",
+    "1647336328900608c2"
   ]
 }
