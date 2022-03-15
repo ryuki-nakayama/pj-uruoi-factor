@@ -28,6 +28,7 @@
     "base_text_font_size": 14,
     "currency_code_enabled": false,
     "show_page_transition": false,
+    "show_button_transition": true,
     "search_mode": "product,article",
     "product_show_price_on_hover": false,
     "product_show_secondary_image": true,
