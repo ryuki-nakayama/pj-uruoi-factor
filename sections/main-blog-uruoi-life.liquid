@@ -12,34 +12,11 @@
         <header class="PageHeader">
           <div class="SectionHeader SectionHeader--center">
             <div class="blog-category">
-              {%- comment -%}
-              <video class="blog-category__video" src="{{ 'movie.mp4' | asset_url }}" loop muted autoplay playsinline controls></video>
-              {%- endcomment -%}
               <video class="blog-category__video" src="{{ section.settings.video }}" loop muted autoplay playsinline controls></video>
               <div class="blog-category__text-wrap">
                 <h1 class="blog-category__title ff-serif">
-                  {%- comment -%}
-                  URUOI LIFE<br>
-                  interview
-                  {%- endcomment -%}
                   {{ section.settings.title}}
                 </h1>
-                {%- comment -%}
-                <p class="blog-category__text">
-                  うるおう と心を手にして<br>
-                  「うるおいのある生活」を<br>
-                  している人達がいます。
-                </p>
-                <p class="blog-category__text">
-                  イキイキとしたお を保ち、前向きに、<br>
-                  楽しく、はつらつとした<br>
-                  生き方があります。
-                </p>
-                <p class="blog-category__text">
-                  充実した日々の過ごし方を<br>
-                  interview(インタヴュー)しました。
-                </p>
-                {%- endcomment -%}
                 {{ section.settings.text }}
               </div>
             </div>
