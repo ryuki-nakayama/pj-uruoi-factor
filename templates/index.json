@@ -372,7 +372,7 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/gazou3.jpg",
             "header": "定期購入",
-            "link": "https:\/\/uruoi-factor-product.com\/pages\/%E5%AE%9A%E6%9C%9F%E8%B3%BC%E5%85%A5%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6?_pos=1&_sid=e1aab9feb&_ss=r",
+            "link": "shopify:\/\/collections\/定期購入",
             "btn-text": "READ MORE"
           }
         }
