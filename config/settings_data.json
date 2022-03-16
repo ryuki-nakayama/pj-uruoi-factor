@@ -21,7 +21,7 @@
     "newsletter_popup_text_color": "#ffffff",
     "secondary_elements_background": "#1c1b1b",
     "secondary_elements_text_color": "#ffffff",
-    "heading_font": "serif",
+    "heading_font": "mono",
     "heading_size": "small",
     "uppercase_heading": true,
     "text_font": "mono",
