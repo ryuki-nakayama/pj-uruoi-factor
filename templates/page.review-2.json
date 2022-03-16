@@ -35,9 +35,9 @@
     "164733513674275075": {
       "type": "custom-html",
       "settings": {
-        "subheading": "\\ ご感想をお聞かせください！ \/",
-        "title": "review",
-        "html": "商品到着後、レビュー投稿で<br>\namazonギフト券をプレゼント！"
+        "subheading": "「こんな基礎化粧品があれば...」",
+        "title": "FEEDBACK",
+        "html": "スキンケアについての<br>ご意見をお寄せいただきました。"
       }
     },
     "main": {
@@ -63,33 +63,10 @@
         "164733585209c96098-0"
       ],
       "settings": {
-        "subheading": "レビューを募集しているアイテム",
-        "title": "recruit the review",
+        "subheading": "レビューから生まれた美容液",
+        "title": "new product",
         "show_headings_on_mobile": true,
         "product": "定期購入-ufオールインワンジェル"
-      }
-    },
-    "1647336328900608c2": {
-      "type": "featured-product",
-      "blocks": {
-        "1647336328fa00ecb3-0": {
-          "type": "product_meta",
-          "settings": {
-            "show_vendor": true,
-            "show_sku": false,
-            "show_product_rating": false,
-            "show_taxes_included": false
-          }
-        }
-      },
-      "block_order": [
-        "1647336328fa00ecb3-0"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "show_headings_on_mobile": true,
-        "product": "charveil美容オイル"
       }
     }
   },
@@ -97,7 +74,6 @@
     "16435245431c3b35ec",
     "164733513674275075",
     "main",
-    "1647335853440d2b3c",
-    "1647336328900608c2"
+    "1647335853440d2b3c"
   ]
 }
