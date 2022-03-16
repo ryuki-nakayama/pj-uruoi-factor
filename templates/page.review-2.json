@@ -1,0 +1,103 @@
+{
+  "sections": {
+    "16435245431c3b35ec": {
+      "type": "slideshow",
+      "blocks": {
+        "b2ca84ed-1028-44f7-b38b-c02f96dc2c79": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_04ced784-a69f-427e-a040-0ea783f7a747.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/4_04ced784-a69f-427e-a040-0ea783f7a747.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b2ca84ed-1028-44f7-b38b-c02f96dc2c79"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 3,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "164733513674275075": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "\\ ご感想をお聞かせください！ \/",
+        "title": "review",
+        "html": "商品到着後、レビュー投稿で<br>\namazonギフト券をプレゼント！"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_large": false
+      }
+    },
+    "1647335853440d2b3c": {
+      "type": "featured-product",
+      "blocks": {
+        "164733585209c96098-0": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        }
+      },
+      "block_order": [
+        "164733585209c96098-0"
+      ],
+      "settings": {
+        "subheading": "レビューを募集しているアイテム",
+        "title": "recruit the review",
+        "show_headings_on_mobile": true,
+        "product": "定期購入-ufオールインワンジェル"
+      }
+    },
+    "1647336328900608c2": {
+      "type": "featured-product",
+      "blocks": {
+        "1647336328fa00ecb3-0": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        }
+      },
+      "block_order": [
+        "1647336328fa00ecb3-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_headings_on_mobile": true,
+        "product": "charveil美容オイル"
+      }
+    }
+  },
+  "order": [
+    "16435245431c3b35ec",
+    "164733513674275075",
+    "main",
+    "1647335853440d2b3c",
+    "1647336328900608c2"
+  ]
+}
