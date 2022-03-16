@@ -6,8 +6,8 @@
         "b2ca84ed-1028-44f7-b38b-c02f96dc2c79": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_04ced784-a69f-427e-a040-0ea783f7a747.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/4_04ced784-a69f-427e-a040-0ea783f7a747.jpg",
+            "image": "shopify:\/\/shop_images\/1_2f9ddd95-d168-4b45-b3d3-20cf27146856.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1_2f9ddd95-d168-4b45-b3d3-20cf27146856.jpg",
             "apply_overlay": false,
             "content_position": "bottomLeft",
             "subheading": "",
@@ -35,9 +35,9 @@
     "164733513674275075": {
       "type": "custom-html",
       "settings": {
-        "subheading": "「こんな基礎化粧品があれば...」",
-        "title": "FEEDBACK",
-        "html": "スキンケアについての<br>ご意見をお寄せいただきました。"
+        "subheading": "成分・用語一覧",
+        "title": "dictionary",
+        "html": "<p style=\"text-align: left\">一般化粧品は、使用している成分すべてを、配合の多い順に表示する決まりがあります。<br><br>\n「うるおう肌」を目指す上で、この成分・用語一覧が少しでもお役に立てれば幸いです。<\/p>"
       }
     },
     "main": {
