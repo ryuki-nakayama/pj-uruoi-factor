@@ -25,7 +25,7 @@
     "heading_size": "small",
     "uppercase_heading": true,
     "text_font": "mono",
-    "base_text_font_size": 14,
+    "base_text_font_size": 13,
     "currency_code_enabled": false,
     "show_page_transition": false,
     "show_button_transition": true,
