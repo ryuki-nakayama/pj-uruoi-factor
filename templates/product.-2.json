@@ -22,6 +22,14 @@
           "settings": {
           }
         },
+        "0de36d10-fb0f-4469-9c4c-83397e74b32c": {
+          "type": "shopify:\/\/apps\/mikawaya-subscription\/blocks\/selling-plans-block\/04a0ae95-7461-4a48-956f-6840757b6670",
+          "settings": {
+            "use_form_id": false,
+            "form_id": "",
+            "widget_version": "V1"
+          }
+        },
         "variant_selector": {
           "type": "variant_selector",
           "settings": {
@@ -55,6 +63,7 @@
         "product_meta",
         "description",
         "share_buttons",
+        "0de36d10-fb0f-4469-9c4c-83397e74b32c",
         "variant_selector",
         "quantity_selector",
         "buy_buttons",
