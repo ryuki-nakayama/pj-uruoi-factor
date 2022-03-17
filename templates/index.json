@@ -80,7 +80,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/491290BA-1721-4CD2-9A33-186079F54A0D.jpg",
             "dot_style": "light",
-            "product_1": "charveil美容オイル",
+            "product_1": "charveil-beauty-oil",
             "product_1_horizontal_position": 63,
             "product_1_vertical_position": 73,
             "product_2": "",
@@ -96,7 +96,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/F1D23A1F-02B9-4F02-9382-2B3411EB1FA8.jpg",
             "dot_style": "light",
-            "product_1": "定期購入-ufソープ",
+            "product_1": "uruoifactor-soap",
             "product_1_horizontal_position": 68,
             "product_1_vertical_position": 42,
             "product_2": "",
@@ -110,9 +110,9 @@
         "1eaf2c3d-de44-47a3-8c72-7366ca9fd4da": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/C2EE0CB5-415F-4DCD-BD8C-9B319DCB3632.jpg",
+            "image": "shopify:\/\/shop_images\/25F5D0C0-B5EB-44E3-9F2B-9580FB5B1135.png",
             "dot_style": "light",
-            "product_1": "定期購入-ufオールインワンジェル",
+            "product_1": "uruoifactor-all-in-one",
             "product_1_horizontal_position": 77,
             "product_1_vertical_position": 64,
             "product_2": "",
