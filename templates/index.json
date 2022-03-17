@@ -78,11 +78,11 @@
         "16435669788e16bf1a-0": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_24010e4d-0a38-476c-9c33-e25d22cfcb3b.jpg",
+            "image": "shopify:\/\/shop_images\/491290BA-1721-4CD2-9A33-186079F54A0D.jpg",
             "dot_style": "light",
             "product_1": "charveil美容オイル",
-            "product_1_horizontal_position": 58,
-            "product_1_vertical_position": 67,
+            "product_1_horizontal_position": 63,
+            "product_1_vertical_position": 73,
             "product_2": "",
             "product_2_horizontal_position": 45,
             "product_2_vertical_position": 65,
@@ -94,11 +94,27 @@
         "49b02981-e3be-417e-93fb-1c5784acb4a1": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_1.jpg",
+            "image": "shopify:\/\/shop_images\/F1D23A1F-02B9-4F02-9382-2B3411EB1FA8.jpg",
             "dot_style": "light",
             "product_1": "定期購入-ufソープ",
-            "product_1_horizontal_position": 43,
+            "product_1_horizontal_position": 68,
             "product_1_vertical_position": 42,
+            "product_2": "",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 85,
+            "product_3_vertical_position": 85
+          }
+        },
+        "1eaf2c3d-de44-47a3-8c72-7366ca9fd4da": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C2EE0CB5-415F-4DCD-BD8C-9B319DCB3632.jpg",
+            "dot_style": "light",
+            "product_1": "定期購入-ufオールインワンジェル",
+            "product_1_horizontal_position": 77,
+            "product_1_vertical_position": 64,
             "product_2": "",
             "product_2_horizontal_position": 50,
             "product_2_vertical_position": 50,
@@ -110,7 +126,8 @@
       },
       "block_order": [
         "16435669788e16bf1a-0",
-        "49b02981-e3be-417e-93fb-1c5784acb4a1"
+        "49b02981-e3be-417e-93fb-1c5784acb4a1",
+        "1eaf2c3d-de44-47a3-8c72-7366ca9fd4da"
       ],
       "settings": {
         "subheading": "",
