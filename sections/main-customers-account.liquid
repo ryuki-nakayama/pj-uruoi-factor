@@ -13,16 +13,18 @@
             <p class="SectionHeader__Description">{{ 'customer.account.welcome' | t: first_name: customer.first_name }}</p>
           </div>
         </header>
-
-      {%- when 'order_list' -%}
-        <div class="PageLayout PageLayout--breakLap">
-          {%- comment -%}
-          
-          <div style="margin-bottom: 20px">
+  
+  
+<div style="margin-bottom: 20px">
   <a class="ui-button btn btn--subdued btn--size-small" href="/apps/floor-s">
   サブスクリプションを管理
   </a>
 </div>
+
+
+      {%- when 'order_list' -%}
+        <div class="PageLayout PageLayout--breakLap">
+          {%- comment -%}
           
           --------------------------------------------------------------------------------------------------------------------
           ORDER HISTORY
