@@ -3,6 +3,20 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "5dc2a409-38bc-426f-9eee-e2952ed9958a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0481.png",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "母の日(5\/8)",
+            "title": "",
+            "button_1_text": "商品を見る",
+            "button_1_link": "shopify:\/\/collections\/母の日-1",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
         "slide-1": {
           "type": "image",
           "settings": {
@@ -50,6 +64,7 @@
         }
       },
       "block_order": [
+        "5dc2a409-38bc-426f-9eee-e2952ed9958a",
         "slide-1",
         "slide-0",
         "33031ff1-4196-410b-b750-73cb45f0ce38"
