@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "1648622331b65f9195": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "section_size": "large",
+        "image": "shopify:\/\/shop_images\/DSC09351.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "subheading": "５ \/ ８",
+        "title": "HAPPY MOTHERSDAY",
+        "content": "<p>日頃の感謝を込めて「スキンケアギフト」を贈りませんか？配達先、母の日の到着指定も可能です。<\/p>"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_collection_info": true,
+        "show_collection_image": false,
+        "apply_overlay": true,
+        "show_color_swatch": false,
+        "show_vendor": false,
+        "collection_image_size": "normal",
+        "show_sort_by": true,
+        "show_layout_switch": false,
+        "toolbar_position": "top",
+        "show_filters": true,
+        "show_filter_color_swatch": true,
+        "expand_filters": true,
+        "filter_position": "sidebar",
+        "filter_menu": "",
+        "grid_items_per_page": 16,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    }
+  },
+  "order": [
+    "1648622331b65f9195",
+    "main"
+  ]
+}
