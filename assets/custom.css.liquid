@@ -219,3 +219,22 @@
 .pull-down__body {
   display: none;
 }
+
+/* scrolled-underline
+--------------------------------------------------*/
+.scrolled-underline {
+  position: relative;
+  display: inline-block;
+}
+.scrolled-underline::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 3px;
+  bottom: 3px;
+  left: 0;
+  background-color: rgba(255, 20, 147, .3);
+}
+.scrolled-underline._active::before {
+  width: 100%;
+}

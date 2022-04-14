@@ -43,4 +43,21 @@ jQuery(function($) {
       }
     });
   }
+
+  /**
+   * scroll animation
+   * 要素が表示されたらactiveクラスを追加
+   */
+  {
+    const TARGET = $('.js-scrollActivate'); // ._activeを付与するターゲット要素
+    const THRESHOLD = 250; // アクティベートするスクロールタイミング
+    TARGET.each(function() {
+      let activeOffset = $(this).offset().top;
+      let scrollPos = $(window).scrollTop();
+      let windowHeight = $(window).height();
+      if (scrollPos > activeOffset - windowHeight + THRESHOLD) {
+        $(this).addClass('_active')
+      }
+    });
+  }
 });
