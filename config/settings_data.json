@@ -132,7 +132,7 @@
         "type": "popup",
         "settings": {
           "show_popup": true,
-          "show_only_on_index": false,
+          "show_only_on_index": true,
           "show_only_for_visitors": false,
           "show_only_once": false,
           "title": "GW期間中の営業につきまして",
