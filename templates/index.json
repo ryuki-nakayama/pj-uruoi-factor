@@ -90,6 +90,22 @@
     "1643566978fa4b891d": {
       "type": "shop-the-look",
       "blocks": {
+        "73707ca0-d3ef-4ef6-9fb8-aed739e36478": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5a1acf82b3db026ad24bdffa7131784d.jpg",
+            "dot_style": "light",
+            "product_1": "ビューティーダブルセラム-シービープラス",
+            "product_1_horizontal_position": 63,
+            "product_1_vertical_position": 33,
+            "product_2": "charveil-beauty-oil",
+            "product_2_horizontal_position": 31,
+            "product_2_vertical_position": 62,
+            "product_3": "",
+            "product_3_horizontal_position": 85,
+            "product_3_vertical_position": 85
+          }
+        },
         "16435669788e16bf1a-0": {
           "type": "look",
           "settings": {
@@ -140,6 +156,7 @@
         }
       },
       "block_order": [
+        "73707ca0-d3ef-4ef6-9fb8-aed739e36478",
         "16435669788e16bf1a-0",
         "49b02981-e3be-417e-93fb-1c5784acb4a1",
         "1eaf2c3d-de44-47a3-8c72-7366ca9fd4da"
