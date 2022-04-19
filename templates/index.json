@@ -122,6 +122,22 @@
             "product_3_vertical_position": 85
           }
         },
+        "1eaf2c3d-de44-47a3-8c72-7366ca9fd4da": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4071c9c7ebfebdbde0bef9af69a874f8.jpg",
+            "dot_style": "light",
+            "product_1": "母の日セット-ufソープ",
+            "product_1_horizontal_position": 70,
+            "product_1_vertical_position": 40,
+            "product_2": "",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 85,
+            "product_3_vertical_position": 85
+          }
+        },
         "16435669788e16bf1a-0": {
           "type": "look",
           "settings": {
@@ -153,29 +169,13 @@
             "product_3_horizontal_position": 85,
             "product_3_vertical_position": 85
           }
-        },
-        "1eaf2c3d-de44-47a3-8c72-7366ca9fd4da": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/25F5D0C0-B5EB-44E3-9F2B-9580FB5B1135.png",
-            "dot_style": "light",
-            "product_1": "uruoifactor-all-in-one",
-            "product_1_horizontal_position": 77,
-            "product_1_vertical_position": 64,
-            "product_2": "",
-            "product_2_horizontal_position": 50,
-            "product_2_vertical_position": 50,
-            "product_3": "",
-            "product_3_horizontal_position": 85,
-            "product_3_vertical_position": 85
-          }
         }
       },
       "block_order": [
         "73707ca0-d3ef-4ef6-9fb8-aed739e36478",
+        "1eaf2c3d-de44-47a3-8c72-7366ca9fd4da",
         "16435669788e16bf1a-0",
-        "49b02981-e3be-417e-93fb-1c5784acb4a1",
-        "1eaf2c3d-de44-47a3-8c72-7366ca9fd4da"
+        "49b02981-e3be-417e-93fb-1c5784acb4a1"
       ],
       "settings": {
         "subheading": "",
