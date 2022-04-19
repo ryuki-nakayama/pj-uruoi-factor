@@ -3,6 +3,21 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "ebe08f48-1f32-4bb2-9d78-7173c5680962": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03057.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/3_1cc76653-a637-42a7-9850-a13aa05c3a2e.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "4月20日発売",
+            "title": "UFダブルセラムC.B+",
+            "button_1_text": "read more",
+            "button_1_link": "shopify:\/\/products\/ビューティーダブルセラム-シービープラス",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
         "5dc2a409-38bc-426f-9eee-e2952ed9958a": {
           "type": "image",
           "settings": {
@@ -64,6 +79,7 @@
         }
       },
       "block_order": [
+        "ebe08f48-1f32-4bb2-9d78-7173c5680962",
         "5dc2a409-38bc-426f-9eee-e2952ed9958a",
         "slide-1",
         "slide-0",
