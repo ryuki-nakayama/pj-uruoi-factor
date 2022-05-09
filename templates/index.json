@@ -18,20 +18,6 @@
             "button_2_link": ""
           }
         },
-        "5dc2a409-38bc-426f-9eee-e2952ed9958a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0481.png",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "母の日(5\/8)",
-            "title": "",
-            "button_1_text": "商品を見る",
-            "button_1_link": "shopify:\/\/collections\/母の日-1",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
         "slide-1": {
           "type": "image",
           "settings": {
@@ -80,7 +66,6 @@
       },
       "block_order": [
         "ebe08f48-1f32-4bb2-9d78-7173c5680962",
-        "5dc2a409-38bc-426f-9eee-e2952ed9958a",
         "slide-1",
         "slide-0",
         "33031ff1-4196-410b-b750-73cb45f0ce38"
@@ -122,22 +107,6 @@
             "product_3_vertical_position": 85
           }
         },
-        "1eaf2c3d-de44-47a3-8c72-7366ca9fd4da": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_9b277556-be09-4299-9b7b-f4a456e99073.jpg",
-            "dot_style": "light",
-            "product_1": "母の日セット-ufソープ",
-            "product_1_horizontal_position": 70,
-            "product_1_vertical_position": 40,
-            "product_2": "",
-            "product_2_horizontal_position": 50,
-            "product_2_vertical_position": 50,
-            "product_3": "",
-            "product_3_horizontal_position": 85,
-            "product_3_vertical_position": 85
-          }
-        },
         "16435669788e16bf1a-0": {
           "type": "look",
           "settings": {
@@ -173,7 +142,6 @@
       },
       "block_order": [
         "73707ca0-d3ef-4ef6-9fb8-aed739e36478",
-        "1eaf2c3d-de44-47a3-8c72-7366ca9fd4da",
         "16435669788e16bf1a-0",
         "49b02981-e3be-417e-93fb-1c5784acb4a1"
       ],
