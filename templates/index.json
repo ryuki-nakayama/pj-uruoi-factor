@@ -80,6 +80,27 @@
         "button_background": "#ffffff"
       }
     },
+    "16539883710a20f089": {
+      "type": "blog-posts",
+      "blocks": {
+        "16539883715f27a316-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "news"
+          }
+        }
+      },
+      "block_order": [
+        "16539883715f27a316-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_category": false,
+        "button_link": "",
+        "button_text": "View all articles"
+      }
+    },
     "16424748910bc2c50b": {
       "type": "custom-html",
       "settings": {
@@ -421,6 +442,7 @@
   },
   "order": [
     "slideshow",
+    "16539883710a20f089",
     "16424748910bc2c50b",
     "1643566978fa4b891d",
     "1643566570e445fe2f",
