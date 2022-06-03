@@ -244,16 +244,15 @@
 /* main-customers-account
 --------------------------------------------------*/
 .Button--original {
-  display: inline-block;
   padding: 3px 8px;
   /* background-color: black; */
   color: white;
-  border: 1px solid black;
+  border-color: black;
 }
 .Button--original::before {
   background-color: black;
-  transform-origin: right center;
-  transform: scaleX(0);
+  /* transform-origin: right center;
+  transform: scaleX(0); */
 }
 
 .Segment__SubscriptionTextWrapper {
@@ -261,10 +260,10 @@
 }
 
 @media (-moz-touch-enabled: 0), (hover: hover) {
-  .Button--original:not([disabled]):hover {
+  /* .Button--original:not([disabled]):hover {
     color: black;
     border-color: black;
-  }
+  } */
 
   .Button--original:not([disabled]):hover::before {
     transform-origin: left center;
