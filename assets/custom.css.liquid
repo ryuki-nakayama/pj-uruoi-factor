@@ -243,12 +243,40 @@
 
 /* main-customers-account
 --------------------------------------------------*/
-.SectionHeader__SubscriptionManagement a {
+.Button--original {
   display: inline-block;
   padding: 3px 8px;
-  background-color: black;
+  /* background-color: black; */
   color: white;
+  border: 1px solid black;
 }
+.Button--original::before {
+  background-color: black;
+  transform-origin: right center;
+  transform: scaleX(0);
+}
+
 .Segment__SubscriptionTextWrapper {
   margin-top: 32px;
+}
+
+@media (-moz-touch-enabled: 0), (hover: hover) {
+  .Button--original:not([disabled]):hover {
+    color: black;
+    border-color: black;
+  }
+
+  .Button--original:not([disabled]):hover::before {
+    transform-origin: left center;
+    transform: scale(1, 1);
+  }
+
+  .Button--original:not([disabled])::before {
+    transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+
+  .Button--original:not([disabled]):hover::before {
+    transform-origin: right center;
+    transform: scale(0, 1);
+  }
 }
