@@ -245,14 +245,11 @@
 --------------------------------------------------*/
 .Button--original {
   padding: 3px 8px;
-  /* background-color: black; */
   color: white;
   border-color: black;
 }
 .Button--original::before {
   background-color: black;
-  /* transform-origin: right center;
-  transform: scaleX(0); */
 }
 
 .Segment__SubscriptionTextWrapper {
@@ -260,10 +257,6 @@
 }
 
 @media (-moz-touch-enabled: 0), (hover: hover) {
-  .Button--original:not([disabled]):hover {
-    color: black;
-  }
-
   .Button--original:not([disabled]):hover::before {
     transform-origin: left center;
     transform: scale(1, 1);
@@ -276,5 +269,10 @@
   .Button--original:not([disabled]):hover::before {
     transform-origin: right center;
     transform: scale(0, 1);
+  }
+
+  .Button--original:not([disabled]):hover {
+    color: black;
+    background-color: transparent;
   }
 }
