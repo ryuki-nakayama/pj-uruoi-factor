@@ -240,3 +240,43 @@
 .scrolled-underline._active::before {
   width: 100%;
 }
+
+/* main-customers-account
+--------------------------------------------------*/
+.Button--original {
+  padding: 3px 8px;
+  color: white;
+  border-color: black;
+}
+.Button--original::before {
+  background-color: black;
+}
+
+.Segment__SubscriptionTextWrapper {
+  margin-top: 32px;
+}
+.SectionHeader__SubscriptionManagement .Button {
+  font-size: 13px;
+  font-family: var(--text-font-family);
+}
+
+@media (-moz-touch-enabled: 0), (hover: hover) {
+  .Button--original:not([disabled]):hover::before {
+    transform-origin: left center;
+    transform: scale(1, 1);
+  }
+
+  .Button--original:not([disabled])::before {
+    transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+
+  .Button--original:not([disabled]):hover::before {
+    transform-origin: right center;
+    transform: scale(0, 1);
+  }
+
+  .Button--original:hover {
+    color: black;
+    background-color: transparent;
+  }
+}

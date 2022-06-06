@@ -13,18 +13,24 @@
             <p class="SectionHeader__Description">{{ 'customer.account.welcome' | t: first_name: customer.first_name }}</p>
           </div>
         </header>
-  
-  
-<div style="margin-bottom: 20px">
-  契約内容の確認・変更は<a class="ui-button btn btn--subdued btn--size-small" href="/apps/floor-s"><u>こちら</u>
-  </a>
-</div>
 
+        <div class="SectionHeader__SubscriptionManagement" style="margin-bottom: 20px;">
+          <a href="/apps/floor-s" class="Button Button--original">
+            サブスクリプションの管理
+          </a>
+        </div>
+
+        {%- comment -%}
+        <div style="margin-bottom: 20px">
+          契約内容の確認・変更は<a class="ui-button btn btn--subdued btn--size-small" href="/apps/floor-s"><u>こちら</u>
+          </a>
+        </div>
+        {%- endcomment -%}
 
       {%- when 'order_list' -%}
         <div class="PageLayout PageLayout--breakLap">
           {%- comment -%}
-          
+
           --------------------------------------------------------------------------------------------------------------------
           ORDER HISTORY
           --------------------------------------------------------------------------------------------------------------------
@@ -98,6 +104,14 @@
 
                   <div class="Segment__ButtonWrapper">
                     <a href="{{ routes.account_addresses_url }}" class="Button Button--primary">{{ 'customer.account.edit_addresses' | t }}</a>
+                  </div>
+
+                  <div class="Segment__SubscriptionTextWrapper">
+                    <p>※定期注文をご利用中のお客様は、こちらのデフォルトの住所のほかにサブスクリプション管理画面内にございます「配送先住所の変更」のお手続きが必要です。計2点のご変更をお願いいたします。</p>
+                    <p>
+                      [定期注文/住所変更の操作手順]<br>
+                      サブスクリプションを管理ボタンをクリック＞ご利用中の詳細を確認・変更をクリック＞<b>配送先住所の変更より定期注文商品の配送先を変更</b>
+                    </p>
                   </div>
                 </div>
               {%- endif -%}
