@@ -11,18 +11,21 @@
           <div class="SectionHeader">
             <h1 class="SectionHeader__Heading Heading u-h1">{{ 'customer.account.title' | t }}</h1>
             <p class="SectionHeader__Description">{{ 'customer.account.welcome' | t: first_name: customer.first_name }}</p>
-            <div class="SectionHeader__SubscriptionManagement">
-              <a href="/apps/floor-s" class="Button Button--original">
-                サブスクリプションを管理
-              </a>
-            </div>
           </div>
         </header>
 
+        <div class="SectionHeader__SubscriptionManagement" style="margin-bottom: 20px;">
+          <a href="/apps/floor-s" class="Button Button--original">
+            サブスクリプションの管理
+          </a>
+        </div>
+
+        {%- comment -%}
         <div style="margin-bottom: 20px">
           契約内容の確認・変更は<a class="ui-button btn btn--subdued btn--size-small" href="/apps/floor-s"><u>こちら</u>
           </a>
         </div>
+        {%- endcomment -%}
 
       {%- when 'order_list' -%}
         <div class="PageLayout PageLayout--breakLap">
