@@ -5,6 +5,7 @@
       "blocks": {
         "ebe08f48-1f32-4bb2-9d78-7173c5680962": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/DSC03057.jpg",
             "mobile_image": "shopify:\/\/shop_images\/3_1cc76653-a637-42a7-9850-a13aa05c3a2e.jpg",
@@ -27,7 +28,7 @@
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
-            "button_1_text": "All item",
+            "button_1_text": "全商品一覧",
             "button_1_link": "shopify:\/\/collections\/frontpage",
             "button_2_text": "",
             "button_2_link": ""
@@ -35,6 +36,7 @@
         },
         "slide-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/3_36b2f0f1-982d-492f-b099-499f6f5eab0b.jpg",
             "mobile_image": "shopify:\/\/shop_images\/3_36b2f0f1-982d-492f-b099-499f6f5eab0b.jpg",
@@ -50,6 +52,7 @@
         },
         "33031ff1-4196-410b-b750-73cb45f0ce38": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/e34250aaa408da51db884d6661bbf403.jpg",
             "mobile_image": "shopify:\/\/shop_images\/e34250aaa408da51db884d6661bbf403.jpg",
