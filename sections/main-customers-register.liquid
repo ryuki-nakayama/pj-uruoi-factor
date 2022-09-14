@@ -89,7 +89,9 @@
           <label class="Form__FloatingLabel">{{ 'customer.register.password' | t }}</label>
         </div>
 
-        <button type="submit" class="Form__Submit Button Button--primary Button--full">{{ 'customer.register.submit' | t }}</button>
+     <button onclick="return Validate()">
+      {{ 'customer.register.submit' | t }}
+ </button>
       {%- endform -%}
     </div>
   </div>
