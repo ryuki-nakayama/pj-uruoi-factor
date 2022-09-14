@@ -47,51 +47,13 @@
           <input type="email" class="Form__Input" name="customer[email]" aria-label="{{ 'customer.register.email' | t }}" placeholder="{{ 'customer.register.email' | t }}" required="required">
           <label class="Form__FloatingLabel">{{ 'customer.register.email' | t }}</label>
         </div>
-<div class="field">     
-      <input
-        type="password"
-        id="RegisterForm-password-confirm"
-        name="customer[password_confirmation]"
-        aria-required="true"
-        {% if form.errors contains 'password' %}
-          aria-invalid="true"
-          aria-describedby="RegisterForm-password-error"
-        {% endif %}
-        placeholder="パスワード確認用"
-      >
-      <label for="RegisterForm-password-confirm">
-        パスワード確認用
-      </label>
-    </div>
-    <p class="js-confirm-error"></p>
-    {%- if form.errors contains 'password' -%}
-      <span id="RegisterForm-password-error" class="form__message form-error">
-        {{ form.errors.translated_fields['password'] | capitalize }} {{ form.errors.messages['password'] }}
-      </span>
-    {%- endif -%}
-    
-    <p id="output-message" class="form__message form-error"></p>
-      
-    
-    <div class="customer-birthday">
-      <p>生年月日</p>
-      <ul class="grid grid--3-col">
-        <li class="grid__item"><select id="year" name="customer[note][Year]"><option value="0">Year</option></select></li>
-        <li class="grid__item"><select id="month" name="customer[note][Month]"><option value="0">Month</option></select></li>
-        <li class="grid__item"><select id="day" name="customer[note][Day]"><option value="0">Day</option></select></li>
-      </ul> 
-    </div>    
 
-    
-    <input type="hidden" id="customer_tags" name="customer[tags]" value="vip"/>
         <div class="Form__Item">
           <input type="password" class="Form__Input" name="customer[password]" aria-label="{{ 'customer.register.password' | t }}" placeholder="{{ 'customer.register.password' | t }}" required="required">
           <label class="Form__FloatingLabel">{{ 'customer.register.password' | t }}</label>
         </div>
 
-     <button onclick="return Validate()">
-      {{ 'customer.register.submit' | t }}
- </button>
+        <button type="submit" class="Form__Submit Button Button--primary Button--full">{{ 'customer.register.submit' | t }}</button>
       {%- endform -%}
     </div>
   </div>
