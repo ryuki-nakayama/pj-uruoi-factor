@@ -404,7 +404,11 @@ HEADER CONTENT
             {%- if shop.customer_accounts_enabled -%}
               <li class="HorizontalList__Item">
                 <a href="{{ routes.account_url }}" class="Heading Link Link--primary Text--subdued u-h8">
+                  <span class="for-pc">アカウント</span>
+                  <span class="for-sm">MY ACCOUNT - マイアカウント -</span>
+                  {%- comment -%}
                   {{- 'header.navigation.account' | t -}}
+                  {%- endcomment -%}
                 </a>
               </li>
             {%- endif -%}

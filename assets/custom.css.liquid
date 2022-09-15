@@ -286,3 +286,20 @@
     background-color: transparent;
   }
 }
+
+.for-pc,
+.for-sm {
+  display: none;
+}
+
+@media screen and (min-width: 1140px) {
+  .for-pc {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1139px) {
+  .for-sm {
+    display: block;
+  }
+}
