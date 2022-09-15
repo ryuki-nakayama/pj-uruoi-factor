@@ -67,7 +67,12 @@
 
               {%- if shop.customer_accounts_enabled -%}
                 <li class="Linklist__Item">
+                  {%- comment -%}
                   <a href="{{ routes.account_url }}" class="Text--subdued Link Link--primary">
+                    MY ACCOUNT - マイアカウント -
+                  </a>
+                  {%- endcomment -%}
+                  <a href="{{ routes.account_url }}" class="Collapsible__Button Heading Link Link--primary u-h6">
                     MY ACCOUNT - マイアカウント -
                   </a>
                 </li>
