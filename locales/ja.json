@@ -429,7 +429,8 @@
   "shopify": {
     "checkout": {
       "customer_account": {
-        "have_an_account_label": "※マイアカウント作成をすることで、定期購入のお客様はマイアカウントページより解約・休止・変更操作が可能です。"
+        "have_an_account_label": "※マイアカウント作成をすることで、定期購入のお客様はマイアカウントページより解約・休止・変更操作が可能です。",
+        "sign_in_link_label": "マイアカウント作成する"
       }
     }
   }
