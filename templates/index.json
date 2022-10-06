@@ -3,9 +3,10 @@
     "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d": {
       "type": "key-visual",
       "settings": {
-        "title": "Title",
-        "text": "Text",
-        "url": ""
+        "img": "shopify:\/\/shop_images\/key_visual.jpg",
+        "title": "うるおい、のち、晴れ",
+        "text": "うるおうことで、<br>悩みが晴れる日もあるから",
+        "url": "shopify:\/\/pages\/concept"
       }
     },
     "slideshow": {
