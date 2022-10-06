@@ -1,0 +1,21 @@
+{%- comment -%}
+  main-index
+  TOPページ
+
+  Use:
+  - none
+
+  Style:
+  - none
+
+  Script:
+  - none
+{%- endcomment -%}
+
+{{ 'index.css' | asset_url | stylesheet_tag }}
+
+{% schema %}
+{
+  "name": "Main index"
+}
+{% endschema %}

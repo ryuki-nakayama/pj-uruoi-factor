@@ -1,5 +1,9 @@
 {
   "sections": {
+    "main-index": {
+      "type": "main-index",
+      "settings": {}
+    },
     "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d": {
       "type": "key-visual",
       "settings": {
@@ -453,6 +457,7 @@
     }
   },
   "order": [
+    "main-index",
     "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d",
     "slideshow",
     "16539883710a20f089",

@@ -15,12 +15,16 @@
 {%- assign img = section.settings.img -%}
 {%- assign visual_height = img.height | divided_by: img.width | times: 100  -%}
 <div class="key-visual" style="padding-top: {{ visual_height }}%;">
+  {%- comment -%} key visual {%- endcomment -%}
   <div class="key-visual__img-wrapper">
     <img src="{{ img | img_url: master }}" alt="{{ img.alt }}">
   </div>
+
+  {%- comment -%} content {%- endcomment -%}
   <div class="key-visual__content">
     <h1 class="key-visual__title">{{ section.settings.title }}</h1>
     <p class="key-visual__text">{{ section.settings.text }}</p>
+    <a href="{{ section.settings.url }}" class="key-visual__link">詳しく見る</a>
   </div>
 </div>
 
