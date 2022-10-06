@@ -17,13 +17,13 @@
   .key-visualのpadding-topの値として使う
 {%- endcomment -%}
 {%- assign img = section.settings.img -%}
-{%- assign visual_height = img.height | divided_by: img.width | times: 100  -%}
+{%- assign visual_height = img.height  | times: 100 | divided_by: img.width -%}
 
 <div class="key-visual" style="padding-top: {{ visual_height }}%;">
 
   {%- comment -%} key visual {%- endcomment -%}
   <div class="key-visual__img-wrapper">
-    <img src="{{ img | img_url: master }}" alt="{{ img.alt }}">
+    <img src="{{ img | img_url: "master" }}" alt="{{ img.alt }}">
   </div>
 
   {%- comment -%} content {%- endcomment -%}
