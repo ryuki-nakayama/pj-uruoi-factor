@@ -2,7 +2,8 @@
   "sections": {
     "main-index": {
       "type": "main-index",
-      "settings": {}
+      "settings": {
+      }
     },
     "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d": {
       "type": "key-visual",
@@ -11,6 +12,13 @@
         "title": "うるおい、のち、晴れ",
         "text": "うるおうことで、<br>悩みが晴れる日もあるから",
         "url": "shopify:\/\/pages\/concept"
+      }
+    },
+    "3289d2fe-fd32-4491-8b79-13c39cc9eb6a": {
+      "type": "blog-list",
+      "settings": {
+        "blog": "news",
+        "limit": 10
       }
     },
     "slideshow": {
@@ -459,6 +467,7 @@
   "order": [
     "main-index",
     "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d",
+    "3289d2fe-fd32-4491-8b79-13c39cc9eb6a",
     "slideshow",
     "16539883710a20f089",
     "16424748910bc2c50b",
