@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* blog-list
+--------------------------------------------------*/
+.blog-list__content {
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+}
+
+.blog-list__list {
+  height: calc(13px * 2 * 3);
+  overflow-y: scroll;
+}
+
+.blog-list__item {
+  letter-spacing: .1em;
+}
+
+.blog-list__link {
+  display: inline-block;
+  margin-top: 24px;
+  color: rgb(0, 136, 246);
+}

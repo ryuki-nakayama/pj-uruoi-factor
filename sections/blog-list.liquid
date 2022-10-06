@@ -12,25 +12,30 @@
   - none
 {%- endcomment -%}
 
-<div class="blog-list">
-  <h2 class="blog-list__title section-title">NEWS</h2>
-  <ul class="blog-list__list">
-    {%- assign blog = blogs[section.settings.blog] -%}
-    {%- for article in blog.articles limit: section.settings.limit -%}
-      <li class="blog-list__item">
-        <a href="{{ article.url }}" class="item__link">
-          <span class="item__date">{{ article.published_at }}</span>
-          <span class="item__title">{{ article.title }}</span>
-        </a>
-      </li>
-    {%- endfor -%}
-  </ul>
+<div class="blog-list original-section">
+  <div class="Container">
+    <div class="blog-list__content">
+      <h2 class="blog-list__title section-title">NEWS</h2>
+      <ul class="blog-list__list">
+        {%- assign blog = blogs[section.settings.blog] -%}
+        {%- for article in blog.articles limit: section.settings.limit -%}
+          <li class="blog-list__item">
+            <a href="{{ article.url }}" class="item__link">
+              <span class="item__date">{{ article.published_at | date: '%Y.%m.%d' }}</span>
+              <span class="item__title">{{ article.title }}</span>
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+      <a href="{{ blog.url }}" class="blog-list__link">> 一覧を見る</a>
+    </div>
+  </div>
 </div>
 
 {%- schema -%}
 {
   "name": "Blog List",
-  "class": "shopify-section--blog-list",
+  "class": "shopify-section--blog-list section",
   "settings": [
     {
       "type": "blog",

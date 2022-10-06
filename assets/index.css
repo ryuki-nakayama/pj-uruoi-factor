@@ -1,3 +1,26 @@
+/* blog-list
+--------------------------------------------------*/
+
+.blog-list__content {
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+}
+
+.blog-list__list {
+  height: 78px;
+  overflow-y: scroll;
+}
+
+.blog-list__item {
+  letter-spacing: 0.1em;
+}
+
+.blog-list__link {
+  color: rgb(0, 136, 246);
+  display: inline-block;
+  margin-top: 24px;
+}
+
 /* key-visual
 --------------------------------------------------*/
 
