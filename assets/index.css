@@ -1,2 +1,29 @@
 /* key-visual
 --------------------------------------------------*/
+
+.key-visual {
+  position: relative;
+}
+
+.key-visual__img-wrapper {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.key-visual__img-wrapper img {
+  -o-object-fit: cover;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.key-visual__content {
+  -webkit-transform: translate(-50%, -50%);
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
