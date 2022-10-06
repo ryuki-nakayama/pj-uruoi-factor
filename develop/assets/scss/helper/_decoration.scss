@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* decoration
+--------------------------------------------------*/
+.decoration-underline {
+  text-decoration: underline;
+  text-underline-offset: .2em;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

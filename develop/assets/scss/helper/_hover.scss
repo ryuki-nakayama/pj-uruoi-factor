@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* hover
+--------------------------------------------------*/
+.hover-opacity {
+  transition-property: opacity;
+  transition-duration: $transition-duration;
+  transition-timing-function: $transition-timing-function;
+
+  &:hover {
+    opacity: $hover-opacity;
+  }
+}
+
+.hover-underline {
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: .2em;
+  }
+}
+
+.hover-border-bottom-to-right {
+  position: relative;
+
+  &:hover::after {
+    width: 100%;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: max(1.5rem, 1.5px);
+    background-color: black;
+    transition-property: width;
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing-function;
+  }
+}

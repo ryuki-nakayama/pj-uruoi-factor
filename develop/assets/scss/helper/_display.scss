@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* display
+--------------------------------------------------*/
+.for-sm {
+  @include atQuery(md) {
+    display: none !important;
+  }
+}
+
+.for-pc {
+  @include atQuery(sm) {
+    display: none !important;
+  }
+}
+
+.display-hidden {
+  display: none !important;
+}
+
+/* visibility
+--------------------------------------------------*/
+.visibility-hidden {
+  visibility: hidden;
+}

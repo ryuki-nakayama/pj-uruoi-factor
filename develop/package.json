@@ -1,0 +1,36 @@
+{
+  "name": "shopify-gulp-base",
+  "version": "1.0.0",
+  "scripts": {
+    "sass": "npx gulp sass --production",
+    "build": "NODE_ENV=production npx gulp build --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryuki-nakayama/gulp-base-shopisy.git"
+  },
+  "keywords": [],
+  "author": "Ryuki Nakayama",
+  "license": "UNLICENSED",
+  "private": true,
+  "homepage": "https://github.com/ryuki-nakayama/gulp-base-shopisy.git#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "css-declaration-sorter": "^6.3.0",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-mode": "^1.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.14",
+    "sass": "^1.53.0"
+  }
+}
