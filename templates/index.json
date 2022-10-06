@@ -1,5 +1,13 @@
 {
   "sections": {
+    "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d": {
+      "type": "key-visual",
+      "settings": {
+        "title": "Title",
+        "text": "Text",
+        "url": ""
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -444,6 +452,7 @@
     }
   },
   "order": [
+    "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d",
     "slideshow",
     "16539883710a20f089",
     "16424748910bc2c50b",
