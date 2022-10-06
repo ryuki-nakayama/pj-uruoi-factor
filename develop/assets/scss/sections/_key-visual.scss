@@ -55,5 +55,11 @@
   letter-spacing: .2em;
   @include atQuery(md) {
     font-size: 16px;
+    transition-property: opacity;
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing-function;
+    &:hover {
+      opacity: .7;
+    }
   }
 }

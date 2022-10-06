@@ -1,0 +1,54 @@
+{%- comment -%}
+  blog-list
+  TOPページ ブログ一覧
+
+  Use:
+  - none
+
+  Style:
+  - sections/blog-list.scss
+
+  Script:
+  - none
+{%- endcomment -%}
+
+<div class="blog-list">
+  <h2 class="blog-list__title section-title">NEWS</h2>
+  <ul class="blog-list__list">
+    {%- assign blog = blogs[section.settings.blog] -%}
+    {%- for article in blog.articles limit: section.settings.limit -%}
+      <li class="blog-list__item">
+        <a href="{{ article.url }}" class="item__link">
+          <span class="item__date">{{ article.published_at }}</span>
+          <span class="item__title">{{ article.title }}</span>
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
+
+{%- schema -%}
+{
+  "name": "Blog List",
+  "class": "shopify-section--blog-list",
+  "settings": [
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "Blog"
+    },
+    {
+      "type": "number",
+      "id": "limit",
+      "label": "Display number"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Blog",
+      "name": "Blog List",
+      "settings": {}
+    }
+  ]
+}
+{%- endschema -%}
