@@ -80,16 +80,27 @@ const compileSass = done => {
  * copy
  * devからdistへファイルをコピー
  */
-const img = () => {
-  return gulp.src(devPath.img)
-  .pipe(gulp.dest(assetsPath));
-}
+gulp.task("img", (done) => {
+  gulp.src(devPath.img)
+    .pipe(gulp.dest(assetsPath));
+  done();
+});
 
-const js = () => {
-  return gulp.src(devPath.js)
-  // .pipe(uglify())
-  .pipe(gulp.dest(assetsPath));
-}
+gulp.task("js", (done) => {
+  gulp.src(devPath.js)
+    .pipe(gulp.dest(assetsPath));
+  done();
+});
+// const img = () => {
+//   return gulp.src(devPath.img)
+//   .pipe(gulp.dest(assetsPath));
+// }
+
+// const js = () => {
+//   return gulp.src(devPath.js)
+//   // .pipe(uglify())
+//   .pipe(gulp.dest(assetsPath));
+// }
 
 /**
  * update
@@ -100,7 +111,6 @@ gulp.task("updateFiles", (done) => {
   gulp.src(devPath.img)
     .pipe(gulp.dest(assetsPath));
   gulp.src(devPath.js)
-    // .pipe(uglify())
     .pipe(gulp.dest(assetsPath));
   done();
 });
@@ -111,8 +121,8 @@ gulp.task("updateFiles", (done) => {
  */
 const watchFiles = () => {
   watch(devPath.scss, series(compileSass))
-  watch(devPath.img, series(img))
-  watch(devPath.js, series(js))
+  watch(devPath.img, series(gulp.task('img')))
+  watch(devPath.js, series(gulp.task('js')))
 };
 
 /**

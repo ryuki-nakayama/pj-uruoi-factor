@@ -14,6 +14,8 @@
   - swiper.js
 {%- endcomment -%}
 
+<script src="{{ 'scheduleSwiper.js' | asset_url }}" defer></script>
+
 <div class="schedule original-section">
   <div class="Container">
 
@@ -22,14 +24,18 @@
     <p class="schedule__text">{{ section.settings.text }}</p>
 
     {%- comment -%} カレンダースライダー {%- endcomment -%}
-    <div id="js-scheduleSwiper" class="swiper">
-      <ul class="schedule__list swiper-wrapper">
-        {%- for block in section.blocks -%}
-          <li class="schedule__item swiper-slide">
-            <img src="{{ block.img | img_url: 'master' }}" alt="{{ block.img.alt }}">
-          </li>
-        {%- endfor -%}
-      </ul>
+    <div class="schedule__slider-wrapper">
+      <div id="js-scheduleSwiper" class="schedule__slider swiper">
+        <ul class="schedule__list swiper-wrapper">
+          {%- for block in section.blocks -%}
+            <li class="schedule__item swiper-slide">
+              <img src="{{ block.settings.img | img_url: 'master' }}" alt="{{ block.settings.img.alt }}">
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div class="js-scheduleSwiperButtonPrev swiper-button-prev"></div>
+      <div class="js-scheduleSwiperButtonNext swiper-button-next"></div>
     </div>
 
     {%- comment -%} 営業時間 {%- endcomment -%}

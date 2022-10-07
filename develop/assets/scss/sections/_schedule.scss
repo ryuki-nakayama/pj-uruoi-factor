@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* schedule
+--------------------------------------------------*/
+.schedule {
+  --swiper-navigation-size: 24px;
+  --swiper-theme-color: black;
+
+  .swiper-slide {
+    padding: 0 4px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    font-weight: bold;
+  }
+
+  .swiper-button-prev {
+    left: 0;
+  }
+
+  .swiper-button-next {
+    right: 0;
+  }
+}
+
+.schedule__slider {
+  padding: 0 30px;
+}
+
+.schedule__slider-wrapper {
+  position: relative;
+}
+
+.schedule__business-hours {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+}
+
