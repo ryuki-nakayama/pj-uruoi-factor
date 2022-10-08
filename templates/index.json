@@ -53,6 +53,18 @@
         "business_hours": "営業時間 10:00 - 18:00 土・日・祝日定休"
       }
     },
+    "2b837391-4c8d-445c-b2c6-aa41b34f12e1": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "image": "shopify:\/\/shop_images\/UFTOP.jpg",
+        "image_position": "right",
+        "content": "<p>ただ、水分を入れるのではなく。<\/p><p>ただ、しっとりさせるのではなく。<\/p><p>ただただ、真正面から、<\/p><p>「本当にうるおう肌」を目指していく。<\/p><p>それが、私たちの「スキンケア」の視点です。<\/p>",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
     "16464548263ae4f520": {
       "type": "ud-banner",
       "blocks": {
@@ -91,18 +103,6 @@
       ],
       "settings": {
       }
-    },
-    "2b837391-4c8d-445c-b2c6-aa41b34f12e1": {
-      "type": "text-with-image",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "image": "shopify:\/\/shop_images\/UFTOP.jpg",
-        "image_position": "right",
-        "content": "<p>&lt;div style=\"text-align: left;\"&gt;<\/p><p>ただ、水分を入れるのではなく。<\/p><p>ただ、しっとりさせるのではなく。<\/p><p>ただただ、真正面から、<\/p><p>「本当にうるおう肌」を目指していく。<\/p><p>それが、私たちの「スキンケア」の視点です。<\/p><p>&lt;\/div&gt;<\/p>",
-        "link_text": "",
-        "link_url": ""
-      }
     }
   },
   "order": [
@@ -110,7 +110,7 @@
     "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d",
     "3289d2fe-fd32-4491-8b79-13c39cc9eb6a",
     "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb",
-    "16464548263ae4f520",
-    "2b837391-4c8d-445c-b2c6-aa41b34f12e1"
+    "2b837391-4c8d-445c-b2c6-aa41b34f12e1",
+    "16464548263ae4f520"
   ]
 }
