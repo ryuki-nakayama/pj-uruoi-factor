@@ -103,6 +103,15 @@
       ],
       "settings": {
       }
+    },
+    "d17c9426-3d45-4347-86ad-d6efcacfaafc": {
+      "type": "text-with-link",
+      "settings": {
+        "title": "SKINCARE ITEM",
+        "content": "<p>ただただ、真正面から、<\/p><p>「本当にうるおう肌」を目指していく５品の基礎化粧品。<\/p>",
+        "link_text": "商品一覧",
+        "link_url": "shopify:\/\/collections\/all"
+      }
     }
   },
   "order": [
@@ -111,6 +120,7 @@
     "3289d2fe-fd32-4491-8b79-13c39cc9eb6a",
     "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb",
     "2b837391-4c8d-445c-b2c6-aa41b34f12e1",
-    "16464548263ae4f520"
+    "16464548263ae4f520",
+    "d17c9426-3d45-4347-86ad-d6efcacfaafc"
   ]
 }
