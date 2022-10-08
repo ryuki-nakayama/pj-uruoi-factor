@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* concept-
+--------------------------------------------------*/
+.concept-what {
+  &::before {
+    top: 0;
+  }
+}

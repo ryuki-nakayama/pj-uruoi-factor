@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* concept-
+--------------------------------------------------*/
+.concept-why {
+  &::before {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
