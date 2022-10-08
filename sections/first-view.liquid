@@ -12,16 +12,25 @@
   - none
 {%- endcomment -%}
 
+{%- assign img = section.settings.img -%}
+{%- assign visual_height = img.height  | times: 100 | divided_by: img.width -%}
+
 {%- style -%}
-  #section-{{ section.id }} .firs-view {
-    background-image: url({{ section.settings.img | img_url: 'master' }});
+  #shopify-section-{{ section.id }} .first-view__img {
+    background-image: url({{ img | img_url: 'master' }});
   }
 {%- endstyle -%}
 
 <div class="first-view original-section">
-  <div class="first-view__content">
-    <h1 class="first-view__title">{{ section.settings.title }}</h1>
-    <p class="first-view__text">{{ section.settings.content }}</p>
+  {%- comment -%} image {%- endcomment -%}
+  <div class="first-view__img" style="padding-top: {{ visual_height }}%;"></div>
+
+  {%- comment -%} content {%- endcomment -%}
+  <div class="Container">
+    <div class="first-view__content">
+      <h1 class="first-view__title">{{ section.settings.title }}</h1>
+      <p class="first-view__text">{{ section.settings.text }}</p>
+    </div>
   </div>
 </div>
 
@@ -43,10 +52,10 @@
       "default": "Title"
     },
     {
-      "type": "richtext",
-      "id": "content",
+      "type": "text",
+      "id": "text",
       "label": "Text",
-      "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+      "default": "text"
     }
   ],
   "presets": [

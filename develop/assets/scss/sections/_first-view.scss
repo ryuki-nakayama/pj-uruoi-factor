@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* first-view
+--------------------------------------------------*/
+.first-view {
+  padding-bottom: 72px;
+}
+
+.first-view__img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.first-view__content {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.first-view__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.first-view__text {
+  font-size: 8px;
+}
