@@ -116,6 +116,7 @@
 
 .concept-how__item-caution {
   font-size: 8px;
+<<<<<<< HEAD
 }
 
 .concept-how__item-link-wrapper {
@@ -286,4 +287,7 @@
   .concept-how__content {
     flex-direction: column;
   }
+=======
+  font-weight: 500;
+>>>>>>> f8ab743 (design: first view)
 }
