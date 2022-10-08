@@ -20,16 +20,46 @@
   <h3 class="main-concept__sub-title">「うるおい」のためにどうこだわるか。</h3>
 
   <div id="how-collapse" class="main-concept__body collapse">
+    <h3>「うるおい」に、妥協しない。</h3>
     <p>
-      化粧水をして、乳液でフタをして、というと、
-      肌がしっとりする印象がありますが、実は一時
-      的であることも少なくありません。
-      私たちが目指すのは表面的なしっとり感ではな
-      く、角層内からのうるおい。
-      水分・油分・保湿成分という、まさに「URUOI
-      FACTOR（保湿因子）」を肌へ届けることで、
-      本当にうるおう肌を目指していきます。
+      肌内部の角層から「本当にうるおう肌」になることを目的に、わたしたちは基礎化粧品を開しています。<br>
+      各アイテムごとのこだわりについては、商品詳細ページをご覧ください。
     </p>
+    <div class="concept-how__products">
+      <p>[全製品]</p>
+      <ul class="concept-how__list">
+        {%- comment -%} item {%- endcomment -%}
+        <li class="concept-how__item">
+          <div class="concept-how__item-content">
+            {%- comment -%} head {%- endcomment -%}
+            <div class="concept-how__item-head">
+              <img src="{{ 'product3.jpg' | asset_img_url: 'master' }}" alt="" class="concept-how__item-img">
+              <div class="concept-how__item-desc">
+                <span class="concept-how__item-type">[2層式美容液]</span>
+                <h4 class="concept-how__item-title">UF ダブルセラムC.B+</h4>
+                <div class="concept-how__item-labels">
+                  <div class="concept-how__item-label _blue1">8つの不使用成分</div>
+                  <div class="concept-how__item-label _yellow">ナイアシンアミド配合</div>
+                </div>
+              </div>
+            </div>
+            {%- comment -%} body {%- endcomment -%}
+            <div class="concept-how__item-body">
+              <p class="concept-how__item-text">
+                くもった表情やニキビのあと(※2)。<br>
+                悩み多き大人の肌事情へアプローチする美容成<br>
+                分配合。化粧品の「カバー力」に頼りがちな肌を、卒業してみませんか。
+              </p>
+              <p class="concept-how__item-caution">(※1)保湿による予防 (※2)ニキビが落ち着いた後の敏感な肌のこと</p>
+            </div>
+          </div>
+          {%- comment -%} link {%- endcomment -%}
+          <div class="concept-how__item-link-wrapper">
+            <a href="/products/uf-doubleserum-cb" class="concept-how__item-link">商品詳細はこちら</a>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
   <button class="main-concept__btn" type="button" data-bs-toggle="collapse" data-bs-target="#how-collapse" aria-expanded="false" aria-controls="how-collapse"></button>
 </div>

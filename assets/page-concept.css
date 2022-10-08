@@ -36,6 +36,130 @@
   bottom: 0;
 }
 
+.concept-how__products {
+  margin-top: 72px;
+}
+
+.concept-how__item:not(:first-of-type) {
+  margin-top: 32px;
+}
+
+.concept-how__content {
+  display: flex;
+}
+
+.concept-how__item-head {
+  display: flex;
+}
+
+.concept-how__item-img {
+  height: 120px;
+  max-width: 120px;
+  width: 100%;
+}
+
+.concept-how__item-desc {
+  margin-left: 16px;
+}
+
+.concept-how__item-type {
+  font-size: 10px;
+}
+
+.concept-how__item-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.concept-how__item-labels {
+  margin-top: 8px;
+}
+
+.concept-how__item-label {
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  margin: 0;
+  padding: 0 12px;
+}
+
+.concept-how__item-label:not(:first-of-type) {
+  margin-top: 4px;
+}
+
+.concept-how__item-label._blue1 {
+  background-color: rgb(90, 200, 245);
+}
+
+.concept-how__item-label._blue2 {
+  background-color: rgb(0, 137, 208);
+}
+
+.concept-how__item-label._yellow {
+  background-color: rgb(252, 194, 120);
+}
+
+.concept-how__item-label._green {
+  background-color: rgb(0, 236, 115);
+}
+
+.concept-how__item-body {
+  margin-top: 16px;
+}
+
+.concept-how__item-text {
+  font-size: 15px;
+}
+
+.concept-how__item-caution {
+  font-size: 6px;
+}
+
+.concept-how__item-link-wrapper {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.concept-how__item-link {
+  border: 1px solid rgb(229, 167, 5);
+  display: inline-block;
+  font-size: 15px;
+  padding: 4px 48px 4px 20px;
+  position: relative;
+}
+
+.concept-how__item-link::before,
+.concept-how__item-link::after {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  width: 20px;
+}
+
+.concept-how__item-link::before {
+  -webkit-transform: translateY(-50%);
+  background-color: rgb(229, 167, 5);
+  border-radius: 50%;
+  content: "";
+  transform: translateY(-50%);
+}
+
+.concept-how__item-link::after {
+  -webkit-transform: translateY(calc(-50% - 1px));
+  align-items: center;
+  color: white;
+  content: "▶";
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  transform: translateY(calc(-50% - 1px));
+}
+
 /* concept-
 --------------------------------------------------*/
 
@@ -139,4 +263,22 @@
   left: 16px;
   top: 11px;
   transform: rotate(135deg);
+}
+
+@media only screen and (min-width: 641px) {
+  .concept-how__item-link {
+    transition-duration: 0.3s;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.65, 0, 0.076, 1);
+  }
+
+  .concept-how__item-link:hover {
+    opacity: 0.7;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .concept-how__content {
+    flex-direction: column;
+  }
 }
