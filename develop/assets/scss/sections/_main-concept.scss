@@ -43,6 +43,7 @@
 .main-concept__body {
   padding-top: 16px;
   padding-bottom: 48px;
+<<<<<<< HEAD
 
   h3 {
     font-size: 20px;
@@ -52,11 +53,20 @@
 
 .main-concept__btn {
   width: 155px;
+=======
+}
+
+.main-concept__btn {
+  width: 150px;
+>>>>>>> ceff65c (update concept)
   margin: 0 auto;
   border: 1px solid black;
   display: block;
   position: relative;
+<<<<<<< HEAD
   padding-left: 15px;
+=======
+>>>>>>> ceff65c (update concept)
 
   &::after {
     content: '';
