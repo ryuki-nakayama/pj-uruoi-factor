@@ -139,6 +139,11 @@
         "title": "うるおうことで、悩みが晴れる日もあるから。",
         "text": "#uruoi solution skincare"
       }
+    },
+    "31788b3e-bcc5-44b5-aee6-f37d20823260": {
+      "type": "main-concept",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -151,6 +156,7 @@
     "db407fda-c7ed-4586-bf84-a374c306b100",
     "16464548263ae4f520",
     "94dc05a6-7f7f-4a1c-8209-f18a35632256",
-    "81d49e6c-2f75-41b8-a7ec-3784d6ffd7f6"
+    "81d49e6c-2f75-41b8-a7ec-3784d6ffd7f6",
+    "31788b3e-bcc5-44b5-aee6-f37d20823260"
   ]
 }
