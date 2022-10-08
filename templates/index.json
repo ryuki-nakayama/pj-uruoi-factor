@@ -74,6 +74,18 @@
         "link_url": "shopify:\/\/collections\/all"
       }
     },
+    "db407fda-c7ed-4586-bf84-a374c306b100": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "image": "shopify:\/\/shop_images\/URUOILIFE.jpg",
+        "image_position": "left",
+        "content": "<p>肌がうるおうと、人生もうるおう。<\/p><p>うるおいファクターをご愛用いただいている皆さまの<\/p><p>ちょっとした”うるおい術” をお届け。<\/p>",
+        "link_text": "詳しく見る",
+        "link_url": "shopify:\/\/blogs\/uruoilife"
+      }
+    },
     "16464548263ae4f520": {
       "type": "ud-banner",
       "blocks": {
@@ -121,6 +133,7 @@
     "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb",
     "2b837391-4c8d-445c-b2c6-aa41b34f12e1",
     "d17c9426-3d45-4347-86ad-d6efcacfaafc",
+    "db407fda-c7ed-4586-bf84-a374c306b100",
     "16464548263ae4f520"
   ]
 }
