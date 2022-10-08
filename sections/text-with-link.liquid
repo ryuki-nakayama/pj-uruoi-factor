@@ -25,8 +25,8 @@
     {%- endif -%}
 
     {%- if section.settings.link_text != blank -%}
-      <div class="text-with-link__link-wrapper">
-        <a href="{{ section.settings.link_url }}" class="text-with-link__link">{{ section.settings.link_text | escape }}</a>
+      <div class="text-with__link-wrapper">
+        <a href="{{ section.settings.link_url }}" class="text-with__link">{{ section.settings.link_text | escape }}</a>
       </div>
     {%- endif -%}
   </div>
