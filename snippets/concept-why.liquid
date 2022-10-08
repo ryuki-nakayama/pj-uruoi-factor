@@ -6,7 +6,7 @@
   - none
 
   Usage:
-  - {%- render 'concept-why' -%}
+  - {%- render 'concept-why', img: img -%}
 
   Style:
   - snippets/concept-why.css
@@ -20,15 +20,11 @@
   <h3 class="main-concept__sub-title">なぜ「うるおい」が大切と考えるか。</h3>
 
   <div id="why-collapse" class="main-concept__body collapse">
+    <div class="main-concept__img"><img src="{{ img | img_url: 'master' }}" alt="{{ img.alt }}"></div>
+    <h3>本当にうるおう肌は、<br>悩みが生まれにくい。</h3>
     <p>
-      化粧水をして、乳液でフタをして、というと、
-      肌がしっとりする印象がありますが、実は一時
-      的であることも少なくありません。
-      私たちが目指すのは表面的なしっとり感ではな
-      く、角層内からのうるおい。
-      水分・油分・保湿成分という、まさに「URUOI
-      FACTOR（保湿因子）」を肌へ届けることで、
-      本当にうるおう肌を目指していきます。
+      角層内の水分・油分・保湿成分が十分に満たされていること。肌が持つ「うるおう力」が十分にあること。それが私たちの考える「本当にうるおう肌」です。<br>
+      そうした健やかな肌はバリア機能がきちんと働き、肌悩みも少ないのです。
     </p>
   </div>
   <button class="main-concept__btn" type="button" data-bs-toggle="collapse" data-bs-target="#why-collapse" aria-expanded="false" aria-controls="why-collapse"></button>
