@@ -58,6 +58,7 @@
     transition-property: opacity;
     transition-duration: $transition-duration;
     transition-timing-function: $transition-timing-function;
+
     &:hover {
       opacity: .7;
     }

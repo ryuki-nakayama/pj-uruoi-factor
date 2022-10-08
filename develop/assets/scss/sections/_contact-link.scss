@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* contact-link
+--------------------------------------------------*/
+.contact-link {
+  background-color: rgb(47, 47, 47);
+  padding: 48px 0;
+  color: white;
+}
+
+.contact-link__text {
+  text-align: center;
+}
+
+.contact-link__link-wrapper {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.contact-link__link {
+  color: black;
+  background-color: rgb(240, 240, 240);
+  display: inline-block;
+  padding: 12px 56px;
+  border-radius: 50px;
+  line-height: 1.7;
+  @include atQuery(md) {
+    transition-property: opacity;
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing-function;
+
+    &:hover {
+      opacity: .7
+    }
+  }
+
+  .ja {
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+    letter-spacing: .1em;
+    white-space: nowrap;
+  }
+
+  .en {
+    display: block;
+    letter-spacing: .2em;
+  }
+}

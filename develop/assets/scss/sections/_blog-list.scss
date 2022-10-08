@@ -21,10 +21,11 @@
   display: inline-block;
   margin-top: 24px;
   color: rgb(0, 136, 246);
-  transition-property: opaicy;
-  transition-duration: $transition-duration;
-  transition-timing-function: $transition-timing-function;
-  @include atQuery(sm) {
+  @include atQuery(md) {
+    transition-property: opacity;
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing-function;
+
     &:hover {
       opacity: .7;
     }
