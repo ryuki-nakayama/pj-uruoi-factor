@@ -4,6 +4,9 @@
 /* schedule
 --------------------------------------------------*/
 .schedule {
+  @include atQuery(md) {
+    padding: 48px 0;
+  }
   --swiper-navigation-size: 24px;
   --swiper-theme-color: black;
 

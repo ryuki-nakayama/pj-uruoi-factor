@@ -135,6 +135,10 @@
     opacity: 0.7;
   }
 
+  .schedule {
+    padding: 48px 0;
+  }
+
   .schedule .swiper-button-prev,
   .schedule .swiper-button-next {
     display: none;
