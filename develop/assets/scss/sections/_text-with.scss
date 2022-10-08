@@ -3,6 +3,23 @@
 
 /* text-with
 --------------------------------------------------*/
+.FeatureText--imageLeft {
+  @include atQuery(sm) {
+    flex-direction: column;
+  }
+}
+
+.FeatureText--imageLeft .FeatureText__ContentWrapper {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.Rte p:not(:last-child),
+.Rte ul:not(:last-child),
+.Rte ol:not(:last-child) {
+  margin-bottom: .6em;
+}
+
 .text-with__link-wrapper {
   margin-top: 24px;
   text-align: center;

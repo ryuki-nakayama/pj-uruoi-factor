@@ -121,6 +121,17 @@
 /* text-with
 --------------------------------------------------*/
 
+.FeatureText--imageLeft .FeatureText__ContentWrapper {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.Rte p:not(:last-child),
+.Rte ul:not(:last-child),
+.Rte ol:not(:last-child) {
+  margin-bottom: 0.6em;
+}
+
 .text-with__link-wrapper {
   margin-top: 24px;
   text-align: center;
@@ -146,10 +157,6 @@
 
 .text-with-link__text {
   margin-top: 8px;
-}
-
-.text-with-link__text p {
-  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 641px) {
@@ -197,6 +204,10 @@
 @media only screen and (max-width: 640px) {
   .blog-list__link:hover {
     opacity: 0.7;
+  }
+
+  .FeatureText--imageLeft {
+    flex-direction: column;
   }
 
   .text-with__link:hover {
