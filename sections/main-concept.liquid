@@ -1,0 +1,28 @@
+{%- comment -%}
+  main-concept
+  conceptページ メインコンテンツ
+
+  Use:
+  - none
+
+  Style:
+  - sections/main-contentx.scss
+
+  Script:
+  - none
+{%- endcomment -%}
+
+<div class="main-contents original-section">
+  <div class="Container">
+    <div class="main-contents__content">
+      {%- comment -%} What {%- endcomment -%}
+      {%- render 'contents-what' -%}
+
+      {%- comment -%} Why {%- endcomment -%}
+      {%- render 'contents-why' -%}
+
+      {%- comment -%} How {%- endcomment -%}
+      {%- render 'contents-how' -%}
+    </div>
+  </div>
+</div>
