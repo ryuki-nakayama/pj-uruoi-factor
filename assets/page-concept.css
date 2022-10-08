@@ -40,16 +40,16 @@
 --------------------------------------------------*/
 
 .concept-what::before {
-  top: 0;
+  -webkit-transform: translateY(-50%);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* concept-
 --------------------------------------------------*/
 
 .concept-why::before {
-  -webkit-transform: translateY(-50%);
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0;
 }
 
 /* main-concept

@@ -6,7 +6,7 @@
   - none
 
   Usage:
-  - {%- render 'concept-what' -%}
+  - {%- render 'concept-what', img: img -%}
 
   Style:
   - snippets/concept-what.css
@@ -20,14 +20,17 @@
   <h3 class="main-concept__sub-title">まず知っておきたい「うるおい」のこと。</h3>
 
   <div id="what-collapse" class="main-concept__body collapse">
+    <div class="main-concept__img"><img src="{{ img | img_url: 'master' }}" alt="{{ img.alt }}"></div>
+    <h3>「うるおい＝しっとり感」<br>ではない。</h3>
     <p>
       化粧水をして、乳液でフタをして、というと、
       肌がしっとりする印象がありますが、実は一時
-      的であることも少なくありません。
+      的であることも少なくありません。<br>
+      <br>
       私たちが目指すのは表面的なしっとり感ではな
-      く、角層内からのうるおい。
-      水分・油分・保湿成分という、まさに「URUOI
-      FACTOR（保湿因子）」を肌へ届けることで、
+      く、角層内からのうるおい。<br>
+      水分・油分・保湿成分という、まさに<b>「URUOI
+      FACTOR（保湿因子）」</b>を肌へ届けることで、
       本当にうるおう肌を目指していきます。
     </p>
   </div>
