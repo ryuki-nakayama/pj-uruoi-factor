@@ -93,6 +93,11 @@
   padding-top: 16px;
 }
 
+.main-concept__body h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .main-concept__btn {
   border: 1px solid black;
   display: block;
