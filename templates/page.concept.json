@@ -2,7 +2,8 @@
   "sections": {
     "first-view": {
       "type": "first-view",
-      "settings": {}
+      "settings": {
+      }
     }
   },
   "order": [
