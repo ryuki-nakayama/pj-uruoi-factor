@@ -143,6 +143,8 @@
     "31788b3e-bcc5-44b5-aee6-f37d20823260": {
       "type": "main-concept",
       "settings": {
+        "concept_image1": "shopify:\/\/shop_images\/concept1.jpg",
+        "concept_image2": "shopify:\/\/shop_images\/concept2.jpg"
       }
     }
   },
