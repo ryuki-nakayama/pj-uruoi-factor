@@ -136,8 +136,8 @@
       "type": "first-view",
       "settings": {
         "img": "shopify:\/\/shop_images\/TOP.jpg",
-        "title": "うるおい、のち、晴れ",
-        "content": "<p>\"うるおい\"にこだわる理由。<\/p><p>それは、うるおうことで悩みが晴れる日もあるから。<\/p><p>わたしたちは「本当にうるおう肌」を育む基礎化粧品づくりにこだわります。<\/p>"
+        "title": "うるおうことで、悩みが晴れる日もあるから。",
+        "text": "#uruoi solution skincare"
       }
     }
   },
