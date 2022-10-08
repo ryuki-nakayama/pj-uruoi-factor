@@ -1,0 +1,60 @@
+{%- comment -%}
+  first-view
+  First View
+
+  Use:
+  - none
+
+  Style:
+  - sections/first-view.scss
+
+  Script:
+  - none
+{%- endcomment -%}
+
+{%- style -%}
+  #section-{{ section.id }} .firs-view {
+    background-image: url({{ section.settings.img | img_url: 'master' }});
+  }
+{%- endstyle -%}
+
+<div class="first-view original-section">
+  <div class="first-view__content">
+    <h1 class="first-view__title">{{ section.settings.title }}</h1>
+    <p class="first-view__text">{{ section.settings.content }}</p>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "First view",
+  "class": "shopify-section--first-view",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Key Visual"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text",
+      "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Image",
+      "name": "First view",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
