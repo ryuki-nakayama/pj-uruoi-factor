@@ -409,6 +409,15 @@
                     </div>
                   {%- endif -%}
 
+                {%- when 'title_with_texto' -%}
+                  {%- if block.settings.title != blank  -%}
+                    <div class="title-with-text">
+                      <h2 class="title-with-text__title">{{ block.settings.title }}</h2>
+                      <p class="title-with-text__text">{{ block.settings.text }}</p>
+                      <p class="title-with-text__caution">{{ block.settings.caution }}</p>
+                    </div>
+                  {%- endif -%}
+
               {%- endcase -%}
             {%- endfor -%}
 
@@ -755,6 +764,27 @@ This is the root container for the zoom functionality. Must not be removed, as o
           "id": "title",
           "label": "Heading",
           "default": "Buy it with"
+        }
+      ]
+    },
+    {
+      "name": "Title with text",
+      "type": "title_with_text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "caution",
+          "label": "Caution"
         }
       ]
     }
