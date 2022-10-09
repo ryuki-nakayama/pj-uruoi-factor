@@ -9,7 +9,9 @@
             "show_vendor": false,
             "show_sku": false,
             "show_product_rating": false,
-            "show_taxes_included": false
+            "show_taxes_included": false,
+            "product_type": "高保湿ジェル",
+            "product_guide": "100g（約1 カ月分）"
           }
         },
         "description": {
