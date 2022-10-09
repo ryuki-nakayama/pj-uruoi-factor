@@ -41,7 +41,7 @@
 }
 
 .concept-how__item:not(:first-of-type) {
-  margin-top: 32px;
+  margin-top: 64px;
 }
 
 .concept-how__content {
