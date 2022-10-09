@@ -1,0 +1,27 @@
+{% comment %}
+  product-all-in-one
+  UF オールインワンジェル 商品ページコンテンツ
+
+  Accepts:
+  - product: {Object} Product object
+
+  Usage:
+  - {%- render 'snippets' -%}
+
+  Style:
+  - snippets/product-all-in-one.css
+
+  Script:
+  - none
+{% endcomment %}
+
+<div class="product-desc">
+  <button class="product-desc__btn" type="button" data-bs-toggle="collapse" data-bs-target="#product-desc-collapse" aria-expanded="false" aria-controls="product-desc-collapse"></button>
+  <div id="product-desc-collapse" class="collapse">
+    <div class="product-desc__heading-img">
+      {%- assign img = 'all-in-one1.png' -%}
+      <img class="" src="{{ img | img_url: 'master' }}" alt="{{ img.alt }}">
+      <p>うるおいへのアプローチ</p>
+    </div>
+  </div>
+</div>

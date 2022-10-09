@@ -91,23 +91,12 @@ gulp.task("js", (done) => {
     .pipe(gulp.dest(assetsPath));
   done();
 });
-// const img = () => {
-//   return gulp.src(devPath.img)
-//   .pipe(gulp.dest(assetsPath));
-// }
-
-// const js = () => {
-//   return gulp.src(devPath.js)
-//   // .pipe(uglify())
-//   .pipe(gulp.dest(assetsPath));
-// }
 
 /**
  * update
  * dist内のファイルを更新
  */
 gulp.task("updateFiles", (done) => {
-  // del(distPath.assets + "**/*");
   gulp.src(devPath.img)
     .pipe(gulp.dest(assetsPath));
   gulp.src(devPath.js)

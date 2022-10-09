@@ -434,6 +434,9 @@
                     </div>
                   {%- endif -%}
 
+                {%- when 'product_description' -%}
+                  {%- render 'product-all-in-one' -%}
+
               {%- endcase -%}
             {%- endfor -%}
 
@@ -835,6 +838,10 @@ This is the root container for the zoom functionality. Must not be removed, as o
           "label": "Image"
         }
       ]
+    },
+    {
+      "name": "Product Description",
+      "type": "product_description"
     }
   ],
   "settings": [

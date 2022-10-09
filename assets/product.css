@@ -61,5 +61,9 @@
   margin-bottom: 0;
 }
 
+.ProductMeta__image {
+  padding: 20px 0;
+}
+
 /* product
 --------------------------------------------------*/

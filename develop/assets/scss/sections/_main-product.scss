@@ -5,6 +5,7 @@
 
 /* main-product
 --------------------------------------------------*/
+// label
 .ProductMeta__label {
   display: inline-block;
   background-color: rgb(204, 165, 28);
@@ -15,6 +16,7 @@
   }
 }
 
+// title-with-text
 .ProductMeta__title-with-text {
   margin-top: 64px;
 }
@@ -34,4 +36,9 @@
   p {
     margin-bottom: 0;
   }
+}
+
+// image
+.ProductMeta__image {
+  padding: 20px 0;
 }
