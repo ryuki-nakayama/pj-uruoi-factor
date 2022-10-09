@@ -291,8 +291,18 @@
                 {%- when '@app' -%}
                   {%- render block -%}
 
+                {%- when labels -%}
+                  <span class="ProductMeta__label">{{ block.settings.label }}</span>
+
                 {%- when 'product_meta' -%}
                   {%- render 'product-meta', form: form, block: block, product: product -%}
+
+                {%- when 'title_with_text' -%}
+                  <div class="ProductMeta__title-with-text">
+                    <p class="title-with-text__title">{{ block.settings.title }}</p>
+                    <p class="title-with-text__text">{{ block.settings.text }}</p>
+                    <p class="title-with-text__caution">{{ block.settings.caution }}</p>
+                  </div>
 
                 {%- when 'description' -%}
                   {%- if product.description != blank -%}
@@ -562,6 +572,16 @@ This is the root container for the zoom functionality. Must not be removed, as o
           "id": "show_taxes_included",
           "label": "Show price taxes notice",
           "default": false
+        },
+        {
+          "type": "text",
+          "id": "product_type",
+          "label": "Type"
+        },
+        {
+          "type": "text",
+          "id": "product_guide",
+          "label": "Guide"
         }
       ]
     },
@@ -785,6 +805,18 @@ This is the root container for the zoom functionality. Must not be removed, as o
           "type": "text",
           "id": "caution",
           "label": "Caution"
+        }
+      ]
+    },
+    {
+      "name": "Labels",
+      "type": "labels",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label"
         }
       ]
     }

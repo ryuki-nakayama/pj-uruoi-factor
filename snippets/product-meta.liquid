@@ -1,4 +1,11 @@
 <div class="ProductMeta" {{ block.shopify_attributes }}>
+  <div class="ProductMeta__head">
+    {%- if block.settings.product_type != blank -%}
+      <span class="ProductMeta__type">{{ block.settings.product_type }}</span>
+    {%- endif -%}
+    <div class='opinew-stars-plugin-product-list'>{% render 'opinew_review_stars_lists' product:product %}</div>
+  </div>
+
   {%- if block.settings.show_vendor and product.vendor != blank -%}
     <h2 class="ProductMeta__Vendor Heading u-h6">
       {%- assign vendor_handle = product.vendor | handle -%}
@@ -12,8 +19,6 @@
     </h2>
   {%- endif -%}
 
-  <div class='opinew-stars-plugin-product-list'>{% render 'opinew_review_stars_lists' product:product %}</div>
-
   <h1 class="ProductMeta__Title Heading u-h6">
     {%- if template.name == 'product' -%}
       {{- product.title -}}
@@ -21,6 +26,12 @@
       <a href="{{ product.url }}">{{ product.title }}</a>
     {%- endif -%}
   </h1>
+
+  {%- if block.settings.product_guide -%}
+    <div class="ProductMeta__guide">
+      {{ block.settings.product_guide }}
+    </div>
+  {%- endif -%}
 
   {%- if block.settings.show_product_rating -%}
     <div class="ProductMeta__Rating Heading Text--subdued u-h7">
