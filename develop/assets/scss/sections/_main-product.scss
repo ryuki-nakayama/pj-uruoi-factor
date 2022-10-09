@@ -14,3 +14,24 @@
     margin-left: 4px;
   }
 }
+
+.ProductMeta__title-with-text {
+  margin-top: 64px;
+}
+
+.title-with-text__title {
+  p {
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: bold;
+    line-height: 1.6;
+  }
+}
+
+.title-with-text__text {
+  margin-top: 24px;
+
+  p {
+    margin-bottom: 0;
+  }
+}

@@ -302,10 +302,10 @@
                 {%- when 'title_with_text' -%}
                   <div class="ProductMeta__title-with-text">
                     {%- if block.settings.heading != blank -%}
-                      <p class="title-with-text__title">{{ block.settings.heading }}</p>
+                      <div class="title-with-text__title">{{ block.settings.heading }}</div>
                     {%- endif -%}
                     {%- if block.settings.text != blank -%}
-                      <p class="title-with-text__text">{{ block.settings.text }}</p>
+                      <div class="title-with-text__text">{{ block.settings.text }}</div>
                     {%- endif -%}
                     {%- if block.settings.caution != blank -%}
                       <p class="title-with-text__caution">{{ block.settings.caution }}</p>
