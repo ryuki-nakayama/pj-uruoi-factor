@@ -15,13 +15,113 @@
   - none
 {% endcomment %}
 
+{%- assign img = 'icon-ng.png' -%}
+{%- style -%}
+  #shopify-section-{{ section.id }} .not-used__item-inner {
+    background-image: url({{ img | asset_img_url: 'master' }});
+  }
+{%- endstyle -%}
+
 <div class="product-desc">
   <button class="product-desc__btn" type="button" data-bs-toggle="collapse" data-bs-target="#product-desc-collapse" aria-expanded="false" aria-controls="product-desc-collapse"></button>
   <div id="product-desc-collapse" class="collapse">
-    <div class="product-desc__heading-img">
-      {%- assign img = 'all-in-one1.png' -%}
-      <img class="" src="{{ img | img_url: 'master' }}" alt="{{ img.alt }}">
-      <p>うるおいへのアプローチ</p>
+    <div class="product-desc-collapse__inner">
+      {%- comment -%} heading-img {%- endcomment -%}
+      <div class="product-desc__heading-img">
+        {%- assign img = 'all-in-one1.png' -%}
+        <img class="" src="{{ img | asset_img_url: '80x80' }}" alt="{{ img.alt }}">
+        <p>うるおいへのアプローチ</p>
+      </div>
+      {%- comment -%} title-with-text {%- endcomment -%}
+      <div class="product-desc__title-with-text">
+        <p class="title-with-text__title">
+          注ぎ、閉じ込める。そして、育む。<br>
+          ひとすくいで、本当にうるおう肌へ。
+        </p>
+        <p class="title-with-text__text">
+          肌にうるおいや美容成分を注いだ後は、閉じ込める役割を。
+          外的ストレスから肌を守ることで、悩みを寄せ付けません。
+          「本当にうるおう肌」を育み、美肌へ向かうことに特化し
+          たスペシャルな保湿剤をお探しの方におすすめです。
+        </p>
+      </div>
+      {%- comment -%} ingredients {%- endcomment -%}
+      <div class="product-ingredients">
+        <p class="product-ingredients__heading">＜ 全成分 ＞</p>
+        <div class="product-ingredients__list">
+          <span class="yellow">水、</span><span class="blue">グリセリン、</span><span class="yellow">ＢＧ、</span><span class="blue">スクワラン、</span><span class="yellow">ペンチレングリコール、</span><span class="orange">カルボキシ、</span><span class="orange">メチルフェニルアミノカルボキシプロピルホスホン酸メチル、</span><span class="orange">パルミチン、</span><span class="orange">酸アスコルビルリン酸３Ｎａ、</span><span class="orange">リンゴ果実培養細胞エキス、</span><span class="orange">ヒト遺伝子組、</span><span class="orange">換オリゴペプチドー１、</span><span class="orange">フルボ酸、</span><span class="orange">プラセンタエキス、</span><span class="orange">サクシノイルアテ、</span><span class="orange">ロコラーゲン、</span><span class="blue">ヒアルロン酸Ｎａ、</span><span class="orange">キハダ樹皮エキス、</span><span class="orange">>カンゾウ根エキス、</span><span class="yellow">オレンジ果皮油、</span><span class="orange">ダイズ油、</span><span class="blue">レシチン、</span>カルボマー、キサンタンガム、リン酸Ｋ、リン酸２Ｎａ、リン酸Ｎａ、水酸化Ｋ、フェノキシエタノール
+        </div>
+        <div class="product-ingredients__explanation">
+          <p class="yellow">うるおいを与える成分</p>
+          <p class="blue">うるおいを閉じ込める成分</p>
+          <p class="orange">美容成分</p>
+        </div>
+        <div class="product-ingredients__feature">
+          <div class="product-ingredients__ingredient">
+            <p class="ingredient__name orange">次世代型ビタミンC 誘導体<sub>(※)</sub></p>
+            <p class="ingredient__text">従来型のビタミンC 誘導体を改良した成分。従来型と比べて、約100 倍の浸透力があると言われています。</p>
+            <p class="ingredient__caution">(※)パルミチン酸アスコルビルリン酸3Na</p>
+          </div>
+          <div class="product-ingredients__ingredient">
+            <p class="ingredient__name orange">ナールスゲン<sub>(※)</sub></p>
+            <p class="ingredient__text">京都大学と大阪市立大学の共同研究で生まれた成分。<br>ハリ、ツヤなどへの働きが期待されています。</p>
+            <p class="ingredient__caution">(※)カルボキシメチルフェニルアミノカルボキシプロピルホスホン酸メチル</p>
+          </div>
+          <div class="product-ingredients__ingredient">
+            <p class="ingredient__name blue">ヒアルロン酸Ｎａ</p>
+            <p class="ingredient__text">1gで約6ℓもの水分を保持できる保湿成分。角層内にもともとある成分です。湿度が下がっても水分を抱えてくれます。</p>
+          </div>
+          <div class="product-ingredients__ingredient">
+            <p class="ingredient__name blue">レシチン</p>
+            <p class="ingredient__text">肌になじみやすく、浸透しやすい成分。水分をはさみこみ、キープする働きがあると言われています。</p>
+          </div>
+        </div>
+      </div>
+      {%- comment -%} title-with-text {%- endcomment -%}
+      <div class="product-desc__title-with-text">
+        <p class="title-with-text__title">使わない成分</p>
+        <p class="title-with-text__text">
+          敏感肌。ゆらぐ季節の肌。どんな肌質の方でも、安心してお使いいただくために。<br>
+          刺激となりうる以下の成分は使用しません。
+        </p>
+      </div>
+      {%- comment -%} not-used {%- endcomment -%}
+      <div class="not-used">
+        <ul class="not-used__list">
+          <li class="not-used__item"><div class="not-used__item-inner"><span>パラベン</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>鉱物油</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>合成香料</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>合成<br>着色料</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>石油系<br>界面</d</span>活性剤</li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>シリコン</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>アルコール</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>旧指定成分</span></div></li>
+        </ul>
+      </div>
+      {%- comment -%} title-with-text {%- endcomment -%}
+      <div class="product-desc__title-with-text">
+        <span class="title-with-text__pickup">Pick Up !</span>
+        <p class="title-with-text__title">
+          塗って寝るだけ！<br>
+          簡単ジェルパック。
+        </p>
+        <p class="title-with-text__text">
+          さくらんぼ粒2 個分ほどの量を、スキンケアの一番最後にたっぷり重ねます。<br>
+          うるおいを閉じ込める力がパワーアップされることで、翌朝からなめらかな肌に。<br>
+        </p>
+      </div>
+      {%- comment -%} image {%- endcomment -%}
+      <div class="product-desc__img">
+        {%- assign img = 'all-in-one2.jpg' -%}
+        <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+      </div>
+      {%- comment -%} present {%- endcomment -%}
+      <div class="product-desc__present">
+        <p>
+          基礎化粧品2 品以上のお買い求めで<br>
+          UF クレンジングジェルパックを1 本プレゼント！
+        </p>
+      </div>
     </div>
   </div>
 </div>
