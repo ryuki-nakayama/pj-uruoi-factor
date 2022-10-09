@@ -437,6 +437,9 @@
                 {%- when 'product_description' -%}
                   {%- render 'product-all-in-one' -%}
 
+                {%- when 'usage' -%}
+                  {%- render 'usage-all-in-one' -%}
+
               {%- endcase -%}
             {%- endfor -%}
 
@@ -842,6 +845,10 @@ This is the root container for the zoom functionality. Must not be removed, as o
     {
       "name": "Product Description",
       "type": "product_description"
+    },
+    {
+      "name": "Usage",
+      "type": "usage"
     }
   ],
   "settings": [
