@@ -293,7 +293,7 @@
                 {%- when '@app' -%}
                   {%- render block -%}
 
-                {%- when labels -%}
+                {%- when 'label' -%}
                   <span class="ProductMeta__label">{{ block.settings.label }}</span>
 
                 {%- when 'product_meta' -%}
@@ -817,9 +817,8 @@ This is the root container for the zoom functionality. Must not be removed, as o
       ]
     },
     {
-      "name": "Labels",
-      "type": "labels",
-      "limit": 1,
+      "name": "Label",
+      "type": "label",
       "settings": [
         {
           "type": "text",
