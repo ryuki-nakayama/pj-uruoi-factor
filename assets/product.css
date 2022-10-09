@@ -1,0 +1,29 @@
+/* ProductMeta
+--------------------------------------------------*/
+
+.ProductMeta__head {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features--heading-small .ProductMeta__Title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.ProductMeta__PriceList {
+  text-align: left;
+}
+
+.ProductMeta__guide {
+  font-size: 8px;
+  text-align: left;
+}
+
+/* main-product
+--------------------------------------------------*/
+
+/* product
+--------------------------------------------------*/

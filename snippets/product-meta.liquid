@@ -27,12 +27,6 @@
     {%- endif -%}
   </h1>
 
-  {%- if block.settings.product_guide -%}
-    <div class="ProductMeta__guide">
-      {{ block.settings.product_guide }}
-    </div>
-  {%- endif -%}
-
   {%- if block.settings.show_product_rating -%}
     <div class="ProductMeta__Rating Heading Text--subdued u-h7">
       {%- render 'product-rating', product: product -%}
@@ -60,7 +54,14 @@
           <span class="ProductMeta__Price Price Text--subdued u-h4">{{ product.selected_or_first_available_variant.price | money }}</span>
         {%- endif -%}
       {%- endif -%}
+      <span>（税込）</span>
     </div>
+
+    {%- if block.settings.product_guide -%}
+      <div class="ProductMeta__guide">
+        {{ block.settings.product_guide }}
+      </div>
+    {%- endif -%}
 
     <div class="ProductMeta__UnitPriceMeasurement" style="display: {%- if product.selected_or_first_available_variant.unit_price_measurement -%}block{% else %}none{% endif %}">
       <div class="UnitPriceMeasurement Heading u-h6 Text--subdued">
