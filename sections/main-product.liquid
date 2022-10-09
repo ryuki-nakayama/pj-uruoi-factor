@@ -427,12 +427,10 @@
                     </div>
                   {%- endif -%}
 
-                {%- when 'title_with_texto' -%}
-                  {%- if block.settings.title != blank  -%}
-                    <div class="title-with-text">
-                      <h2 class="title-with-text__title">{{ block.settings.title }}</h2>
-                      <p class="title-with-text__text">{{ block.settings.text }}</p>
-                      <p class="title-with-text__caution">{{ block.settings.caution }}</p>
+                {%- when 'image' -%}
+                  {%- if block.settings.image != blank -%}
+                    <div class="ProductMeta__image">
+                      <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.image.alt }}">
                     </div>
                   {%- endif -%}
 
