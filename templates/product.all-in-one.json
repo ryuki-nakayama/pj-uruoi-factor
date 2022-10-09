@@ -6,7 +6,7 @@
         "product_meta": {
           "type": "product_meta",
           "settings": {
-            "show_vendor": true,
+            "show_vendor": false,
             "show_sku": false,
             "show_product_rating": false,
             "show_taxes_included": false
