@@ -299,9 +299,15 @@
 
                 {%- when 'title_with_text' -%}
                   <div class="ProductMeta__title-with-text">
-                    <p class="title-with-text__title">{{ block.settings.title }}</p>
-                    <p class="title-with-text__text">{{ block.settings.text }}</p>
-                    <p class="title-with-text__caution">{{ block.settings.caution }}</p>
+                    {%- if block.settings.heading != blank -%}
+                      <p class="title-with-text__title">{{ block.settings.heading }}</p>
+                    {%- endif -%}
+                    {%- if block.settings.text != blank -%}
+                      <p class="title-with-text__text">{{ block.settings.text }}</p>
+                    {%- endif -%}
+                    {%- if block.settings.caution != blank -%}
+                      <p class="title-with-text__caution">{{ block.settings.caution }}</p>
+                    {%- endif -%}
                   </div>
 
                 {%- when 'description' -%}
@@ -792,12 +798,12 @@ This is the root container for the zoom functionality. Must not be removed, as o
       "type": "title_with_text",
       "settings": [
         {
-          "type": "text",
+          "type": "richtext",
           "id": "heading",
           "label": "Title"
         },
         {
-          "type": "text",
+          "type": "richtext",
           "id": "text",
           "label": "Text"
         },
