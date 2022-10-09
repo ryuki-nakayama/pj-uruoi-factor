@@ -84,6 +84,11 @@
             "show_payment_button": true
           }
         },
+        "fdab9f1a-889d-42ad-87d1-3ffc9c24c203": {
+          "type": "usage",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -114,6 +119,7 @@
         "variant_selector",
         "quantity_selector",
         "buy_buttons",
+        "fdab9f1a-889d-42ad-87d1-3ffc9c24c203",
         "description",
         "opinew-stars-plugin-product",
         "c75d8bb2-4caf-4fed-a264-8007351b4f56"
