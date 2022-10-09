@@ -52,11 +52,6 @@
             "image": "shopify:\/\/shop_images\/UF_4ff1f526-7b51-4a77-a918-10ec9b2baccb.jpg"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "share_buttons": {
           "type": "share_buttons",
           "settings": {
@@ -84,6 +79,11 @@
             "show_payment_button": true
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "opinew-stars-plugin-product": {
           "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
           "disabled": true,
@@ -104,11 +104,11 @@
         "51f232e8-7b28-4d1b-b343-9111bf07e19c",
         "16e4e4d1-5f82-4ba9-bda8-de9b3cabfabc",
         "32ba579a-c0ca-40a7-b6a4-bb64bcebd816",
-        "description",
         "share_buttons",
         "variant_selector",
         "quantity_selector",
         "buy_buttons",
+        "description",
         "opinew-stars-plugin-product",
         "c75d8bb2-4caf-4fed-a264-8007351b4f56"
       ],
