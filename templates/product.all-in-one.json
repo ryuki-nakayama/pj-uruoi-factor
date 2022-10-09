@@ -14,6 +14,30 @@
             "product_guide": "100g（約1カ月分）"
           }
         },
+        "cfa5e61e-eb14-406c-bb55-f7908d1a9121": {
+          "type": "label",
+          "settings": {
+            "label": "乾燥"
+          }
+        },
+        "e3ed950b-bdf9-419f-aa90-caaf5445d2c2": {
+          "type": "label",
+          "settings": {
+            "label": "肌荒れ(※1)"
+          }
+        },
+        "81e40830-e88c-4cf6-8f61-7275a7a60b1b": {
+          "type": "label",
+          "settings": {
+            "label": "敏感肌"
+          }
+        },
+        "51f232e8-7b28-4d1b-b343-9111bf07e19c": {
+          "type": "label",
+          "settings": {
+            "label": "エイジングケア(※2)"
+          }
+        },
         "16e4e4d1-5f82-4ba9-bda8-de9b3cabfabc": {
           "type": "title_with_text",
           "settings": {
@@ -60,15 +84,18 @@
           "settings": {
           }
         },
-        "cfa5e61e-eb14-406c-bb55-f7908d1a9121": {
-          "type": "label",
+        "c75d8bb2-4caf-4fed-a264-8007351b4f56": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
           "settings": {
-            "label": "乾燥"
           }
         }
       },
       "block_order": [
         "product_meta",
+        "cfa5e61e-eb14-406c-bb55-f7908d1a9121",
+        "e3ed950b-bdf9-419f-aa90-caaf5445d2c2",
+        "81e40830-e88c-4cf6-8f61-7275a7a60b1b",
+        "51f232e8-7b28-4d1b-b343-9111bf07e19c",
         "16e4e4d1-5f82-4ba9-bda8-de9b3cabfabc",
         "description",
         "share_buttons",
@@ -76,7 +103,7 @@
         "quantity_selector",
         "buy_buttons",
         "opinew-stars-plugin-product",
-        "cfa5e61e-eb14-406c-bb55-f7908d1a9121"
+        "c75d8bb2-4caf-4fed-a264-8007351b4f56"
       ],
       "settings": {
         "image_size": "large",
