@@ -59,6 +59,12 @@
           "disabled": true,
           "settings": {
           }
+        },
+        "cfa5e61e-eb14-406c-bb55-f7908d1a9121": {
+          "type": "labels",
+          "settings": {
+            "label": "乾燥"
+          }
         }
       },
       "block_order": [
@@ -69,7 +75,8 @@
         "variant_selector",
         "quantity_selector",
         "buy_buttons",
-        "opinew-stars-plugin-product"
+        "opinew-stars-plugin-product",
+        "cfa5e61e-eb14-406c-bb55-f7908d1a9121"
       ],
       "settings": {
         "image_size": "large",
