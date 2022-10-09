@@ -3,10 +3,21 @@
     "first-view": {
       "type": "first-view",
       "settings": {
+        "img": "shopify:\/\/shop_images\/TOP.jpg",
+        "title": "うるおうことで、悩みが晴れる日もあるから。",
+        "text": "#uruoi solution skincare"
+      }
+    },
+    "main-concept": {
+      "type": "main-concept",
+      "settings": {
+        "concept_image1": "shopify:\/\/shop_images\/concept1.jpg",
+        "concept_image2": "shopify:\/\/shop_images\/concept2.jpg"
       }
     }
   },
   "order": [
-    "first-view"
+    "first-view",
+    "main-concept"
   ]
 }
