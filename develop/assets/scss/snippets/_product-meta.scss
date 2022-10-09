@@ -3,6 +3,12 @@
 
 /* ProductMeta
 --------------------------------------------------*/
+.ProductMeta {
+  border-bottom: none;
+  margin-bottom: 12px;
+  padding-bottom: 0;
+}
+
 .ProductMeta__head {
   display: flex;
   justify-content: space-between;

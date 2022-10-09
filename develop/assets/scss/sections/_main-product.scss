@@ -5,3 +5,12 @@
 
 /* main-product
 --------------------------------------------------*/
+.ProductMeta__label {
+  display: inline-block;
+  background-color: rgb(204, 165, 28);
+  color: white;
+  padding: 0 8px;
+  @include notFirst() {
+    margin-left: 4px;
+  }
+}

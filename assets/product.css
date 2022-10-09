@@ -1,6 +1,12 @@
 /* ProductMeta
 --------------------------------------------------*/
 
+.ProductMeta {
+  border-bottom: none;
+  margin-bottom: 12px;
+  padding-bottom: 0;
+}
+
 .ProductMeta__head {
   align-items: center;
   display: flex;
@@ -24,6 +30,17 @@
 
 /* main-product
 --------------------------------------------------*/
+
+.ProductMeta__label {
+  background-color: rgb(204, 165, 28);
+  color: white;
+  display: inline-block;
+  padding: 0 8px;
+}
+
+.ProductMeta__label:not(:first-of-type) {
+  margin-left: 4px;
+}
 
 /* product
 --------------------------------------------------*/
