@@ -8,8 +8,8 @@
         "text": "#uruoi solution skincare"
       }
     },
-    "main-concept": {
-      "type": "main-concept",
+    "main-page-concept": {
+      "type": "main--page-concept",
       "settings": {
         "concept_image1": "shopify:\/\/shop_images\/concept1.jpg",
         "concept_image2": "shopify:\/\/shop_images\/concept2.jpg"
@@ -18,6 +18,6 @@
   },
   "order": [
     "first-view",
-    "main-concept"
+    "main-page-concept"
   ]
 }
