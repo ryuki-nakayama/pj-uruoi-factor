@@ -1,0 +1,64 @@
+{% comment %}
+  usage-double-serum
+  UF オールインワンジェル 使い方
+
+  Accepts:
+  - none
+
+  Usage:
+  - {%- render 'usage-double-serum'' -%}
+
+  Style:
+  - snippets/usage.scss
+
+  Script:
+  - none
+{% endcomment %}
+
+<div class="usage">
+  <div class="usage__heading">使い方</div>
+  <div class="usage__row _top">
+    <div class="usage__step _1">
+      <div class="usage__img-wrapper">
+        {%- assign img = 'double-serum-usage1.png' -%}
+        <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+      </div>
+      <div class="usage__step-body">
+        <p style="text-align: center;">STEP1</p>
+        <p>美容オイルUFや化粧水で肌を整えた後に使用します。</p>
+      </div>
+    </div>
+    <div class="usage__step _2">
+      <div class="usage__img-wrapper">
+        {%- assign img = 'double-serum-usage2.png' -%}
+        <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+      </div>
+      <div class="usage__step-body">
+        <p style="text-align: center;">STEP2</p>
+        <p>白くなるまで10回以上よく振り、2層をしっかり混ぜ合わせます。</p>
+      </div>
+    </div>
+  </div>
+  <div class="usage__row _bottom">
+    <div class="usage__step _3">
+      <div class="usage__img-wrapper">
+        {%- assign img = 'double-serum-usage3.png' -%}
+        <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+      </div>
+      <div class="usage__step-body">
+        <p style="text-align: center;">STEP3</p>
+        <p>手のひらに適量(10～18滴)を取り、顔全体に優しくなじませます。</p>
+      </div>
+    </div>
+    <div class="usage__step _4">
+      <div class="usage__img-wrapper">
+        {%- assign img = 'double-serum-usage4.png' -%}
+        <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+      </div>
+      <div class="usage__step-body">
+        <p style="text-align: center;">STEP4</p>
+        <p>UF オールインワンジェルでうるおいを閉じ込めることをおすすめします。</p>
+      </div>
+    </div>
+  </div>
+</div>
