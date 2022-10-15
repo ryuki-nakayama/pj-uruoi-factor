@@ -1,15 +1,15 @@
 {% comment %}
-  product-all-in-one
-  UF オールインワンジェル 商品ページコンテンツ
+  product-uf-soap
+  UF ソープ 商品ページコンテンツ
 
   Accepts:
   - none
 
   Usage:
-  - {%- render 'product-all-in-one'' -%}
+  - {%- render 'product-uf-soap' -%}
 
   Style:
-  - snippets/product-all-in-one.css
+  - sections/main-product.scss
 
   Script:
   - none
@@ -22,7 +22,7 @@
   }
 {%- endstyle -%}
 
-<div class="product-desc">
+<div class="product-desc" style="margin-top: 32px;">
   <button class="product-desc__btn" type="button" data-bs-toggle="collapse" data-bs-target="#product-desc-collapse" aria-expanded="false" aria-controls="product-desc-collapse"></button>
   <div id="product-desc-collapse" class="collapse">
     <div class="product-desc-collapse__inner">
@@ -43,18 +43,54 @@
         </p>
       </div>
       {%- comment -%} image {%- endcomment -%}
-      <div class="product-desc__img">
-        {%- assign img = 'uf-soap1.jpg' -%}
+      <div class="product-desc__img" style="text-align: center;">
+        {%- assign img = 'uf-soap1.png' -%}
         <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
-        {%- assign img = 'uf-soap2.jpg' -%}
-        <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+        {%- assign img = 'uf-soap2.gif' -%}
+        <img class="" src="{{ img | asset_url }}" alt="{{ img.alt }}" style="max-width: 230px;">
       </div>
 
-
-
-
-
-      {%- endcomment -%}
+      <div class="product-ingredients">
+        <p class="product-ingredients__heading">保湿成分</p>
+        <div class="product-ingredients__table">
+          {%- assign img = 'twinkle.png' -%}
+          <div class="product-ingredients__item">
+            <div class="product-ingredients__img-wrapper">
+              <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+            </div>
+            <div class="product-ingredients__content">
+              <p class="product-ingredients__ingredients-name">ハチミツ</p>
+              <p class="product-ingredients__ingredients-text">
+                ビタミン・ミネラル・アミノ酸など、あらゆる成分が含まれ、<br>
+                天然の保湿成分として知られています。
+              </p>
+            </div>
+          </div>
+          <div class="product-ingredients__item">
+            <div class="product-ingredients__img-wrapper">
+              <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+            </div>
+            <div class="product-ingredients__content">
+              <p class="product-ingredients__ingredients-name">フルボ酸</p>
+              <p class="product-ingredients__ingredients-text">
+                特許製法で抽出した天然土壌エキス。肌あれや乾燥を防ぎ、肌にハリを与えます。<br>
+                特許製法で抽出した天然土壌エキス。肌あれや乾燥を防ぎ、肌にハリを与えます。
+              </p>
+            </div>
+          </div>
+          <div class="product-ingredients__item">
+            <div class="product-ingredients__img-wrapper">
+              <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+            </div>
+            <div class="product-ingredients__content">
+              <p class="product-ingredients__ingredients-name">チャカテキン</p>
+              <p class="product-ingredients__ingredients-text">
+                緑茶の代表成分。殺菌・抗酸化作用が期待できます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       {%- comment -%} title-with-text {%- endcomment -%}
       <div class="product-desc__title-with-text">
         <p class="title-with-text__title">使わない成分</p>
@@ -75,11 +111,6 @@
           <li class="not-used__item"><div class="not-used__item-inner"><span>アルコール</span></div></li>
           <li class="not-used__item"><div class="not-used__item-inner"><span>旧指定成分</span></div></li>
         </ul>
-      </div>
-      {%- comment -%} image {%- endcomment -%}
-      <div class="product-desc__img">
-        {%- assign img = 'all-in-one2.jpg' -%}
-        <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
       </div>
       {%- comment -%} present {%- endcomment -%}
       <div class="product-desc__present">

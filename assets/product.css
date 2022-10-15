@@ -296,6 +296,38 @@
   font-size: 8px;
 }
 
+.product-ingredients__item {
+  align-items: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  padding: 16px 0;
+}
+
+.product-ingredients__item:first-of-type {
+  border-top: 1px solid black;
+}
+
+.product-ingredients__img-wrapper {
+  padding-left: 4px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.product-ingredients__img-wrapper img {
+  max-width: 60px;
+  width: 100%;
+}
+
+.product-ingredients__content {
+  flex: 1;
+}
+
+.product-ingredients__ingredients-name {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
 .not-used {
   margin-top: 48px;
 }
