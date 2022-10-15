@@ -69,20 +69,6 @@
 
 .usage__step {
   width: 45%;
-
-  &._1 {
-    // .usage__img-wrapper::before {
-    //   position: absolute;
-    //   content: '';
-    //   top: 50%;
-    //   right: 0;
-    //   transform: translateY(-50%) rotate(45deg);
-    //   width: 20px;
-    //   height: 20px;
-    //   border-right: 5px solid black;
-    //   border-top: 5px solid black;
-    // }
-  }
 }
 
 .usage__img-wrapper {
@@ -92,5 +78,14 @@
 .usage__step-body {
   p {
     margin-bottom: 0;
+  }
+}
+
+.usage__last {
+  margin-top: 48px;
+  @include atQuery(sm) {
+    margin: 0 calc(50% - 50vw);
+    width: 100vw;
+    padding: 36px;
   }
 }
