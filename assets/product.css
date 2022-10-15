@@ -112,6 +112,10 @@
   margin-bottom: 0;
 }
 
+.usage__last {
+  margin-top: 48px;
+}
+
 /* main-product
 --------------------------------------------------*/
 
@@ -153,6 +157,10 @@
   font-weight: bold;
   margin-bottom: 8px;
   padding: 0 12px;
+}
+
+.title-with-text__caution {
+  font-size: 8px;
 }
 
 .ProductMeta__image {
@@ -384,3 +392,11 @@
 
 /* product
 --------------------------------------------------*/
+
+@media only screen and (max-width: 640px) {
+  .usage__last {
+    margin: 0 calc(50% - 50vw);
+    padding: 36px;
+    width: 100vw;
+  }
+}

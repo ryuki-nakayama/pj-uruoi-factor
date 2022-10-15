@@ -1,15 +1,15 @@
 {% comment %}
-  usage-all-in-one
-  UF オールインワンジェル やり方
+  usage-uf-soap
+  UF ソープ 使い方
 
   Accepts:
   - none
 
   Usage:
-  - {%- render 'usage-all-in-one'' -%}
+  - {%- render 'usage-uf-soap'' -%}
 
   Style:
-  - snippets/product-usage.css
+  - snippets/usage.scss
 
   Script:
   - none
@@ -20,45 +20,49 @@
   <div class="usage__row _top">
     <div class="usage__step _1">
       <div class="usage__img-wrapper">
-        {%- assign img = 'all-in-one-usage1.png' -%}
+        {%- assign img = 'uf-soap-usage1.png' -%}
         <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
       </div>
       <div class="usage__step-body">
         <p style="text-align: center;">STEP1</p>
-        <p>パール粒2 つ分ほどの量を手に取ります。</p>
+        <p>同梱のネットを使用し、水、またはぬるま湯（32～36℃）でよく泡立てます。</p>
       </div>
     </div>
     <div class="usage__step _2">
       <div class="usage__img-wrapper">
-        {%- assign img = 'all-in-one-usage2.png' -%}
+        {%- assign img = 'uf-soap-usage2.png' -%}
         <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
       </div>
       <div class="usage__step-body">
         <p style="text-align: center;">STEP2</p>
-        <p>マッサージするようにお肌になじませます。</p>
+        <p>みかん大くらいの大きさが理想です。</p>
       </div>
     </div>
   </div>
   <div class="usage__row _bottom">
     <div class="usage__step _3">
       <div class="usage__img-wrapper">
-        {%- assign img = 'all-in-one-usage3.png' -%}
+        {%- assign img = 'uf-soap-usage3.png' -%}
         <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
       </div>
       <div class="usage__step-body">
         <p style="text-align: center;">STEP3</p>
-        <p>塗った部分を手のひらでハンドプレス。</p>
+        <p>泡で顔をやさしく包み込むように洗ってください。</p>
       </div>
     </div>
     <div class="usage__step _4">
       <div class="usage__img-wrapper">
-        {%- assign img = 'all-in-one-usage4.png' -%}
+        {%- assign img = 'uf-soap-usage4.png' -%}
         <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
       </div>
       <div class="usage__step-body">
         <p style="text-align: center;">STEP4</p>
-        <p>お肌がもっちりと吸い付くように変化したらうるおいが満たされたサインです。</p>
+        <p>「泡」で洗うことがポイントです。</p>
       </div>
     </div>
+  </div>
+  <div class="usage__last">
+    {%- assign img = 'uf-soap-usage5.png' -%}
+    <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
   </div>
 </div>
