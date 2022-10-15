@@ -123,11 +123,9 @@
   background-color: rgb(204, 165, 28);
   color: white;
   display: inline-block;
+  margin-right: 4px;
+  margin-top: 4px;
   padding: 0 8px;
-}
-
-.ProductMeta__label:not(:first-of-type) {
-  margin-left: 4px;
 }
 
 .ProductMeta__title-with-text {
@@ -239,6 +237,10 @@
   margin-top: 64px;
 }
 
+.product-ingredients span {
+  display: inline-block;
+}
+
 .product-ingredients .yellow {
   background-color: rgb(255, 240, 85);
 }
@@ -249,6 +251,10 @@
 
 .product-ingredients .blue {
   background-color: rgb(0, 204, 217);
+}
+
+.product-ingredients .gray {
+  background-color: rgb(185, 194, 194);
 }
 
 .product-ingredients__list {
@@ -275,7 +281,8 @@
   margin-top: 16px;
 }
 
-.product-ingredients__explanation p {
+.product-ingredients__explanation p,
+.product-ingredients__explanation span {
   display: inline-block;
   font-size: 15px;
   margin-bottom: 2px;
