@@ -24,15 +24,15 @@
 .key-visual__content {
   @include posCenter(xy);
   background-color: rgba($color: white, $alpha: .3);
-  padding: 32px 24px;
+  padding: 20px;
   text-align: center;
 }
 
 .key-visual__title {
-  font-size: 24px;
-  font-weight: bold;
+  // font-size: 13px;
+  // font-weight: bold;
   white-space: nowrap;
-  margin-bottom: 8px;
+  margin-bottom: 0;
   @include atQuery(md) {
     font-size: 36px;
   }
@@ -40,15 +40,13 @@
 
 .key-visual__text {
   font-weight: 500;
-  @include atQuery(md) {
-    font-size: 24px;
-  }
+  white-space: nowrap;
 }
 
 .key-visual__link {
-  background-color: #555;
+  background-color: black;
   display: inline-block;
-  padding: 0 12px;
+  padding: 0 32px;
   color: white;
   border-radius: 30px;
   font-size: 10px;

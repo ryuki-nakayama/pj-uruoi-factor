@@ -221,6 +221,10 @@
 /* font-family
 --------------------------------------------------*/
 
+.ff-serif {
+  font-family: "a-otf-ryumin-pr6n", serif !important;
+}
+
 .ff-en {
   font-family: "blambot-fx-pro", sans-serif !important;
 }

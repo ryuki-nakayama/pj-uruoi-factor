@@ -28,8 +28,10 @@
 
   {%- comment -%} content {%- endcomment -%}
   <div class="key-visual__content">
-    <h1 class="key-visual__title">{{ section.settings.title }}</h1>
-    <p class="key-visual__text">{{ section.settings.text }}</p>
+    {%- assign img = 'URUOI-FACTOR-LOGO-_-homepagetop.png' -%}
+    <div class="key-visual__logo"><img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}"></div>
+    <h1 class="key-visual__title ff-serif">{{ section.settings.title }}</h1>
+    <p class="key-visual__text ff-serif">{{ section.settings.text }}</p>
     <a href="{{ section.settings.url }}" class="key-visual__link">詳しく見る</a>
   </div>
 </div>
