@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* footer
+--------------------------------------------------*/
+.new-footer {
+  .Footer__Title {
+    margin-bottom: 4px;
+  }
+
+  .Footer__Copyright {
+    margin-top: 48px;
+  }
+}
+
+.footer__link-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__item .Link {
+  display: inline-block;
+  padding: 2px 0;
+}
+
+.footer__slash {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+
+.footer__sns {
+  margin-top: 16px;
+  display: flex;
+
+  a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+    @include notFirst() {
+      margin-left: 8px;
+    }
+  }
+}
