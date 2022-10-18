@@ -4,7 +4,7 @@
 /* font-family
 --------------------------------------------------*/
 .ff-serif {
-  font-family: $ff-serif !important;
+  font-family: var(--heading-font-family);
 }
 
 // .ff-sans {

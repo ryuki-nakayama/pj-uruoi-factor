@@ -193,6 +193,15 @@
   margin-top: 8px;
 }
 
+/* index
+--------------------------------------------------*/
+
+.FeatureText__Content {
+  color: black;
+  font-family: "a-otf-ryumin-pr6n", serif;
+  text-align: left;
+}
+
 @media only screen and (min-width: 641px) {
   .blog-list__link {
     transition-duration: 0.3s;
@@ -212,10 +221,6 @@
 
   .contact-link__link:hover {
     opacity: 0.7;
-  }
-
-  .key-visual__title {
-    font-size: 36px;
   }
 
   .key-visual__link {
