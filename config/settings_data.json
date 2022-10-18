@@ -24,7 +24,7 @@
     "heading_font": "serif",
     "heading_size": "small",
     "uppercase_heading": true,
-    "text_font": "mono",
+    "text_font": "arimo_n4",
     "base_text_font_size": 13,
     "currency_code_enabled": false,
     "show_page_transition": false,
