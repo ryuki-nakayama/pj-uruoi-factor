@@ -17,10 +17,10 @@
 
 <div class="concept-how main-concept__block">
   <h2 class="main-concept__title">How</h2>
-  <h3 class="main-concept__sub-title">「うるおい」のためにどうこだわるか。</h3>
+  <h3 class="main-concept__sub-title ff-serif">「うるおい」のためにどうこだわるか。</h3>
 
-  <div id="how-collapse" class="main-concept__body collapse">
-    <h3>「うるおい」に、妥協しない。</h3>
+  <div id="how-collapse" class="main-concept__body">
+    <h3 class="ff-serif">「うるおい」に、妥協しない。</h3>
     <p>
       肌内部の角層から「本当にうるおう肌」になることを目的に、わたしたちは基礎化粧品を開しています。<br>
       各アイテムごとのこだわりについては、商品詳細ページをご覧ください。
@@ -36,7 +36,7 @@
               <img src="{{ 'product1.jpg' | asset_img_url: 'master' }}" alt="" class="concept-how__item-img">
               <div class="concept-how__item-desc">
                 <span class="concept-how__item-type">[洗顔]</span>
-                <h4 class="concept-how__item-title">UF ソープ</h4>
+                <h4 class="concept-how__item-title ff-serif">UF ソープ</h4>
                 <div class="concept-how__item-labels">
                   <div class="concept-how__item-label _blue1">7つの不使用成分</div>
                   <div class="concept-how__item-label _yellow">枠練り石けん</div>
@@ -46,7 +46,7 @@
             {%- comment -%} body {%- endcomment -%}
             <div class="concept-how__item-body">
               <p class="concept-how__item-text">
-                保湿成分たっぷりの、透明枠練り石けん。うるおいを与えながら、不要な角質や汚れをオフ。濃密泡で毛穴の奥まで洗い上げ、ニキビ(※1)、ザラつき、肌あれ(※2) を防ぎます。
+                保湿成分たっぷりの、透明枠練り石けん。うるおいを与えながら、不要な角質や汚れをオフ。濃密泡で毛穴の奥まで洗い上げ、ニキビ<span class="concept-how__item-caution">(※1)</span>、ザラつき、肌あれ<span class="concept-how__item-caution">(※2)</span>を防ぎます。
               </p>
               <p class="concept-how__item-caution">(※1) 洗浄による (※2) 保湿による予防</p>
             </div>
@@ -65,7 +65,7 @@
               <img src="{{ 'product2.jpg' | asset_img_url: 'master' }}" alt="" class="concept-how__item-img">
               <div class="concept-how__item-desc">
                 <span class="concept-how__item-type">【人気No.1】ブースター美容オイル</span>
-                <h4 class="concept-how__item-title">美容オイルUF</h4>
+                <h4 class="concept-how__item-title ff-serif">美容オイルUF</h4>
                 <div class="concept-how__item-labels">
                   <div class="concept-how__item-label _blue1">8つの不使用成分</div>
                   <div class="concept-how__item-label _green">ナノ化技術</div>
@@ -94,7 +94,7 @@
               <img src="{{ 'product3.jpg' | asset_img_url: 'master' }}" alt="" class="concept-how__item-img">
               <div class="concept-how__item-desc">
                 <span class="concept-how__item-type">[2層式美容液]</span>
-                <h4 class="concept-how__item-title">UF ダブルセラムC.B+</h4>
+                <h4 class="concept-how__item-title ff-serif">UF ダブルセラムC.B+</h4>
                 <div class="concept-how__item-labels">
                   <div class="concept-how__item-label _blue1">8つの不使用成分</div>
                   <div class="concept-how__item-label _yellow">ナイアシンアミド配合</div>
@@ -125,7 +125,7 @@
               <img src="{{ 'product4.jpg' | asset_img_url: 'master' }}" alt="" class="concept-how__item-img">
               <div class="concept-how__item-desc">
                 <span class="concept-how__item-type">高保湿ジェル</span>
-                <h4 class="concept-how__item-title">UF オールインワンジェル</h4>
+                <h4 class="concept-how__item-title ff-serif">UF オールインワンジェル</h4>
                 <div class="concept-how__item-labels">
                   <div class="concept-how__item-label _blue1">8つの不使用成分</div>
                   <div class="concept-how__item-label _blue2">ウォーターベース</div>
@@ -148,5 +148,5 @@
       </ul>
     </div>
   </div>
-  <button class="main-concept__btn" type="button" data-bs-toggle="collapse" data-bs-target="#how-collapse" aria-expanded="false" aria-controls="how-collapse"></button>
+  {%- comment -%} <button class="main-concept__btn" type="button" data-bs-toggle="collapse" data-bs-target="#how-collapse" aria-expanded="false" aria-controls="how-collapse"></button> {%- endcomment -%}
 </div>

@@ -51,11 +51,12 @@
 }
 
 .main-concept__btn {
-  width: 150px;
+  width: 155px;
   margin: 0 auto;
   border: 1px solid black;
   display: block;
   position: relative;
+  padding-left: 15px;
 
   &::after {
     content: '';
