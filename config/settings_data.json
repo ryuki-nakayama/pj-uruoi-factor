@@ -140,6 +140,12 @@
           "show_newsletter": false,
           "apparition_delay": 4
         }
+      },
+      "new-footer": {
+        "type": "new-footer",
+        "settings": {
+          "menu": "footer"
+        }
       }
     },
     "content_for_index": [
