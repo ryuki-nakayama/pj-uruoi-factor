@@ -54,7 +54,7 @@
           <li class="not-used__item"><div class="not-used__item-inner"><span>合成<br>着色料</span></div></li>
           <li class="not-used__item"><div class="not-used__item-inner"><span>石油系<br>界面</d</span>活性剤</li>
           <li class="not-used__item"><div class="not-used__item-inner"><span>シリコン</span></div></li>
-          <li class="not-used__item"><div class="not-used__item-inner"><span>アルコール</span></div></li>
+          {%- comment -%} <li class="not-used__item"><div class="not-used__item-inner"><span>アルコール</span></div></li> {%- endcomment -%}
           <li class="not-used__item"><div class="not-used__item-inner"><span>旧指定成分</span></div></li>
         </ul>
       </div>
@@ -71,12 +71,10 @@
         </p>
       </div>
       {%- comment -%} image {%- endcomment -%}
-      {%- comment -%}
       <div class="product-desc__img">
-        {%- assign img = 'all-in-one2.jpg' -%}
+        {%- assign img = 'nanoka.jpg' -%}
         <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
       </div>
-      {%- endcomment -%}
       {%- comment -%} present {%- endcomment -%}
       <div class="product-desc__present">
         <p>

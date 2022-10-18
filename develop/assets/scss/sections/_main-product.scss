@@ -27,6 +27,7 @@
   margin-bottom: 0;
   font-weight: bold;
   line-height: 1.6;
+  font-family: var(--heading-font-family);
 }
 
 .title-with-text__text {
@@ -75,6 +76,7 @@
     margin-top: 12px;
     font-size: 20px;
     font-weight: bold;
+    font-family: var(--heading-font-family);
   }
 }
 
@@ -85,11 +87,12 @@
 
 // collapse
 .product-desc__btn {
-  width: 150px;
+  width: 155px;
   margin: 0 auto;
   border: 1px solid black;
   display: block;
   position: relative;
+  padding-left: 15px;
 
   &::after {
     content: '';
