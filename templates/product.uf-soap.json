@@ -17,7 +17,7 @@
         "cfa5e61e-eb14-406c-bb55-f7908d1a9121": {
           "type": "label",
           "settings": {
-            "label": "ニキビ(※1)"
+            "label": "ニキビ<span class=\"text-sm\">(※1)<\/span>"
           }
         },
         "e3ed950b-bdf9-419f-aa90-caaf5445d2c2": {
@@ -29,7 +29,7 @@
         "81e40830-e88c-4cf6-8f61-7275a7a60b1b": {
           "type": "label",
           "settings": {
-            "label": "肌荒れ(※2)"
+            "label": "肌荒れ<span class=\"text-sm\">(※2)<\/span>"
           }
         },
         "51f232e8-7b28-4d1b-b343-9111bf07e19c": {
