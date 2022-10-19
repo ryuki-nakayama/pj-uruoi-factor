@@ -330,20 +330,13 @@
 }
 
 .footer__sns a {
-  align-items: center;
-  background-color: black;
-  border-radius: 10px;
-  color: white;
   display: inline-block;
-  display: flex;
-  height: 40px;
-  justify-content: center;
-  padding: 8px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
 }
 
 .footer__sns a:not(:first-of-type) {
-  margin-left: 8px;
+  margin-left: 25px;
 }
 
 @media only screen and (min-width: 641px) {

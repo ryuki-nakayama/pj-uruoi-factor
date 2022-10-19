@@ -63,8 +63,14 @@
 
     {%- comment -%} sns {%- endcomment -%}
     <div class="footer__sns">
-      <a href="https://www.instagram.com/uruoifactor_jp/" class="instagram hover-opacity" target="_blank" rel="noopener noreferrer">IG</a>
-      <a href="https://linktr.ee/uruoifactor_jp" class="line hover-opacity" target="_blank" rel="noopener noreferrer">LINE</a>
+      <a href="https://www.instagram.com/uruoifactor_jp/" class="instagram hover-opacity" target="_blank" rel="noopener noreferrer">
+        {%- assign img = 'Instagram_Glyph_Gradient_RGB.png' -%}
+        <img class="" src="{{ img | asset_img_url: '50x50' }}" alt="{{ img.alt }}">
+      </a>
+      <a href="https://linktr.ee/uruoifactor_jp" class="line hover-opacity" target="_blank" rel="noopener noreferrer">
+        {%- assign img = 'LINE_Brand_icon.png' -%}
+        <img class="" src="{{ img | asset_img_url: '50x50' }}" alt="{{ img.alt }}">
+      </a>
     </div>
   </div>
 </footer>
