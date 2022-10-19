@@ -304,15 +304,17 @@
                     {%- if block.settings.heading != blank -%}
                       <div class="title-with-text__title">{{ block.settings.heading }}</div>
                     {%- endif -%}
+                    {%- comment -%}
                     {%- if block.settings.text != blank -%}
-                      {%- comment -%} <div class="title-with-text__text">{{ block.settings.text }}</div> {%- endcomment -%}
-                      <div class="title-with-text__text">
-                        <p>
-                          保湿成分たっぷりの、透明枠練り石けん。<br>
-                          うるおいを与えながら、不要な角質や汚れをオフ。濃密泡で毛穴の奥まで洗い上げ、ニキビ<span class="text-sm">(※1)</span>、ザラつき、肌あれ<span class="text-sm">(※2)</span>を防ぎます。石油系の界面活性剤フリーで、やさしい設計。汚れが落ちたスッキリ感と洗い上がりのなめらかさを両立しました。
-                        </p>
-                      </div>
+                      <div class="title-with-text__text">{{ block.settings.text }}</div>
                     {%- endif -%}
+                    {%- endcomment -%}
+                    <div class="title-with-text__text">
+                      <p>
+                        保湿成分たっぷりの、透明枠練り石けん。<br>
+                        うるおいを与えながら、不要な角質や汚れをオフ。濃密泡で毛穴の奥まで洗い上げ、ニキビ<span class="text-sm">(※1)</span>、ザラつき、肌あれ<span class="text-sm">(※2)</span>を防ぎます。石油系の界面活性剤フリーで、やさしい設計。汚れが落ちたスッキリ感と洗い上がりのなめらかさを両立しました。
+                      </p>
+                    </div>
                     {%- if block.settings.caution != blank -%}
                       <p class="title-with-text__caution text-sm">{{ block.settings.caution }}</p>
                     {%- endif -%}
