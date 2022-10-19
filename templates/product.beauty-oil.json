@@ -23,7 +23,7 @@
         "e3ed950b-bdf9-419f-aa90-caaf5445d2c2": {
           "type": "label",
           "settings": {
-            "label": "肌あれ(※1)"
+            "label": "肌あれ<span class=\"text-sm\">(※1)<\/span>"
           }
         },
         "81e40830-e88c-4cf6-8f61-7275a7a60b1b": {
