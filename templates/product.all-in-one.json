@@ -35,7 +35,7 @@
         "51f232e8-7b28-4d1b-b343-9111bf07e19c": {
           "type": "label",
           "settings": {
-            "label": "エイジングケア(※2)"
+            "label": "エイジングケア<span class=\"text-sm\">(※2)<\/span>"
           }
         },
         "16e4e4d1-5f82-4ba9-bda8-de9b3cabfabc": {
