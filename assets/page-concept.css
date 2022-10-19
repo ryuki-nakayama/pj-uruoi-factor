@@ -141,12 +141,12 @@
 }
 
 .concept-how__item-link::before {
-  -webkit-transform: translateY(-50%);
+  -webkit-transform: translateY(calc(-50% - 1px));
   background-color: rgb(229, 167, 5);
   border-radius: 50%;
   content: "";
   height: 22px;
-  transform: translateY(-50%);
+  transform: translateY(calc(-50% - 1px));
   width: 22px;
 }
 
