@@ -23,7 +23,7 @@
         "e3ed950b-bdf9-419f-aa90-caaf5445d2c2": {
           "type": "label",
           "settings": {
-            "label": "肌荒れ(※1)"
+            "label": "肌荒れ<span class=\"text-sm\">(※1)<\/span>"
           }
         },
         "81e40830-e88c-4cf6-8f61-7275a7a60b1b": {
@@ -35,13 +35,13 @@
         "73b52f4c-5753-48ef-9e8b-c14909d86ae5": {
           "type": "label",
           "settings": {
-            "label": "<div style=\"width: 80px\"><\/div>"
+            "label": ""
           }
         },
         "51f232e8-7b28-4d1b-b343-9111bf07e19c": {
           "type": "label",
           "settings": {
-            "label": "ニキビのあと(※2)"
+            "label": "ニキビのあと<span class=\"text-sm\">(※2)<\/span>"
           }
         },
         "559a5693-87bd-49c0-9786-fcd03b14e83b": {
