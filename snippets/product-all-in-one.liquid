@@ -28,7 +28,7 @@
     <div class="product-desc-collapse__inner">
       {%- comment -%} heading-img {%- endcomment -%}
       <div class="product-desc__heading-img">
-        {%- assign img = 'dloplet.png' -%}
+        {%- assign img = 'droplet.png' -%}
         <img class="" src="{{ img | asset_img_url: '80x80' }}" alt="{{ img.alt }}">
         <p>うるおいへのアプローチ</p>
       </div>
@@ -48,12 +48,14 @@
       <div class="product-ingredients">
         <p class="product-ingredients__heading">＜ 全成分 ＞</p>
         <div class="product-ingredients__list">
-          <span class="yellow">水、</span><span class="blue">グリセリン、</span><span class="yellow">ＢＧ、</span><span class="blue">スクワラン、</span><span class="yellow">ペンチレングリコール、</span><span class="orange">カルボキシ、</span><span class="orange">メチルフェニルアミノカルボキシプロピルホスホン酸メチル、</span><span class="orange">パルミチン、</span><span class="orange">酸アスコルビルリン酸３Ｎａ、</span><span class="orange">リンゴ果実培養細胞エキス、</span><span class="orange">ヒト遺伝子組、</span><span class="orange">換オリゴペプチドー１、</span><span class="orange">フルボ酸、</span><span class="orange">プラセンタエキス、</span><span class="orange">サクシノイルアテ、</span><span class="orange">ロコラーゲン、</span><span class="blue">ヒアルロン酸Ｎａ、</span><span class="orange">キハダ樹皮エキス、</span><span class="orange">>カンゾウ根エキス、</span><span class="yellow">オレンジ果皮油、</span><span class="orange">ダイズ油、</span><span class="blue">レシチン、</span>カルボマー、キサンタンガム、リン酸Ｋ、リン酸２Ｎａ、リン酸Ｎａ、水酸化Ｋ、フェノキシエタノール
+          <span class="yellow">水、</span><span class="blue">グリセリン、</span><span class="yellow">ＢＧ、</span><span class="blue">スクワラン、</span><span class="yellow">ペンチレングリコール、</span><span class="orange">カルボキシ、</span><span class="orange">メチルフェニルアミノカルボキシプロピルホスホン酸メチル、</span><span class="orange">パルミチン、</span><span class="orange">酸アスコルビルリン酸３Ｎａ、</span><span class="orange">リンゴ果実培養細胞エキス、</span><span class="orange">ヒト遺伝子組、</span><span class="orange">換オリゴペプチドー１、</span><span class="orange">フルボ酸、</span><span class="orange">プラセンタエキス、</span><span class="orange">サクシノイルアテ、</span><span class="orange">ロコラーゲン、</span><span class="blue">ヒアルロン酸Ｎａ、</span><span class="orange">キハダ樹皮エキス、</span><span class="orange">>カンゾウ根エキス、</span><span class="yellow">オレンジ果皮油、</span><span class="orange">ダイズ油、</span><span class="blue">レシチン、</span><span class="gray">カルボマー、</span><span class="gray">キサンタンガム、</span><span class="gray">リン酸Ｋ、</span><span class="gray">リン酸２Ｎａ、</span><span class="gray">リン酸Ｎａ、</span><span class="gray">水酸化Ｋ、</span><span class="gray">フェノキシエタノール</span>
         </div>
         <div class="product-ingredients__explanation">
           <p class="yellow">うるおいを与える成分</p>
           <p class="blue">うるおいを閉じ込める成分</p>
-          <p class="orange">美容成分</p>
+          <div>
+            <span class="orange">美容成分</span><span class="gray" style="margin-left: 4px;">調整剤や品質安定剤など</span>
+          </div>
         </div>
         <div class="product-ingredients__feature">
           <div class="product-ingredients__ingredient">
