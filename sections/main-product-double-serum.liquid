@@ -305,10 +305,17 @@
                       <div class="title-with-text__title">{{ block.settings.heading }}</div>
                     {%- endif -%}
                     {%- if block.settings.text != blank -%}
-                      <div class="title-with-text__text">{{ block.settings.text }}</div>
+                      {%- comment -%} <div class="title-with-text__text">{{ block.settings.text }}</div> {%- endcomment -%}
+                      <div class="title-with-text__text">
+                        <p>
+                          くもった表情やニキビのあと<span class="text-sm">(※2)</span>。<br>
+                          悩み多き大人の肌事情へアプローチする美容成分配合。化粧品に頼りがちな肌を、卒業してみませんか。<br>
+                          パラベン・鉱物油・石油界面活性剤・合成香料・合成着色料・シリコン・旧指定成分・アルコール（エタノール）不使用。
+                        </p>
+                      </div>
                     {%- endif -%}
                     {%- if block.settings.caution != blank -%}
-                      <p class="title-with-text__caution">{{ block.settings.caution }}</p>
+                      <p class="title-with-text__caution text-sm">{{ block.settings.caution }}</p>
                     {%- endif -%}
                   </div>
 
