@@ -26,19 +26,41 @@
 }
 
 .text-with__link {
-  display: inline-block;
-  color: white;
-  background-color: black;
-  border-radius: 10%;
-  padding: 0 36px;
-  border-radius: 30px;
-  @include atQuery(md) {
-    transition-property: opacity;
-    transition-duration: $transition-duration;
-    transition-timing-function: $transition-timing-function;
+  width: 155px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: block;
+  position: relative;
+  padding-left: 15px;
 
-    &:hover {
-      opacity: .7;
-    }
+  &::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: 6px;
+    left: 25px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    transform: rotate(-45deg);
+    width: 10px;
+    height: 10px;
   }
 }
+
+// .text-with__link {
+//   display: inline-block;
+//   color: white;
+//   background-color: black;
+//   border-radius: 10%;
+//   padding: 0 36px;
+//   border-radius: 30px;
+//   @include atQuery(md) {
+//     transition-property: opacity;
+//     transition-duration: $transition-duration;
+//     transition-timing-function: $transition-timing-function;
+
+//     &:hover {
+//       opacity: .7;
+//     }
+//   }
+// }

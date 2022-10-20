@@ -226,6 +226,10 @@
   font-family: var(--heading-font-family);
 }
 
+.ff-sans {
+  font-family: var(--text-font-family);
+}
+
 .ff-en {
   font-family: "blambot-fx-pro", sans-serif !important;
 }
