@@ -69,7 +69,7 @@
       "type": "text-with-link",
       "settings": {
         "title": "SKINCARE ITEM",
-        "content": "<p>「うるおい＝しっとり」ではない。<\/p><p>そんな想いから基礎化粧品が生まれています。<\/p>",
+        "content": "<p>「うるおい＝しっとり」ではない。<\/p><p>そんな想いから、基礎化粧品が生まれています。<\/p>",
         "link_text": "商品一覧",
         "link_url": "shopify:\/\/collections\/all"
       }
