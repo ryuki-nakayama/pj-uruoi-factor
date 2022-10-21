@@ -37,7 +37,6 @@
   bottom: 0;
 }
 
-<<<<<<< HEAD
 .concept-how__products {
   margin-top: 72px;
 }
@@ -117,7 +116,6 @@
 
 .concept-how__item-caution {
   font-size: 8px;
-<<<<<<< HEAD
 }
 
 .concept-how__item-link-wrapper {
@@ -165,8 +163,6 @@
   width: 20px;
 }
 
-=======
->>>>>>> ceff65c (update concept)
 /* concept-
 --------------------------------------------------*/
 
@@ -177,19 +173,12 @@
 /* concept-
 --------------------------------------------------*/
 
-<<<<<<< HEAD
 .concept-why {
   padding: 20px 0;
 }
 
 .concept-why::before {
   top: 60px;
-=======
-.concept-why::before {
-  -webkit-transform: translateY(-50%);
-  top: 50%;
-  transform: translateY(-50%);
->>>>>>> ceff65c (update concept)
 }
 
 /* main-concept
@@ -201,10 +190,6 @@
 }
 
 .main-concept__block {
-<<<<<<< HEAD
-=======
-  padding: 20px 0;
->>>>>>> ceff65c (update concept)
   position: relative;
 }
 
@@ -236,26 +221,18 @@
   padding-top: 16px;
 }
 
-<<<<<<< HEAD
 .main-concept__body h3 {
   font-size: 20px;
   font-weight: bold;
 }
 
-=======
->>>>>>> ceff65c (update concept)
 .main-concept__btn {
   border: 1px solid black;
   display: block;
   margin: 0 auto;
-<<<<<<< HEAD
   padding-left: 15px;
   position: relative;
   width: 155px;
-=======
-  position: relative;
-  width: 150px;
->>>>>>> ceff65c (update concept)
 }
 
 .main-concept__btn::after {
@@ -291,7 +268,6 @@
   left: 16px;
   top: 11px;
   transform: rotate(135deg);
-<<<<<<< HEAD
 }
 
 @media only screen and (min-width: 641px) {
@@ -310,9 +286,4 @@
   .concept-how__content {
     flex-direction: column;
   }
-=======
-  font-weight: 500;
->>>>>>> f8ab743 (design: first view)
-=======
->>>>>>> ceff65c (update concept)
 }
