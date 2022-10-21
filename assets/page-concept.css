@@ -167,16 +167,18 @@
 --------------------------------------------------*/
 
 .concept-what::before {
-  -webkit-transform: translateY(-50%);
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0;
 }
 
 /* concept-
 --------------------------------------------------*/
 
+.concept-why {
+  padding: 20px 0;
+}
+
 .concept-why::before {
-  top: 0;
+  top: 60px;
 }
 
 /* main-concept
@@ -188,7 +190,6 @@
 }
 
 .main-concept__block {
-  padding: 20px 0;
   position: relative;
 }
 
