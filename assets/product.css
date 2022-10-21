@@ -130,6 +130,10 @@
 /* product-desc
 --------------------------------------------------*/
 
+.product-desc {
+  margin-bottom: 24px;
+}
+
 .product-desc .title-with-text__text {
   margin-top: 12px;
 }
