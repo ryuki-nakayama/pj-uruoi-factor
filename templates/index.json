@@ -33,13 +33,13 @@
         "5da86be8-f7c4-49d0-b88a-da6e02bc353b": {
           "type": "calendar",
           "settings": {
-            "img": "shopify:\/\/shop_images\/10_e6e21996-8cb0-4bd0-8c8e-1c954e9d82c7.jpg"
+            "img": "shopify:\/\/shop_images\/11_6c57afa7-40bc-4208-bb4d-cf2c4d067c95.jpg"
           }
         },
         "b66f852b-77e9-44a5-b9db-95f8ddba762e": {
           "type": "calendar",
           "settings": {
-            "img": "shopify:\/\/shop_images\/10_e6e21996-8cb0-4bd0-8c8e-1c954e9d82c7.jpg"
+            "img": "shopify:\/\/shop_images\/11_1.jpg"
           }
         }
       },
@@ -69,8 +69,8 @@
       "type": "text-with-link",
       "settings": {
         "title": "SKINCARE ITEM",
-        "content": "<p>肌に水分・油分・保湿成分が満たされていること。<\/p><p>肌が持つ「うるおう力」が十分にあること。<\/p><p>それが私たちの考える「本当にうるおう肌」です。<\/p><p>健やかで、悩みが生まれにくい肌を一緒に育んでいきませんか。<\/p>",
-        "link_text": "商品一覧",
+        "content": "<p>肌に水分・油分・保湿成分が満たされていること。<\/p><p>肌が持つ「うるおう力」が十分にあること。<\/p><p>それが私たちの考える「本当にうるおう肌」です。<\/p><p>悩みが生まれにくい、健やかな肌を育みませんか。<\/p>",
+        "link_text": "全商品一覧",
         "link_url": "shopify:\/\/collections\/all"
       }
     },

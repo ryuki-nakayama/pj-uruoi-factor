@@ -70,6 +70,14 @@
           "settings": {
           }
         },
+        "9d57b832-42cd-4e36-815a-f0ff0def3f67": {
+          "type": "shopify:\/\/apps\/mikawaya-subscription\/blocks\/selling-plans-block\/04a0ae95-7461-4a48-956f-6840757b6670",
+          "settings": {
+            "use_form_id": false,
+            "form_id": "",
+            "widget_version": "V2"
+          }
+        },
         "share_buttons": {
           "type": "share_buttons",
           "settings": {
@@ -115,6 +123,7 @@
         },
         "c75d8bb2-4caf-4fed-a264-8007351b4f56": {
           "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "disabled": true,
           "settings": {
           }
         }
@@ -130,6 +139,7 @@
         "16e4e4d1-5f82-4ba9-bda8-de9b3cabfabc",
         "32ba579a-c0ca-40a7-b6a4-bb64bcebd816",
         "511919d2-2698-4339-aed2-e0eb592c3773",
+        "9d57b832-42cd-4e36-815a-f0ff0def3f67",
         "share_buttons",
         "variant_selector",
         "quantity_selector",
@@ -149,16 +159,19 @@
     },
     "164352635359c05d0d": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
-        "f0a528f9-9a42-449d-9cea-c21cfa39c9e5": {
-          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
-          "disabled": true,
+        "a6171818-1911-4ed7-9c2b-aa691441412c": {
+          "type": "shopify:\/\/apps\/mikawaya-subscription\/blocks\/selling-plans-block\/04a0ae95-7461-4a48-956f-6840757b6670",
           "settings": {
+            "use_form_id": false,
+            "form_id": "",
+            "widget_version": "V1"
           }
         }
       },
       "block_order": [
-        "f0a528f9-9a42-449d-9cea-c21cfa39c9e5"
+        "a6171818-1911-4ed7-9c2b-aa691441412c"
       ],
       "settings": {
         "include_margins": true
