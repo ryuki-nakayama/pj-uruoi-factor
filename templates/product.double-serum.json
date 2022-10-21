@@ -1,19 +1,72 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "main-product-double-serum",
       "blocks": {
         "product_meta": {
           "type": "product_meta",
           "settings": {
-            "show_vendor": true,
+            "show_vendor": false,
             "show_sku": false,
             "show_product_rating": false,
-            "show_taxes_included": false
+            "show_taxes_included": false,
+            "product_type": "2層式美容液",
+            "product_guide": "20ml（約20日分）"
           }
         },
-        "description": {
-          "type": "description",
+        "cfa5e61e-eb14-406c-bb55-f7908d1a9121": {
+          "type": "label",
+          "settings": {
+            "label": "ザラつき"
+          }
+        },
+        "e3ed950b-bdf9-419f-aa90-caaf5445d2c2": {
+          "type": "label",
+          "settings": {
+            "label": "肌荒れ<span class=\"text-sm\">(※1)<\/span>"
+          }
+        },
+        "81e40830-e88c-4cf6-8f61-7275a7a60b1b": {
+          "type": "label",
+          "settings": {
+            "label": "敏感肌"
+          }
+        },
+        "73b52f4c-5753-48ef-9e8b-c14909d86ae5": {
+          "type": "label",
+          "disabled": true,
+          "settings": {
+            "label": ""
+          }
+        },
+        "51f232e8-7b28-4d1b-b343-9111bf07e19c": {
+          "type": "label",
+          "settings": {
+            "label": "ニキビのあと<span class=\"text-sm\">(※2)<\/span>"
+          }
+        },
+        "559a5693-87bd-49c0-9786-fcd03b14e83b": {
+          "type": "label",
+          "settings": {
+            "label": "くもった表情"
+          }
+        },
+        "16e4e4d1-5f82-4ba9-bda8-de9b3cabfabc": {
+          "type": "title_with_text",
+          "settings": {
+            "heading": "<p>化粧品の「カバー力」に頼らない。<\/p><p>自立した肌を目指す美容液。<\/p>",
+            "text": "",
+            "caution": "(※1) 保湿による予防 (※2) ニキビが落ち着いた後の敏感な肌のこと"
+          }
+        },
+        "32ba579a-c0ca-40a7-b6a4-bb64bcebd816": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/double-serum1.jpg"
+          }
+        },
+        "511919d2-2698-4339-aed2-e0eb592c3773": {
+          "type": "product_description",
           "settings": {
           }
         },
@@ -44,21 +97,47 @@
             "show_payment_button": true
           }
         },
+        "fdab9f1a-889d-42ad-87d1-3ffc9c24c203": {
+          "type": "usage",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "opinew-stars-plugin-product": {
           "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
           "disabled": true,
+          "settings": {
+          }
+        },
+        "c75d8bb2-4caf-4fed-a264-8007351b4f56": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
           "settings": {
           }
         }
       },
       "block_order": [
         "product_meta",
-        "description",
+        "cfa5e61e-eb14-406c-bb55-f7908d1a9121",
+        "e3ed950b-bdf9-419f-aa90-caaf5445d2c2",
+        "81e40830-e88c-4cf6-8f61-7275a7a60b1b",
+        "73b52f4c-5753-48ef-9e8b-c14909d86ae5",
+        "51f232e8-7b28-4d1b-b343-9111bf07e19c",
+        "559a5693-87bd-49c0-9786-fcd03b14e83b",
+        "16e4e4d1-5f82-4ba9-bda8-de9b3cabfabc",
+        "32ba579a-c0ca-40a7-b6a4-bb64bcebd816",
+        "511919d2-2698-4339-aed2-e0eb592c3773",
         "share_buttons",
         "variant_selector",
         "quantity_selector",
         "buy_buttons",
-        "opinew-stars-plugin-product"
+        "fdab9f1a-889d-42ad-87d1-3ffc9c24c203",
+        "description",
+        "opinew-stars-plugin-product",
+        "c75d8bb2-4caf-4fed-a264-8007351b4f56"
       ],
       "settings": {
         "image_size": "large",

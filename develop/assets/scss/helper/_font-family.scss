@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* font-family
+--------------------------------------------------*/
+.ff-serif {
+  font-family: var(--heading-font-family);
+}
+
+.ff-sans {
+  font-family: var(--text-font-family);
+}
+
+// .ff-ja {
+//   font-family: $ff-ja !important;
+// }
+
+.ff-en {
+  font-family: $ff-en !important;
+}

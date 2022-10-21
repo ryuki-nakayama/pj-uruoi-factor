@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+// 共通style sheetの読み込み
+// 全ページで使用するコンポーネントやヘルパークラスの読み込み
+
+// common
+@use './common/index';
+
+// helper
+@use './helper';
+
+// sections
+@use './sections/footer';
+// @use './sections/header';
+
+// snippets
+// @use './snippets/component-common-btn';

@@ -1,79 +1,23 @@
 {
   "sections": {
-    "16435245431c3b35ec": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "b2ca84ed-1028-44f7-b38b-c02f96dc2c79": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/URUOI_FACTOR_dec1cb17-189c-4b48-866c-ecb1c51f5971.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/URUOI_FACTOR_dec1cb17-189c-4b48-866c-ecb1c51f5971.jpg",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "ba6d3954-6397-4618-8f63-0ecb4526e439": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/URUOI_FACTOR_dec1cb17-189c-4b48-866c-ecb1c51f5971.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/URUOI_FACTOR_dec1cb17-189c-4b48-866c-ecb1c51f5971.jpg",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "390e1534-0a2c-4a33-a162-12cbd1a1c0d2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/URUOI_FACTOR_dec1cb17-189c-4b48-866c-ecb1c51f5971.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/URUOI_FACTOR_dec1cb17-189c-4b48-866c-ecb1c51f5971.jpg",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "b2ca84ed-1028-44f7-b38b-c02f96dc2c79",
-        "ba6d3954-6397-4618-8f63-0ecb4526e439",
-        "390e1534-0a2c-4a33-a162-12cbd1a1c0d2"
-      ],
+    "first-view": {
+      "type": "first-view",
       "settings": {
-        "show_fullscreen": false,
-        "show_arrow": false,
-        "autoplay": true,
-        "cycle_speed": 3,
-        "text_color": "#ffffff",
-        "button_color": "#363636",
-        "button_background": "#ffffff"
+        "img": "shopify:\/\/shop_images\/512e3f1145b74eb3453d0553f75c39ba.jpg",
+        "title": "うるおうことで、悩みが晴れる日もあるから。",
+        "text": "#uruoi solution skincare"
       }
     },
-    "main": {
-      "type": "main-page",
+    "main-page-concept": {
+      "type": "main-page-concept",
       "settings": {
-        "show_large": false
+        "concept_image1": "shopify:\/\/shop_images\/concept1.jpg",
+        "concept_image2": "shopify:\/\/shop_images\/concept2.jpg"
       }
     }
   },
   "order": [
-    "16435245431c3b35ec",
-    "main"
+    "first-view",
+    "main-page-concept"
   ]
 }

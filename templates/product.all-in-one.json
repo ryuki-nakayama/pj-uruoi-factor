@@ -1,19 +1,59 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "main-product-all-in-one",
       "blocks": {
         "product_meta": {
           "type": "product_meta",
           "settings": {
-            "show_vendor": true,
+            "show_vendor": false,
             "show_sku": false,
             "show_product_rating": false,
-            "show_taxes_included": false
+            "show_taxes_included": false,
+            "product_type": "高保湿ジェル",
+            "product_guide": "100g（約1カ月分）"
           }
         },
-        "description": {
-          "type": "description",
+        "cfa5e61e-eb14-406c-bb55-f7908d1a9121": {
+          "type": "label",
+          "settings": {
+            "label": "乾燥"
+          }
+        },
+        "e3ed950b-bdf9-419f-aa90-caaf5445d2c2": {
+          "type": "label",
+          "settings": {
+            "label": "肌荒れ<span class=\"text-sm\">(※1)<\/span>"
+          }
+        },
+        "81e40830-e88c-4cf6-8f61-7275a7a60b1b": {
+          "type": "label",
+          "settings": {
+            "label": "敏感肌"
+          }
+        },
+        "51f232e8-7b28-4d1b-b343-9111bf07e19c": {
+          "type": "label",
+          "settings": {
+            "label": "エイジングケア<span class=\"text-sm\">(※2)<\/span>"
+          }
+        },
+        "16e4e4d1-5f82-4ba9-bda8-de9b3cabfabc": {
+          "type": "title_with_text",
+          "settings": {
+            "heading": "<p>蓋の役割だけでは満足しない。<\/p><p>角層まで届く、保湿剤が欲しい方に。<\/p>",
+            "text": "<p>ウォーターベースの保湿剤をつくることにより、美容成分が肌内部の角層まで浸透。乾燥や肌荒れをケアします。<\/p><p>パラベン・鉱物油・石油系界面活性剤・合成香料・合成着色料・シリコン・旧指定成分・アルコール（エタノール）不使用。<\/p>",
+            "caution": ""
+          }
+        },
+        "32ba579a-c0ca-40a7-b6a4-bb64bcebd816": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4a106d7f840b3d19bae46373c4dd4286.png"
+          }
+        },
+        "511919d2-2698-4339-aed2-e0eb592c3773": {
+          "type": "product_description",
           "settings": {
           }
         },
@@ -44,21 +84,45 @@
             "show_payment_button": true
           }
         },
+        "fdab9f1a-889d-42ad-87d1-3ffc9c24c203": {
+          "type": "usage",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "opinew-stars-plugin-product": {
           "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
           "disabled": true,
+          "settings": {
+          }
+        },
+        "c75d8bb2-4caf-4fed-a264-8007351b4f56": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
           "settings": {
           }
         }
       },
       "block_order": [
         "product_meta",
-        "description",
+        "cfa5e61e-eb14-406c-bb55-f7908d1a9121",
+        "e3ed950b-bdf9-419f-aa90-caaf5445d2c2",
+        "81e40830-e88c-4cf6-8f61-7275a7a60b1b",
+        "51f232e8-7b28-4d1b-b343-9111bf07e19c",
+        "16e4e4d1-5f82-4ba9-bda8-de9b3cabfabc",
+        "32ba579a-c0ca-40a7-b6a4-bb64bcebd816",
+        "511919d2-2698-4339-aed2-e0eb592c3773",
         "share_buttons",
         "variant_selector",
         "quantity_selector",
         "buy_buttons",
-        "opinew-stars-plugin-product"
+        "fdab9f1a-889d-42ad-87d1-3ffc9c24c203",
+        "description",
+        "opinew-stars-plugin-product",
+        "c75d8bb2-4caf-4fed-a264-8007351b4f56"
       ],
       "settings": {
         "image_size": "large",

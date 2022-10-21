@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* text-with-link
+--------------------------------------------------*/
+.text-with-link {
+  padding: 48px 0;
+  @include atQuery(md) {
+    text-align: center;
+  }
+}
+
+.text-with-link__text {
+  margin-top: 8px;
+}

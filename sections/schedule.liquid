@@ -1,0 +1,85 @@
+{%- comment -%}
+  schedule
+  TOPページ Schedule
+  Swiperプラグインを使用
+
+  Use:
+  - none
+
+  Style:
+  - swiper.css
+  - sections/schedule.scss
+
+  Script:
+  - swiper.js
+{%- endcomment -%}
+
+<script src="{{ 'scheduleSwiper.js' | asset_url }}" defer></script>
+
+<div class="schedule original-section">
+  <div class="Container">
+
+    {%- comment -%} section title and テキスト {%- endcomment -%}
+    <h2 class="section-title schedule__title">SCHEDULE</h2>
+    <p class="schedule__text ff-serif">{{ section.settings.text }}</p>
+
+    {%- comment -%} カレンダースライダー {%- endcomment -%}
+    <div class="schedule__slider-wrapper">
+      <div id="js-scheduleSwiper" class="schedule__slider swiper">
+        <ul class="schedule__list swiper-wrapper">
+          {%- for block in section.blocks -%}
+            <li class="schedule__item swiper-slide">
+              <img src="{{ block.settings.img | img_url: 'master' }}" alt="{{ block.settings.img.alt }}">
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div class="js-scheduleSwiperButtonPrev swiper-button-prev"></div>
+      <div class="js-scheduleSwiperButtonNext swiper-button-next"></div>
+    </div>
+
+    {%- comment -%} 営業時間 {%- endcomment -%}
+    <p class="schedule__business-hours">{{ section.settings.business_hours }}</p>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Schedule",
+  "class": "shopify-section--schedule",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "default": "Text"
+    },
+    {
+      "type": "text",
+      "id": "business_hours",
+      "label": "Business hours",
+      "default": "営業時間 10:00 - 18:00 土・日・祝日定休"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "calendar",
+      "name": "Calendar",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Calendar"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Schedule",
+      "name": "Schedule",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

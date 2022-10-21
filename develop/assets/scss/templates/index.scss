@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+// sections
+@use '../sections/blog-list';
+@use '../sections/contact-link';
+@use '../sections/key-visual';
+@use '../sections/schedule';
+@use '../sections/text-with';
+@use '../sections/text-with-link';
+
+// snippets
+// @use '../snippets/';
+
+/* index
+--------------------------------------------------*/
+.FeatureText__Content {
+  font-family: $ff-serif;
+  color: black;
+  text-align: left;
+}

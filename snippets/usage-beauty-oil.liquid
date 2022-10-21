@@ -1,0 +1,64 @@
+{% comment %}
+  usage-beauty-oil
+  美容オイル UF 使い方
+
+  Accepts:
+  - none
+
+  Usage:
+  - {%- render 'usage-beauty-oil' -%}
+
+  Style:
+  - snippets/usage.scss
+
+  Script:
+  - none
+{% endcomment %}
+
+<div class="usage">
+  <div class="usage__heading">使い方</div>
+  <div class="usage__row _top">
+    <div class="usage__step _1">
+      <div class="usage__img-wrapper">
+        {%- assign img = 'beauty-oil-usage1.png' -%}
+        <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+      </div>
+      <div class="usage__step-body">
+        <p style="text-align: center;">STEP1</p>
+        <p>洗顔後、お肌が濡れた状態で使用します。</p>
+      </div>
+    </div>
+    <div class="usage__step _2">
+      <div class="usage__img-wrapper">
+        {%- assign img = 'beauty-oil-usage2.png' -%}
+        <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+      </div>
+      <div class="usage__step-body">
+        <p style="text-align: center;">STEP2</p>
+        <p>乾いた手のひらに適量（8滴）を取ります。</p>
+      </div>
+    </div>
+  </div>
+  <div class="usage__row _bottom">
+    <div class="usage__step _3">
+      <div class="usage__img-wrapper">
+        {%- assign img = 'beauty-oil-usage3.png' -%}
+        <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+      </div>
+      <div class="usage__step-body">
+        <p style="text-align: center;">STEP3</p>
+        <p>その後、化粧水や美容液などの通常のケアを行なってください。</p>
+      </div>
+    </div>
+    <div class="usage__step _4">
+      <div class="usage__img-wrapper">
+        {%- assign img = 'beauty-oil-usage4.png' -%}
+        <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+      </div>
+      <div class="usage__step-body">
+        <p style="text-align: center;">STEP4</p>
+        <p>手のひらでやさしく包み込むようにして、オイルを顔全体に広げます。</p>
+      </div>
+    </div>
+  </div>
+</div>

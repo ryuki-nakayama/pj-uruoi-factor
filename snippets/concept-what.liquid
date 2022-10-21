@@ -1,0 +1,38 @@
+{% comment %}
+  concept-what
+  conceptページ what
+
+  Accepts:
+  - none
+
+  Usage:
+  - {%- render 'concept-what', img: img -%}
+
+  Style:
+  - snippets/concept-what.css
+
+  Script:
+  - none
+{% endcomment %}
+
+<div class="concept-what main-concept__block">
+  <h2 class="main-concept__title">What</h2>
+  <h3 class="main-concept__sub-title ff-serif">まず知っておきたい「うるおい」のこと。</h3>
+
+  <div id="what-collapse" class="main-concept__body collapse">
+    <div class="main-concept__img"><img src="{{ img | img_url: 'master' }}" alt="{{ img.alt }}"></div>
+    <h3 class="ff-serif">「うるおい＝しっとり感」<br>ではない。</h3>
+    <p>
+      化粧水をして、乳液でフタをして、というと、
+      肌がしっとりする印象がありますが、実は一時
+      的であることも少なくありません。<br>
+      <br>
+      私たちが目指すのは表面的なしっとり感ではな
+      く、角層内からのうるおい。<br>
+      水分・油分・保湿成分という、まさに<b>「URUOI
+      FACTOR（保湿因子）」</b>を肌へ届けることで、
+      本当にうるおう肌を目指していきます。
+    </p>
+  </div>
+  <button class="main-concept__btn" type="button" data-bs-toggle="collapse" data-bs-target="#what-collapse" aria-expanded="false" aria-controls="what-collapse"></button>
+</div>

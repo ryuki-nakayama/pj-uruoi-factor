@@ -1,0 +1,91 @@
+{%- comment -%}
+  section-file-name
+  ファイル概要
+
+  Use:
+  - snippets.liquid
+
+  Style:
+  - sections/section.scss
+
+  Script:
+  - section.js
+{%- endcomment -%}
+
+<footer class="new-footer Footer">
+  <div class="Container">
+    {%- assign linklist = linklists[section.settings.menu] -%}
+    {%- if linklist != empty -%}
+      <h2 class="Footer__Title Heading u-h6"><a href="/" class="Link Link--primary">TOP</a></h2>
+      <ul class="footer__list Linklist">
+        <div class="footer__link-row">
+          <li class="footer__item Linklist__item">
+            <a href="/account" class="Link Link--primary">マイページ</a>
+          </li>
+          <li class="footer__item Linklist__item">
+            <span class="footer__slash">/</span>
+            <a href="/pages/guide" class="Link Link--primary">ショッピングガイド</a>
+          </li>
+          <li class="footer__item Linklist__item">
+            <span class="footer__slash">/</span>
+            <a href="/policies/terms-of-service" class="Link Link--primary">利用規約</a>
+          </li>
+        </div>
+        <div class="footer__link-row">
+          <li class="footer__item Linklist__item">
+            <a href="" class="Link Link--primary">よくあるご質問</a>
+          </li>
+          <li class="footer__item Linklist__item">
+            <span class="footer__slash">/</span>
+            <a href="/policies/legal-notice" class="Link Link--primary">特定商取引に基づく表示</a>
+          </li>
+        </div>
+        <div class="footer__link-row">
+          <li class="footer__item Linklist__item">
+            <a href="/pages/個人情報保護方針" class="Link Link--primary">個人情報保護方針</a>
+          </li>
+          <li class="footer__item Linklist__item">
+            <span class="footer__slash">/</span>
+            <a href="" class="Link Link--primary">商品取り扱い店舗情報</a>
+          </li>
+          <li class="footer__item Linklist__item">
+            <span class="footer__slash">/</span>
+            <a href="/pages/company" class="Link Link--primary">会社概要</a>
+          </li>
+        </div>
+      </ul>
+    {%- endif -%}
+
+    {%- comment -%} bottom {%- endcomment -%}
+    <div class="Footer__Copyright">
+      <a href="{{ routes.root_url }}" class="Footer__StoreName Heading u-h7 Link Link--secondary">© 株式会社うるおいファクター</a>
+    </div>
+
+    {%- comment -%} sns {%- endcomment -%}
+    <div class="footer__sns">
+      <a href="https://www.instagram.com/uruoifactor_jp/" class="instagram hover-opacity" target="_blank" rel="noopener noreferrer">
+        {%- assign img = 'Instagram_Glyph_Gradient_RGB.png' -%}
+        <img class="" src="{{ img | asset_img_url: '50x50' }}" alt="{{ img.alt }}">
+      </a>
+      <a href="https://linktr.ee/uruoifactor_jp" class="line hover-opacity" target="_blank" rel="noopener noreferrer">
+        {%- assign img = 'LINE_Brand_icon.png' -%}
+        <img class="" src="{{ img | asset_img_url: '50x50' }}" alt="{{ img.alt }}">
+      </a>
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "New footer",
+  "class": "shopify-section--footer",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu",
+      "info": "This menu won't show dropdown items."
+    }
+  ]
+}
+{% endschema %}

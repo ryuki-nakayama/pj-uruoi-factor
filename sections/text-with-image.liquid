@@ -19,7 +19,9 @@
             {%- endif -%}
 
             {%- if section.settings.link_text != blank -%}
-              <a href="{{ section.settings.link_url }}" class="Link Link--underline">{{ section.settings.link_text | escape }}</a>
+              <div class="text-with__link-wrapper">
+                <a href="{{ section.settings.link_url }}" class="text-with__link ff-sans">{{ section.settings.link_text | escape }}</a>
+              </div>
             {%- endif -%}
           </header>
         {%- endif -%}

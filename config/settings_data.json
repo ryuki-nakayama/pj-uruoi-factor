@@ -21,10 +21,10 @@
     "newsletter_popup_text_color": "#ffffff",
     "secondary_elements_background": "#1c1b1b",
     "secondary_elements_text_color": "#ffffff",
-    "heading_font": "serif",
+    "heading_font": "times_new_roman_n4",
     "heading_size": "small",
     "uppercase_heading": true,
-    "text_font": "mono",
+    "text_font": "arimo_n4",
     "base_text_font_size": 13,
     "currency_code_enabled": false,
     "show_page_transition": false,
@@ -59,7 +59,7 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "enable_bar": true,
+          "enable_bar": false,
           "home_page_only": false,
           "background": "#d9c107",
           "text_color": "#ffffff",
@@ -78,7 +78,7 @@
           "navigation_menu": "main-menu",
           "navigation_style": "inline",
           "show_icons": false,
-          "enable_transparent_header": true,
+          "enable_transparent_header": false,
           "enable_transparent_header_collection": false,
           "show_transparent_header_border": true,
           "transparent_text_color": "#ffffff"
@@ -139,6 +139,12 @@
           "content": "<p>スキンケア製品２品以上のお買い上げで、UFクレンジングジェルパックをプレゼント★<\/p><p><a href=\"\/pages\/キャンペーン\" target=\"_blank\" title=\"キャンペーン\">詳しくはこちら<\/a><\/p>",
           "show_newsletter": false,
           "apparition_delay": 4
+        }
+      },
+      "new-footer": {
+        "type": "new-footer",
+        "settings": {
+          "menu": "link-list"
         }
       }
     },

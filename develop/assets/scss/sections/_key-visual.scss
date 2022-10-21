@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* key-visual
+--------------------------------------------------*/
+.key-visual {
+  position: relative;
+}
+
+.key-visual__img-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.key-visual__content {
+  @include posCenter(xy);
+  background-color: rgba($color: white, $alpha: .7);
+  padding: 20px 16px;
+  text-align: center;
+}
+
+.key-visual__title {
+  white-space: nowrap;
+  margin-bottom: 0;
+  @include atQuery(md) {
+    // font-size: 36px;
+  }
+}
+
+.key-visual__text {
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.key-visual__link {
+  background-color: black;
+  display: inline-block;
+  padding: 0 32px;
+  color: white;
+  border-radius: 30px;
+  @include atQuery(md) {
+    font-size: 16px;
+    transition-property: opacity;
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing-function;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+}

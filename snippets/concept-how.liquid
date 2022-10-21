@@ -1,0 +1,150 @@
+{% comment %}
+  concept-how
+  conceptページ How
+
+  Accepts:
+  - none
+
+  Usage:
+  - {%- render 'concept-how' -%}
+
+  Style:
+  - snippets/concept-how.css
+
+  Script:
+  - none
+{% endcomment %}
+
+<div class="concept-how main-concept__block">
+  <h2 class="main-concept__title">How</h2>
+  <h3 class="main-concept__sub-title ff-serif">「うるおい」のためにどうこだわるか。</h3>
+
+  <div id="how-collapse" class="main-concept__body">
+    <h3 class="ff-serif">「うるおい」に、妥協しない。</h3>
+    <p>
+      うるおいにつながるものがあると聞けば、労力やコストは惜しまず使用。確かな働きが期待できる成分を選び抜いています。
+    </p>
+    <div class="concept-how__products">
+      <p>[全製品]</p>
+      <ul class="concept-how__list">
+        {%- comment -%} item {%- endcomment -%}
+        <li class="concept-how__item">
+          <div class="concept-how__item-content">
+            {%- comment -%} head {%- endcomment -%}
+            <div class="concept-how__item-head">
+              <img src="{{ '1.jpg' | asset_img_url: 'master' }}" alt="" class="concept-how__item-img">
+              <div class="concept-how__item-desc">
+                <span class="concept-how__item-type">[洗顔]</span>
+                <h4 class="concept-how__item-title ff-serif">UF ソープ</h4>
+                <div class="concept-how__item-labels">
+                  <div class="concept-how__item-label _blue1">7つの不使用成分</div>
+                  <div class="concept-how__item-label _yellow">枠練り石けん</div>
+                </div>
+              </div>
+            </div>
+            {%- comment -%} body {%- endcomment -%}
+            <div class="concept-how__item-body">
+              <p class="concept-how__item-text">
+                保湿成分たっぷりの、透明枠練り石けん。うるおいを与えながら、不要な角質や汚れをオフ。濃密泡で毛穴の奥まで洗い上げ、ニキビ<span class="concept-how__item-caution">(※1)</span>、ザラつき、肌あれ<span class="concept-how__item-caution">(※2)</span>を防ぎます。
+              </p>
+              <p class="concept-how__item-caution">(※1) 洗浄による (※2) 保湿による予防</p>
+            </div>
+          </div>
+          {%- comment -%} link {%- endcomment -%}
+          <div class="concept-how__item-link-wrapper">
+            <a href="/products/uruoifactor-soap" class="concept-how__item-link">商品詳細はこちら</a>
+          </div>
+        </li>
+
+        {%- comment -%} item {%- endcomment -%}
+        <li class="concept-how__item">
+          <div class="concept-how__item-content">
+            {%- comment -%} head {%- endcomment -%}
+            <div class="concept-how__item-head">
+              <img src="{{ '2.jpg' | asset_img_url: 'master' }}" alt="" class="concept-how__item-img">
+              <div class="concept-how__item-desc">
+                <span class="concept-how__item-type">【人気No.1】ブースター美容オイル</span>
+                <h4 class="concept-how__item-title ff-serif">美容オイルUF</h4>
+                <div class="concept-how__item-labels">
+                  <div class="concept-how__item-label _blue1">8つの不使用成分</div>
+                  <div class="concept-how__item-label _green">ナノ化技術</div>
+                </div>
+              </div>
+            </div>
+            {%- comment -%} body {%- endcomment -%}
+            <div class="concept-how__item-body">
+              <p class="concept-how__item-text">
+                うるおいを届けるのみならず、「引き込む」＆「持続させる」という視点でアプローチ。<br>
+                悩みが生まれにくい、健やかな肌へ導きます。さりげないラベンダーの香り。
+              </p>
+            </div>
+          </div>
+          {%- comment -%} link {%- endcomment -%}
+          <div class="concept-how__item-link-wrapper">
+            <a href="/products/charveil-beauty-oil" class="concept-how__item-link">商品詳細はこちら</a>
+          </div>
+        </li>
+
+        {%- comment -%} item {%- endcomment -%}
+        <li class="concept-how__item">
+          <div class="concept-how__item-content">
+            {%- comment -%} head {%- endcomment -%}
+            <div class="concept-how__item-head">
+              <img src="{{ '3.jpg' | asset_img_url: 'master' }}" alt="" class="concept-how__item-img">
+              <div class="concept-how__item-desc">
+                <span class="concept-how__item-type">[2層式美容液]</span>
+                <h4 class="concept-how__item-title ff-serif">UF ダブルセラムC.B+</h4>
+                <div class="concept-how__item-labels">
+                  <div class="concept-how__item-label _blue1">8つの不使用成分</div>
+                  <div class="concept-how__item-label _yellow">ナイアシンアミド配合</div>
+                </div>
+              </div>
+            </div>
+            {%- comment -%} body {%- endcomment -%}
+            <div class="concept-how__item-body">
+              <p class="concept-how__item-text">
+                くもった表情やニキビのあと<span class="concept-how__item-caution">(※2)</span>。<br>
+                悩み多き大人の肌事情へアプローチする美容成分配合。化粧品の「カバー力」に頼りがちな肌を、卒業してみませんか。
+              </p>
+              <p class="concept-how__item-caution">(※1)保湿による予防(※2)ニキビが落ち着いた後の敏感な肌のこと</p>
+            </div>
+          </div>
+          {%- comment -%} link {%- endcomment -%}
+          <div class="concept-how__item-link-wrapper">
+            <a href="/products/uf-doubleserum-cb" class="concept-how__item-link">商品詳細はこちら</a>
+          </div>
+        </li>
+
+        {%- comment -%} item {%- endcomment -%}
+        <li class="concept-how__item">
+          <div class="concept-how__item-content">
+            {%- comment -%} head {%- endcomment -%}
+            <div class="concept-how__item-head">
+              <img src="{{ '4.jpg' | asset_img_url: 'master' }}" alt="" class="concept-how__item-img">
+              <div class="concept-how__item-desc">
+                <span class="concept-how__item-type">高保湿ジェル</span>
+                <h4 class="concept-how__item-title ff-serif">UF オールインワンジェル</h4>
+                <div class="concept-how__item-labels">
+                  <div class="concept-how__item-label _blue1">8つの不使用成分</div>
+                  <div class="concept-how__item-label _blue2">ウォーターベース</div>
+                </div>
+              </div>
+            </div>
+            {%- comment -%} body {%- endcomment -%}
+            <div class="concept-how__item-body">
+              <p class="concept-how__item-text">
+                蓋の役割だけでは満足しない。<br>
+                角層まで届く、保湿剤が欲しい方に。
+              </p>
+            </div>
+          </div>
+          {%- comment -%} link {%- endcomment -%}
+          <div class="concept-how__item-link-wrapper">
+            <a href="/products/uruoifactor-all-in-one" class="concept-how__item-link">商品詳細はこちら</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  {%- comment -%} <button class="main-concept__btn" type="button" data-bs-toggle="collapse" data-bs-target="#how-collapse" aria-expanded="false" aria-controls="how-collapse"></button> {%- endcomment -%}
+</div>

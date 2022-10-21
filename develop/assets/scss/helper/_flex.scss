@@ -1,0 +1,175 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+.flex {
+  flex-wrap: wrap;
+  // ネガティブマージンを設定することで、.flex-itemのgutterを相殺する
+  margin: calc(var(--vertical-gutter) / 2 * -1) calc(var(--horizontal-gutter) / 2 * -1);
+  --vertical-gutter: 20px;
+  @include atQuery(sm) {
+    --vertical-gutter: 32px;
+  }
+
+  // modifierがついていなければ常時flex
+  &:not(._for-pc):not(._for-sm) {
+    display: flex;
+  }
+
+  // modifier | columns
+  &._2col {
+    --horizontal-gutter: 24px;
+    --numItems: 2;
+    @include atQuery(sm) {
+      --horizontal-gutter: 16px;
+    }
+  }
+
+  &._2col-lg {
+    --horizontal-gutter: 150px;
+    --vertical-gutter: 50px;
+    --numItems: 2;
+    @include atQuery(sm) {
+      --horizontal-gutter: 32px;
+    }
+  }
+
+  &._3col {
+    --horizontal-gutter: 20px;
+    --numItems: 3;
+    @include atQuery(sm) {
+      --horizontal-gutter: 6px;
+    }
+  }
+
+  &._4col {
+    --horizontal-gutter: 16px;
+    --numItems: 4
+    @include atQuery(sm) {
+      --horizontal-gutter: 6px;
+    }
+  }
+
+  &._5col {
+    --horizontal-gutter: 12px;
+    --numItems: 5;
+    @include atQuery(sm) {
+      --horizontal-gutter: 4px;
+    }
+  }
+
+  &._6col {
+    --horizontal-gutter: 8px;
+    --numItems: 6;
+    @include atQuery(sm) {
+      --horizontal-gutter: 4px;
+    }
+  }
+
+  // modifier | smallメディアでの表示数
+  &._sm-2col {
+    @include atQuery(sm) {
+      --horizontal-gutter: 16px;
+      --numItems: 2;
+    }
+  }
+
+  &._sm-3col {
+    @include atQuery(sm) {
+      --horizontal-gutter: 6px;
+      --numItems: 3;
+    }
+  }
+}
+
+.flex > .flex-item {
+  margin: calc(var(--vertical-gutter) / 2) calc(var(--horizontal-gutter) / 2);
+  // 親要素のガター相殺のためのネガティブマージンも考慮して、カードひとつの分のwidthを計算
+  width: calc((100% - var(--horizontal-gutter)) / var(--numItems) - var(--horizontal-gutter) * (var(--numItems) - 1) / var(--numItems));
+}
+
+// modifier | break points
+// pcサイズのみflex
+.flex._for-pc {
+  @include atQuery(md) {
+    display: flex;
+  }
+  @include atQuery(sm) {
+    margin: -32px 0;
+
+    & > .flex-item {
+      margin: 32px 0;
+      width: 100%;
+    }
+  }
+}
+
+.flex._for-sm {
+  @include atQuery(sm) {
+    display: flex;
+  }
+  @include atQuery(md) {
+    margin: -32px 0;
+
+    & > .flex-item {
+      margin: 32px 0;
+      width: 100%;
+    }
+  }
+}
+
+.flex .flex-item img {
+  margin: 0;
+}
+
+.flex .flex-item {
+  img {
+    margin: 0 0 4px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+}
+
+/* flex-list
+--------------------------------------------------*/
+.about-list,
+.sns-list {
+  @include atQuery(sm) {
+    padding: 0 20px;
+  }
+
+  .flex-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .flex-item__body {
+    position: relative;
+    padding-bottom: 55px;
+  }
+}
+
+.flex-item__title {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.features--heading-small .Rte .flex-item__title {
+  font-size: 22px;
+  margin: 0;
+}
+
+.flex-item__link-btn {
+  color: black;
+  border-color: var(--header-background);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  &::before {
+    background-color: var(--header-background);
+  }
+}

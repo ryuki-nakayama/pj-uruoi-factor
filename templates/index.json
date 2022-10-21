@@ -1,406 +1,89 @@
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "ebe08f48-1f32-4bb2-9d78-7173c5680962": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC03057.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/3_1cc76653-a637-42a7-9850-a13aa05c3a2e.jpg",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "2022.4.20 START",
-            "title": "UFダブルセラムC.B+",
-            "button_1_text": "read more",
-            "button_1_link": "shopify:\/\/products\/uf-doubleserum-cb",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_29161abf-eb43-4997-a48a-ea524b75f5ef.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1_29161abf-eb43-4997-a48a-ea524b75f5ef.jpg",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "全商品一覧",
-            "button_1_link": "shopify:\/\/collections\/frontpage",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "slide-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_36b2f0f1-982d-492f-b099-499f6f5eab0b.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/3_36b2f0f1-982d-492f-b099-499f6f5eab0b.jpg",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "All item",
-            "button_1_link": "shopify:\/\/collections\/frontpage",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "33031ff1-4196-410b-b750-73cb45f0ce38": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/e34250aaa408da51db884d6661bbf403.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/e34250aaa408da51db884d6661bbf403.jpg",
-            "apply_overlay": false,
-            "content_position": "bottomLeft",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "All item",
-            "button_1_link": "shopify:\/\/collections\/frontpage",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "ebe08f48-1f32-4bb2-9d78-7173c5680962",
-        "slide-1",
-        "slide-0",
-        "33031ff1-4196-410b-b750-73cb45f0ce38"
-      ],
+    "main-index": {
+      "type": "main-index",
       "settings": {
-        "show_fullscreen": false,
-        "show_arrow": true,
-        "autoplay": true,
-        "cycle_speed": 5,
-        "text_color": "#ffffff",
-        "button_color": "#363636",
-        "button_background": "#ffffff"
       }
     },
-    "16539883710a20f089": {
-      "type": "blog-posts",
+    "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d": {
+      "type": "key-visual",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/key_visual_909dba09-b89f-4a87-93e1-c576c0bd9b4c.jpg",
+        "title": "うるおい、のち、晴れ",
+        "text": "うるおうことで、<br>悩みが晴れる日もあるから",
+        "url": "shopify:\/\/pages\/concept-uruoifactor"
+      }
+    },
+    "3289d2fe-fd32-4491-8b79-13c39cc9eb6a": {
+      "type": "blog-list",
+      "settings": {
+        "blog": "ニュース",
+        "limit": 10
+      }
+    },
+    "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb": {
+      "type": "schedule",
       "blocks": {
-        "16539883715f27a316-0": {
-          "type": "blog",
+        "fe620982-7012-4d5f-a1d4-576c6f628993": {
+          "type": "calendar",
           "settings": {
-            "blog": "ニュース"
+            "img": "shopify:\/\/shop_images\/10_e6e21996-8cb0-4bd0-8c8e-1c954e9d82c7.jpg"
+          }
+        },
+        "5da86be8-f7c4-49d0-b88a-da6e02bc353b": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/10_e6e21996-8cb0-4bd0-8c8e-1c954e9d82c7.jpg"
+          }
+        },
+        "b66f852b-77e9-44a5-b9db-95f8ddba762e": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/10_e6e21996-8cb0-4bd0-8c8e-1c954e9d82c7.jpg"
           }
         }
       },
       "block_order": [
-        "16539883715f27a316-0"
+        "fe620982-7012-4d5f-a1d4-576c6f628993",
+        "5da86be8-f7c4-49d0-b88a-da6e02bc353b",
+        "b66f852b-77e9-44a5-b9db-95f8ddba762e"
       ],
+      "settings": {
+        "text": "商品の出荷日について。 <br>当日出荷は、1 3 時までのご注文分に限ります。",
+        "business_hours": "営業時間 10:00 - 18:00 土・日・祝日定休"
+      }
+    },
+    "2b837391-4c8d-445c-b2c6-aa41b34f12e1": {
+      "type": "text-with-image",
       "settings": {
         "subheading": "",
         "title": "",
-        "show_category": false,
-        "button_link": "",
-        "button_text": "View all articles"
+        "image": "shopify:\/\/shop_images\/1_279fc608-2786-4ae2-a7d1-6607b76aabaf.jpg",
+        "image_position": "right",
+        "content": "<p>ただ、水分を入れるのではなく。<\/p><p>ただ、しっとりさせるのではなく。<\/p><p>ただただ、真正面から、<\/p><p>「本当にうるおう肌」を目指していく。<\/p><p>それが、私たちの「スキンケア」の視点です。<\/p>",
+        "link_text": "",
+        "link_url": ""
       }
     },
-    "16424748910bc2c50b": {
-      "type": "custom-html",
+    "d17c9426-3d45-4347-86ad-d6efcacfaafc": {
+      "type": "text-with-link",
+      "settings": {
+        "title": "SKINCARE ITEM",
+        "content": "<p>肌に水分・油分・保湿成分が満たされていること。<\/p><p>肌が持つ「うるおう力」が十分にあること。<\/p><p>それが私たちの考える「本当にうるおう肌」です。<\/p><p>健やかで、悩みが生まれにくい肌を一緒に育んでいきませんか。<\/p>",
+        "link_text": "商品一覧",
+        "link_url": "shopify:\/\/collections\/all"
+      }
+    },
+    "db407fda-c7ed-4586-bf84-a374c306b100": {
+      "type": "text-with-image",
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<div class=\"blog__header\">\n<h1 class=\"blog__title ff-serif\">URUOI FACTOR<\/h1>\n\n<p class=\"blog__text\">＃本当に肌がうるおうスキンケア<\/p>\n<\/div>\n<span class=\"blog__text\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0502\/2570\/9206\/files\/1_2f9ddd95-d168-4b45-b3d3-20cf27146856_480x480.jpg?v=1647316017\" alt=\"\"><\/span> <p style=\"text-align: left;\">鉱物油や石油系界面活性剤の使用を最小限にし、本当に肌がうるおうスキンケアづくりにこだわっています。<\/p><p style=\"text-align: right\n\">（ <a href=\"https:\/\/uruoi-factor-product.com\/pages\/concept\">READ MORE<\/a> ）<\/p>\n<p style=\"text-align: left;\"><\/p>"
-      }
-    },
-    "1643566978fa4b891d": {
-      "type": "shop-the-look",
-      "blocks": {
-        "73707ca0-d3ef-4ef6-9fb8-aed739e36478": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5a1acf82b3db026ad24bdffa7131784d.jpg",
-            "dot_style": "light",
-            "product_1": "uf-doubleserum-cb",
-            "product_1_horizontal_position": 63,
-            "product_1_vertical_position": 33,
-            "product_2": "charveil-beauty-oil",
-            "product_2_horizontal_position": 31,
-            "product_2_vertical_position": 62,
-            "product_3": "",
-            "product_3_horizontal_position": 85,
-            "product_3_vertical_position": 85
-          }
-        },
-        "16435669788e16bf1a-0": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/491290BA-1721-4CD2-9A33-186079F54A0D.jpg",
-            "dot_style": "light",
-            "product_1": "charveil-beauty-oil",
-            "product_1_horizontal_position": 63,
-            "product_1_vertical_position": 73,
-            "product_2": "",
-            "product_2_horizontal_position": 45,
-            "product_2_vertical_position": 65,
-            "product_3": "",
-            "product_3_horizontal_position": 70,
-            "product_3_vertical_position": 50
-          }
-        },
-        "49b02981-e3be-417e-93fb-1c5784acb4a1": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/F1D23A1F-02B9-4F02-9382-2B3411EB1FA8.jpg",
-            "dot_style": "light",
-            "product_1": "uruoifactor-soap",
-            "product_1_horizontal_position": 68,
-            "product_1_vertical_position": 42,
-            "product_2": "",
-            "product_2_horizontal_position": 50,
-            "product_2_vertical_position": 50,
-            "product_3": "",
-            "product_3_horizontal_position": 85,
-            "product_3_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "73707ca0-d3ef-4ef6-9fb8-aed739e36478",
-        "16435669788e16bf1a-0",
-        "49b02981-e3be-417e-93fb-1c5784acb4a1"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "Review",
-        "show_mobile_product_info": false
-      }
-    },
-    "1643566570e445fe2f": {
-      "type": "featured-collections",
-      "disabled": true,
-      "blocks": {
-        "1643566570d4e2fc4a-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "frontpage",
-            "title": "",
-            "grid_items_count": 2,
-            "button_text": "All item"
-          }
-        }
-      },
-      "block_order": [
-        "1643566570d4e2fc4a-0"
-      ],
-      "settings": {
-        "title": "Featured collection",
-        "layout_mode": "grid",
-        "show_product_info": true,
-        "show_vendor": false,
-        "show_color_swatch": false,
-        "grid_mobile_items_per_row": "2",
-        "grid_desktop_items_per_row": 4
-      }
-    },
-    "164247234116113261": {
-      "type": "blog-posts",
-      "disabled": true,
-      "blocks": {
-        "1642472341d441089a-0": {
-          "type": "blog",
-          "settings": {
-            "blog": "news"
-          }
-        }
-      },
-      "block_order": [
-        "1642472341d441089a-0"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "show_category": false,
-        "button_link": "",
-        "button_text": "View more"
-      }
-    },
-    "shop-the-look": {
-      "type": "shop-the-look",
-      "disabled": true,
-      "blocks": {
-        "look-0": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_1.jpg",
-            "dot_style": "light",
-            "product_1": "uruoifactor-soap",
-            "product_1_horizontal_position": 72,
-            "product_1_vertical_position": 40,
-            "product_2": "",
-            "product_2_horizontal_position": 45,
-            "product_2_vertical_position": 56,
-            "product_3": "",
-            "product_3_horizontal_position": 70,
-            "product_3_vertical_position": 67
-          }
-        },
-        "look-1": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_24010e4d-0a38-476c-9c33-e25d22cfcb3b.jpg",
-            "dot_style": "light",
-            "product_1": "charveil-beauty-oil",
-            "product_1_horizontal_position": 45,
-            "product_1_vertical_position": 56,
-            "product_2": "",
-            "product_2_horizontal_position": 75,
-            "product_2_vertical_position": 59,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60
-          }
-        },
-        "d9d50c4e-e549-4c89-a4e3-f713f7228037": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_1.jpg",
-            "dot_style": "light",
-            "product_1": "uruoifactor-serum",
-            "product_1_horizontal_position": 42,
-            "product_1_vertical_position": 35,
-            "product_2": "",
-            "product_2_horizontal_position": 50,
-            "product_2_vertical_position": 50,
-            "product_3": "",
-            "product_3_horizontal_position": 85,
-            "product_3_vertical_position": 85
-          }
-        },
-        "8136034a-2b32-4838-870d-163339e15cd7": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_24010e4d-0a38-476c-9c33-e25d22cfcb3b.jpg",
-            "dot_style": "light",
-            "product_1": "uruoifactor-all-in-one",
-            "product_1_horizontal_position": 33,
-            "product_1_vertical_position": 49,
-            "product_2": "",
-            "product_2_horizontal_position": 50,
-            "product_2_vertical_position": 50,
-            "product_3": "",
-            "product_3_horizontal_position": 85,
-            "product_3_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look-0",
-        "look-1",
-        "d9d50c4e-e549-4c89-a4e3-f713f7228037",
-        "8136034a-2b32-4838-870d-163339e15cd7"
-      ],
-      "settings": {
-        "subheading": "お気に入りのスキンケア製品たち✨",
-        "title": "review",
-        "show_mobile_product_info": true
-      }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "disabled": true,
-      "blocks": {
-        "blog-0": {
-          "type": "blog",
-          "settings": {
-            "blog": "ニュース"
-          }
-        }
-      },
-      "block_order": [
-        "blog-0"
-      ],
-      "settings": {
-        "subheading": "\\  コスメコンシェルジュが解説！  \/",
-        "title": "BEAUTY JOURNAL",
-        "show_category": false,
-        "button_link": "",
-        "button_text": "View all articles"
-      }
-    },
-    "1642476596024b131b": {
-      "type": "image-with-text-block",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/1_2.jpg",
-        "background": "#ffffff",
-        "text_color": "#1c1b1b",
-        "block_size": "normal",
-        "title": "URUOI LIFE",
-        "content": "<p>「うるおいのある生活」<\/p><p>URUOI LIFEのVOL.01で登場した弊社で働く青木。美容部員から夢であった企画職までの道のりについてインタビューしました。※テストです。毎回変更していこうかと思っています。<\/p>",
-        "button_label": "more view",
-        "button_link": "shopify:\/\/blogs\/uruoilife",
-        "show_parallax": true
-      }
-    },
-    "164251560625131bd3": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "0eca5b80-9c4f-4ee1-9c44-ba303de0d638": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/UF.jpg",
-            "image_alignment": "center center",
-            "content_position": "bottomLeft",
-            "subheading": "現在32名の方がご利用中です",
-            "title": "定期便について",
-            "button_text": "View more",
-            "button_link": "",
-            "apply_overlay": true
-          }
-        },
-        "16425156061677263b-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "ギフト包装-0",
-            "image": "shopify:\/\/shop_images\/1080.jpg",
-            "image_alignment": "center center",
-            "content_position": "bottomLeft",
-            "subheading": "大切な人に想いを込めて",
-            "title": "gift wrapping",
-            "button_text": "View more",
-            "button_link": "",
-            "apply_overlay": true
-          }
-        },
-        "35eccede-700e-4c62-81e3-6068c058c617": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/1_506d84d8-9cf0-4e59-899f-1986dc089ca9.jpg",
-            "image_alignment": "center center",
-            "content_position": "bottomLeft",
-            "subheading": "空き容器5つでギフト交換に！",
-            "title": "recycle program",
-            "button_text": "View more",
-            "button_link": "",
-            "apply_overlay": true
-          }
-        }
-      },
-      "block_order": [
-        "0eca5b80-9c4f-4ee1-9c44-ba303de0d638",
-        "16425156061677263b-1",
-        "35eccede-700e-4c62-81e3-6068c058c617"
-      ],
-      "settings": {
-        "image_size": "small",
-        "add_spacing": true,
-        "expand_collection": false,
-        "stack_on_mobile": true,
-        "text_color": "#ffffff",
-        "button_color": "#363636"
+        "image": "shopify:\/\/shop_images\/URUOILIFE.jpg",
+        "image_position": "left",
+        "content": "<p>肌がうるおうと、人生もうるおう。<\/p><p>ご愛用いただいている皆さまの<\/p><p>ちょっとした”うるおい術” をお届け。<\/p>",
+        "link_text": "詳しく見る",
+        "link_url": "shopify:\/\/blogs\/uruoilife"
       }
     },
     "16464548263ae4f520": {
@@ -441,19 +124,24 @@
       ],
       "settings": {
       }
+    },
+    "94dc05a6-7f7f-4a1c-8209-f18a35632256": {
+      "type": "contact-link",
+      "settings": {
+        "content": "<p>スキンケアやお肌のお悩みについてなど<\/p><p>お気軽にご相談ください。<\/p>",
+        "link_url": "shopify:\/\/pages\/お問い合わせ"
+      }
     }
   },
   "order": [
-    "slideshow",
-    "16539883710a20f089",
-    "16424748910bc2c50b",
-    "1643566978fa4b891d",
-    "1643566570e445fe2f",
-    "164247234116113261",
-    "shop-the-look",
-    "blog-posts",
-    "1642476596024b131b",
-    "164251560625131bd3",
-    "16464548263ae4f520"
+    "main-index",
+    "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d",
+    "3289d2fe-fd32-4491-8b79-13c39cc9eb6a",
+    "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb",
+    "2b837391-4c8d-445c-b2c6-aa41b34f12e1",
+    "d17c9426-3d45-4347-86ad-d6efcacfaafc",
+    "db407fda-c7ed-4586-bf84-a374c306b100",
+    "16464548263ae4f520",
+    "94dc05a6-7f7f-4a1c-8209-f18a35632256"
   ]
 }

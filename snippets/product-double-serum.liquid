@@ -1,0 +1,114 @@
+{% comment %}
+  product-all-in-one
+  UF オールインワンジェル 商品ページコンテンツ
+
+  Accepts:
+  - none
+
+  Usage:
+  - {%- render 'product-all-in-one'' -%}
+
+  Style:
+  - snippets/product-all-in-one.css
+
+  Script:
+  - none
+{% endcomment %}
+
+{%- assign img = 'icon-ng.png' -%}
+{%- style -%}
+  #shopify-section-{{ section.id }} .not-used__item-inner {
+    background-image: url({{ img | asset_img_url: 'master' }});
+  }
+{%- endstyle -%}
+
+<div class="product-desc">
+  <button class="product-desc__btn" type="button" data-bs-toggle="collapse" data-bs-target="#product-desc-collapse" aria-expanded="false" aria-controls="product-desc-collapse"></button>
+  <div id="product-desc-collapse" class="collapse">
+    <div class="product-desc-collapse__inner" style="padding-top: 0;">
+      {%- comment -%} ingredients {%- endcomment -%}
+      <div class="product-ingredients">
+        <p class="product-ingredients__heading">＜ 全成分 ＞</p>
+        <div class="product-ingredients__list">
+          <span class="blue">水、</span><span class="yellow">スクワラン、</span><span class="yellow">ホホバ種子油、</span><span class="yellow">グリセリン、</span><span class="yellow">ひまわり種子油、</span><span class="yellow">アルガニアスピノサ核油、</span><span class="orange">ペンチレングリコール、</span><span class="yellow">ヤシ油、</span><span class="yellow">マカデミア種子油、</span><span class="yellow">カニナバラ果実油、</span><span class="orange">乳酸桿菌、</span><span class="orange">カルボキシメチルフェニルアミノカルボキシプロピルホスホン酸メチル、</span><span class="orange">テトラへキシルデカン酸アスコルビル、</span><span class="orange">リンゴ果実培養細胞エキス、</span><span class="orange">水溶性プロテオグリカン、</span><span class="orange">ナイアシンアミド、</span><span class="blue">ヒアルロン酸Na、</span><span class="orange">ツボクサエキス、</span><span class="orange">カミツレ花エキス、</span><span class="orange">アラリアエスクレンタエキス、</span><span class="orange">カイコまゆエキス、</span><span class="orange">ユズ果実エキス、</span><span class="orange">ローズマリー葉エキス、</span><span class="orange">オウゴン根エキス、</span><span class="orange">チャ葉エキス、</span><span class="orange">カンゾウ根エキス、</span><span class="orange">イタドリ根エキス、</span><span class="blue">ラベンダー油、</span><span class="blue">BG、</span><span class="blue">トリ( カプリル酸/ カプリン酸) グリセリル、</span><span class="blue">レシチン、</span><span class="gray">クエン酸、</span><span class="gray">クエン酸Na、</span><span class="gray">マルトデキストリン、</span><span class="gray">キサンタンガム、</span><span class="gray">トコフェロール、</span><span class="gray">フェノキシエタノール</span>
+        </div>
+        <div class="product-ingredients__explanation">
+          <p class="yellow">肌のバリア機能を整える</p>
+          <p class="orange">大人のあらゆる肌事情へアプローチ</p>
+          <div>
+            <span class="blue">うるおい成分</span><span class="gray" style="margin-left: 4px;">調整剤や品質安定剤など</span>
+          </div>
+        </div>
+      </div>
+      {%- comment -%} ingredients {%- endcomment -%}
+      <div class="product-ingredients">
+        <div class="product-ingredients__table">
+          {%- assign img = 'twinkle.png' -%}
+          <div class="product-ingredients__item">
+            <div class="product-ingredients__img-wrapper">
+              <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+            </div>
+            <div class="product-ingredients__content">
+              <p class="product-ingredients__ingredients-name">ビタミンC 誘導体<span class="text-sm">(※)</span></p>
+              <p class="product-ingredients__ingredients-text">
+                抗酸化作用を持ち、エイジングケアにぴったりの成分。肌あれや毛穴など、あらゆる悩みにアプローチ。
+                <span class="product-ingredients__ingredients-caution"><span class="text-sm">(※)</span>テトラへキシルデカン酸アスコルビル</span>
+              </p>
+            </div>
+          </div>
+          <div class="product-ingredients__item">
+            <div class="product-ingredients__img-wrapper">
+              <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+            </div>
+            <div class="product-ingredients__content">
+              <p class="product-ingredients__ingredients-name">ナイアシンアミド<span class="text-sm">(※)</span></p>
+              <p class="product-ingredients__ingredients-text">
+                マルチに美肌へ働きかけるビタミンB群の一種です。ターンオーバーを促し、保湿成分であるセラミドの生成を促進。バリア機能の維持も期待できます。
+                <span class="product-ingredients__ingredients-caution"><span class="text-sm">(※)</span>ビタミンB3</span>
+              </p>
+            </div>
+          </div>
+          <div class="product-ingredients__item">
+            <div class="product-ingredients__img-wrapper">
+              <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+            </div>
+            <div class="product-ingredients__content">
+              <p class="product-ingredients__ingredients-name">乳酸桿菌</p>
+              <p class="product-ingredients__ingredients-text">
+                ヒトの腸内に生息する腸内細菌である乳酸菌の一種。肌の環境を整える「肌活」が期待できる成分です。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {%- comment -%} title-with-text {%- endcomment -%}
+      <div class="product-desc__title-with-text">
+        <p class="title-with-text__title">使わない成分</p>
+        <p class="title-with-text__text">
+          敏感肌。ゆらぐ季節の肌。<br>どんな肌質の方でも、安心してお使いいただくために。<br>
+          刺激となりうる以下の成分は使用しません。
+        </p>
+      </div>
+      {%- comment -%} not-used {%- endcomment -%}
+      <div class="not-used">
+        <ul class="not-used__list">
+          <li class="not-used__item"><div class="not-used__item-inner"><span>パラベン</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>鉱物油</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>合成香料</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>合成<br>着色料</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>石油系<br>界面</d</span>活性剤</li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>シリコン</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>アルコール<br><small>(エタノール)</small></span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>旧指定成分</span></div></li>
+        </ul>
+      </div>
+      {%- comment -%} present {%- endcomment -%}
+      <div class="product-desc__present">
+        <p>
+          基礎化粧品2品以上のお買い求めで<br>
+          UFクレンジングジェルパックを1本プレゼント！
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

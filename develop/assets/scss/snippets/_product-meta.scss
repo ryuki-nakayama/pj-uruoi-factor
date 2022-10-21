@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* ProductMeta
+--------------------------------------------------*/
+.ProductMeta {
+  border-bottom: none;
+  margin-bottom: 12px;
+  padding-bottom: 0;
+}
+
+.ProductMeta__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features--heading-small .ProductMeta__Title {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.ProductMeta__PriceList {
+  text-align: left;
+}
+
+.ProductMeta__guide {
+  text-align: left;
+  font-size: 8px;
+}

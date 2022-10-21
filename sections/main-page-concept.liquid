@@ -1,0 +1,56 @@
+{%- comment -%}
+  main-concept
+  conceptページ メインコンテンツ
+
+  Use:
+  - none
+
+  Style:
+  - sections/main-contentx.scss
+
+  Script:
+  - none
+{%- endcomment -%}
+
+{{ 'page-concept.css' | asset_url | stylesheet_tag }}
+
+<div class="main-concept original-section">
+  <div class="Container">
+    <div class="main-concept__content">
+      {%- comment -%} What {%- endcomment -%}
+      {%- render 'concept-what', img: section.settings.concept_image2 -%}
+
+      {%- comment -%} Why {%- endcomment -%}
+      {%- render 'concept-why', img: section.settings.concept_image1 -%}
+
+      {%- comment -%} How {%- endcomment -%}
+      {%- render 'concept-how' -%}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Main concept",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "concept_image1",
+      "label": "Concept Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "concept_image2",
+      "label": "Concept Image 2"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Main",
+      "name": "Main concept",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

@@ -1,19 +1,53 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "main-product-uf-soap",
       "blocks": {
         "product_meta": {
           "type": "product_meta",
           "settings": {
-            "show_vendor": true,
+            "show_vendor": false,
             "show_sku": false,
             "show_product_rating": false,
-            "show_taxes_included": false
+            "show_taxes_included": false,
+            "product_type": "洗顔",
+            "product_guide": "100g（約1カ月分）"
           }
         },
-        "description": {
-          "type": "description",
+        "cfa5e61e-eb14-406c-bb55-f7908d1a9121": {
+          "type": "label",
+          "settings": {
+            "label": "ニキビ<span class=\"text-sm\">(※1)<\/span>"
+          }
+        },
+        "e3ed950b-bdf9-419f-aa90-caaf5445d2c2": {
+          "type": "label",
+          "settings": {
+            "label": "ザラつき"
+          }
+        },
+        "81e40830-e88c-4cf6-8f61-7275a7a60b1b": {
+          "type": "label",
+          "settings": {
+            "label": "肌荒れ<span class=\"text-sm\">(※2)<\/span>"
+          }
+        },
+        "51f232e8-7b28-4d1b-b343-9111bf07e19c": {
+          "type": "label",
+          "settings": {
+            "label": "敏感肌"
+          }
+        },
+        "16e4e4d1-5f82-4ba9-bda8-de9b3cabfabc": {
+          "type": "title_with_text",
+          "settings": {
+            "heading": "<p>悩みは離す。うるおいは離さない。<\/p>",
+            "text": "",
+            "caution": "(※1) 洗浄による (※2) 保湿による予防"
+          }
+        },
+        "511919d2-2698-4339-aed2-e0eb592c3773": {
+          "type": "product_description",
           "settings": {
           }
         },
@@ -44,21 +78,44 @@
             "show_payment_button": true
           }
         },
+        "fdab9f1a-889d-42ad-87d1-3ffc9c24c203": {
+          "type": "usage",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "opinew-stars-plugin-product": {
           "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
           "disabled": true,
+          "settings": {
+          }
+        },
+        "c75d8bb2-4caf-4fed-a264-8007351b4f56": {
+          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
           "settings": {
           }
         }
       },
       "block_order": [
         "product_meta",
-        "description",
+        "cfa5e61e-eb14-406c-bb55-f7908d1a9121",
+        "e3ed950b-bdf9-419f-aa90-caaf5445d2c2",
+        "81e40830-e88c-4cf6-8f61-7275a7a60b1b",
+        "51f232e8-7b28-4d1b-b343-9111bf07e19c",
+        "16e4e4d1-5f82-4ba9-bda8-de9b3cabfabc",
+        "511919d2-2698-4339-aed2-e0eb592c3773",
         "share_buttons",
         "variant_selector",
         "quantity_selector",
         "buy_buttons",
-        "opinew-stars-plugin-product"
+        "fdab9f1a-889d-42ad-87d1-3ffc9c24c203",
+        "description",
+        "opinew-stars-plugin-product",
+        "c75d8bb2-4caf-4fed-a264-8007351b4f56"
       ],
       "settings": {
         "image_size": "large",

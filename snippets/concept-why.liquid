@@ -1,0 +1,31 @@
+{% comment %}
+  concept-why
+  conceptページ why
+
+  Accepts:
+  - none
+
+  Usage:
+  - {%- render 'concept-why', img: img -%}
+
+  Style:
+  - snippets/concept-why.css
+
+  Script:
+  - none
+{% endcomment %}
+
+<div class="concept-why main-concept__block">
+  <h2 class="main-concept__title">Why</h2>
+  <h3 class="main-concept__sub-title ff-serif">なぜ「うるおい」が大切と考えるか。</h3>
+
+  <div id="why-collapse" class="main-concept__body collapse">
+    <div class="main-concept__img"><img src="{{ img | img_url: 'master' }}" alt="{{ img.alt }}"></div>
+    <h3 class="ff-serif">本当にうるおう肌は、<br>悩みが生まれにくい。</h3>
+    <p>
+      角層内の水分・油分・保湿成分が十分に満たされていること。肌が持つ「うるおう力」が十分にあること。それが私たちの考える「本当にうるおう肌」です。<br>
+      そうした健やかな肌はバリア機能がきちんと働き、肌悩みも少ないのです。
+    </p>
+  </div>
+  <button class="main-concept__btn" type="button" data-bs-toggle="collapse" data-bs-target="#why-collapse" aria-expanded="false" aria-controls="why-collapse"></button>
+</div>

@@ -1,0 +1,124 @@
+{% comment %}
+  product-uf-soap
+  UF ソープ 商品ページコンテンツ
+
+  Accepts:
+  - none
+
+  Usage:
+  - {%- render 'product-uf-soap' -%}
+
+  Style:
+  - sections/main-product.scss
+
+  Script:
+  - none
+{% endcomment %}
+
+{%- assign img = 'icon-ng.png' -%}
+{%- style -%}
+  #shopify-section-{{ section.id }} .not-used__item-inner {
+    background-image: url({{ img | asset_img_url: 'master' }});
+  }
+{%- endstyle -%}
+
+<div class="product-desc" style="margin-top: 32px;">
+  <button class="product-desc__btn" type="button" data-bs-toggle="collapse" data-bs-target="#product-desc-collapse" aria-expanded="false" aria-controls="product-desc-collapse"></button>
+  <div id="product-desc-collapse" class="collapse">
+    <div class="product-desc-collapse__inner">
+      {%- comment -%} heading-img {%- endcomment -%}
+      <div class="product-desc__heading-img">
+        {%- assign img = 'droplet.png' -%}
+        <img class="" src="{{ img | asset_img_url: '80x80' }}" alt="{{ img.alt }}">
+        <p>うるおいへのアプローチ</p>
+      </div>
+      {%- comment -%} title-with-text {%- endcomment -%}
+      <div class="product-desc__title-with-text">
+        <p class="title-with-text__title">
+          「枠練り製法」で、<br>
+          うるおい成分たっぷり
+        </p>
+        <p class="title-with-text__text">
+          うるおいを離さず、汚れだけを洗い流したい。そのために、うるおい成分をたっぷり配合できる「枠練り製法」にこだわりました。
+        </p>
+      </div>
+      {%- comment -%} image {%- endcomment -%}
+      <div class="product-desc__img" style="text-align: center;">
+        {%- assign img = 'uf-soap1.png' -%}
+        <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+        {%- assign img = 'uf-soap2.gif' -%}
+        <img class="" src="{{ img | asset_url }}" alt="{{ img.alt }}" style="max-width: 230px;">
+      </div>
+      {%- comment -%} ingredients {%- endcomment -%}
+      <div class="product-ingredients">
+        <p class="product-ingredients__heading">保湿成分</p>
+        <div class="product-ingredients__table">
+          {%- assign img = 'twinkle.png' -%}
+          <div class="product-ingredients__item">
+            <div class="product-ingredients__img-wrapper">
+              <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+            </div>
+            <div class="product-ingredients__content">
+              <p class="product-ingredients__ingredients-name">ハチミツ</p>
+              <p class="product-ingredients__ingredients-text">
+                ビタミン・ミネラル・アミノ酸などのあらゆる成分が含まれ、
+                天然の保湿成分として知られています。
+              </p>
+            </div>
+          </div>
+          <div class="product-ingredients__item">
+            <div class="product-ingredients__img-wrapper">
+              <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+            </div>
+            <div class="product-ingredients__content">
+              <p class="product-ingredients__ingredients-name">フルボ酸</p>
+              <p class="product-ingredients__ingredients-text">
+                特許製法で抽出した天然土壌エキス。肌あれや乾燥を防ぎ、肌にハリを与えます。<br>
+
+              </p>
+            </div>
+          </div>
+          <div class="product-ingredients__item">
+            <div class="product-ingredients__img-wrapper">
+              <img class="" src="{{ img | asset_img_url: 'master' }}" alt="{{ img.alt }}">
+            </div>
+            <div class="product-ingredients__content">
+              <p class="product-ingredients__ingredients-name">チャカテキン</p>
+              <p class="product-ingredients__ingredients-text">
+                緑茶の代表成分。<br>殺菌・抗酸化作用が期待できます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {%- comment -%} title-with-text {%- endcomment -%}
+      <div class="product-desc__title-with-text">
+        <p class="title-with-text__title">使わない成分</p>
+        <p class="title-with-text__text">
+          敏感肌。ゆらぐ季節の肌。<br>どんな肌質の方でも、安心してお使いいただくために。<br>
+          刺激となりうる以下の成分は使用しません。
+        </p>
+      </div>
+      {%- comment -%} not-used {%- endcomment -%}
+      <div class="not-used">
+        <ul class="not-used__list">
+          <li class="not-used__item"><div class="not-used__item-inner"><span>パラベン</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>鉱物油</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>合成香料</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>合成<br>着色料</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>石油系<br>界面</d</span>活性剤</li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>シリコン</span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>アルコール<br><small>(エタノール)</small></span></div></li>
+          <li class="not-used__item"><div class="not-used__item-inner"><span>旧指定成分</span></div></li>
+        </ul>
+      </div>
+      {%- comment -%} present {%- endcomment -%}
+      <div class="product-desc__present">
+        <p>
+          基礎化粧品2品以上のお買い求めで<br>
+          UFクレンジングジェルパックを1本プレゼント！
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

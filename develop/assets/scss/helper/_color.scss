@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@use '../global' as *;
+
+/* font-color
+--------------------------------------------------*/
+.cr-primary {
+  color: $color-primary !important;
+}
+
+.cr-secondary {
+  color: $color-secondary !important;
+}
+
+.cr-tertiary {
+  color: $color-tertiary !important;
+}
+
+.cr-caution {
+  color: $color-caution !important;
+}
+
+.cr-white {
+  color: $color-white !important;
+}
+
+.cr-black {
+  color: $color-black !important;
+}
