@@ -8,22 +8,9 @@
         "show_featured_article": true,
         "show_category": false
       }
-    },
-    "164265119029664be3": {
-      "type": "slideshow",
-      "settings": {
-        "show_fullscreen": false,
-        "show_arrow": false,
-        "autoplay": true,
-        "cycle_speed": 5,
-        "text_color": "#ffffff",
-        "button_color": "#363636",
-        "button_background": "#ffffff"
-      }
     }
   },
   "order": [
-    "main",
-    "164265119029664be3"
+    "main"
   ]
 }
