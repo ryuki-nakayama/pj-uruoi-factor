@@ -1,1 +1,29 @@
-{"sections":{"main":{"type":"main-blog","settings":{"show_rss":false,"show_tags":false,"show_featured_article":true,"show_category":false}},"1642649400f2329272":{"type":"image-with-text-overlay","settings":{"section_size":"large","image":"shopify:\/\/shop_images\/B41AF1CB-9550-4F82-A497-CE47797694A5.jpg","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":20,"subheading":"URUOI LIFE","title":"これからの「美しい暮らし」","content":"<p>暮らしと向き合う時間を通して気づいたのは自分らしいスペースをもつことの大切さ。毎日のオシャレのように、ライフスタイルも自分らしい美学と個性でもっと極めていい。<\/p>"}},"164265017500c4e073":{"type":"custom-html","settings":{"subheading":"うるおいファクターで人生にうるおいを","title":"URUOI LIFE","html":"<p style=\"text-align: left\">「うるおいのある生活」を\nしている人達がいます。\n \nイキイキとしたお肌を保ち、前向きに、\n楽しく、はつらつとした\n生き方があります。\n\n\n<br>\n充実した日々の過ごし方を\ninterview(インタビュー)しました。\n<\/p>"}},"16426494325d3e8246":{"type":"image-with-text-block","settings":{"image":"shopify:\/\/shop_images\/22336E36-CB21-422B-B840-CB56EB8AC3DC.jpg","background":"#ffffff","text_color":"#1c1b1b","block_size":"normal","title":"Your story","content":"<p>Mio Inoha <\/p><p>1991年生まれ。ロンドン在住。国際文化理容美容専門学校渋谷校卒業。大阪のヘアサロンに10年勤めながら独学で映像制作活動をする。<\/p><p>2021年からロンドンに拠点を移し、映像制作(Director, Editorなど)、美容師、ヘアメイクとマルチに活動中。<\/p>","button_label":"","button_link":"","show_parallax":true}},"164265119029664be3":{"type":"slideshow","blocks":{"164265119002201634-1":{"type":"image","settings":{"apply_overlay":true,"content_position":"bottomLeft","subheading":"Slide title","title":"Tell your story","button_1_text":"","button_1_link":"","button_2_text":"","button_2_link":""}}},"block_order":["164265119002201634-1"],"settings":{"show_fullscreen":false,"show_arrow":false,"autoplay":true,"cycle_speed":5,"text_color":"#ffffff","button_color":"#363636","button_background":"#ffffff"}}},"order":["main","1642649400f2329272","164265017500c4e073","16426494325d3e8246","164265119029664be3"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "show_rss": false,
+        "show_tags": false,
+        "show_featured_article": true,
+        "show_category": false
+      }
+    },
+    "164265119029664be3": {
+      "type": "slideshow",
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164265119029664be3"
+  ]
+}
