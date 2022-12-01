@@ -24,12 +24,6 @@
     "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb": {
       "type": "schedule",
       "blocks": {
-        "5da86be8-f7c4-49d0-b88a-da6e02bc353b": {
-          "type": "calendar",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/11_6c57afa7-40bc-4208-bb4d-cf2c4d067c95.jpg"
-          }
-        },
         "b66f852b-77e9-44a5-b9db-95f8ddba762e": {
           "type": "calendar",
           "settings": {
@@ -38,7 +32,6 @@
         }
       },
       "block_order": [
-        "5da86be8-f7c4-49d0-b88a-da6e02bc353b",
         "b66f852b-77e9-44a5-b9db-95f8ddba762e"
       ],
       "settings": {
