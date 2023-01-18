@@ -24,22 +24,29 @@
     "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb": {
       "type": "schedule",
       "blocks": {
-        "0b0b14fe-f433-43f0-9261-2706f9f395d4": {
+        "469bb795-4df9-468a-9793-eccaa26bb1e8": {
           "type": "calendar",
           "settings": {
-            "img": "shopify:\/\/shop_images\/1_07bc02d6-3e0b-4ec8-b096-c174b13de96b.jpg"
+            "img": "shopify:\/\/shop_images\/1_1d99ba0c-04a1-4e46-a327-e7f77db9a153.jpg"
           }
         },
-        "0ce577a6-c8c1-4afd-835e-9d3d45c13520": {
+        "1d1fde82-0663-44bb-8694-a6504bc7f8d3": {
           "type": "calendar",
           "settings": {
-            "img": "shopify:\/\/shop_images\/2023.2.jpg"
+            "img": "shopify:\/\/shop_images\/2_8aa2bce9-39d2-4bc6-be4b-bf7f754ef6fa.jpg"
+          }
+        },
+        "a995e20c-78ab-4786-94fb-4f40941ead01": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/3_44af73ce-5da4-4c05-973a-afb6d0b16520.jpg"
           }
         }
       },
       "block_order": [
-        "0b0b14fe-f433-43f0-9261-2706f9f395d4",
-        "0ce577a6-c8c1-4afd-835e-9d3d45c13520"
+        "469bb795-4df9-468a-9793-eccaa26bb1e8",
+        "1d1fde82-0663-44bb-8694-a6504bc7f8d3",
+        "a995e20c-78ab-4786-94fb-4f40941ead01"
       ],
       "settings": {
         "text": "商品の出荷日について。 <br>当日出荷は、1 3 時までのご注文分に限ります。",
