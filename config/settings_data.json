@@ -136,7 +136,7 @@
           "show_only_for_visitors": false,
           "show_only_once": false,
           "title": "サイトのご利用方法について",
-          "content": "<p>ご利用方法について簡単な動画マニュアルをご用意しております。詳しくはこちら<\/p>",
+          "content": "<p>ご利用方法について簡単な動画マニュアルをご用意しております。詳しくはこちらをご確認ください。<\/p>",
           "show_newsletter": false,
           "apparition_delay": 4
         }
