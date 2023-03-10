@@ -43,7 +43,7 @@
           "settings": {
             "heading": "<p>蓋の役割だけでは満足しない。<\/p><p>角層まで届く、保湿剤が欲しい方に。<\/p>",
             "text": "<p>ウォーターベースの保湿剤をつくることにより、美容成分が肌内部の角層まで浸透。乾燥や肌荒れをケアします。<\/p><p>パラベン・鉱物油・石油系界面活性剤・合成香料・合成着色料・シリコン・旧指定成分・アルコール（エタノール）不使用。<\/p>",
-            "caution": ""
+            "caution": "(※1) 保湿による予防(※2) 年齢に応じたケア"
           }
         },
         "32ba579a-c0ca-40a7-b6a4-bb64bcebd816": {
@@ -62,7 +62,9 @@
           "settings": {
             "use_form_id": false,
             "form_id": "",
-            "widget_version": "V2"
+            "widget_version": "V2",
+            "one_time_purchase_label": "",
+            "subscription_purchase_label": ""
           }
         },
         "share_buttons": {
