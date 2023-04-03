@@ -29,10 +29,24 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/Mon.jpg"
           }
+        },
+        "cd95bbb3-7f17-4578-8aa4-d935ae076674": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/5_b4161c8e-66bd-485b-92cd-cd6b7dff751e.jpg"
+          }
+        },
+        "cb132b0f-9ce0-4776-9293-7b40be059a97": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/6_47d6637d-e339-4844-a9d2-5db6a4e9082b.jpg"
+          }
         }
       },
       "block_order": [
-        "3add2610-1ad7-4e60-9fe2-839c896ede9e"
+        "3add2610-1ad7-4e60-9fe2-839c896ede9e",
+        "cd95bbb3-7f17-4578-8aa4-d935ae076674",
+        "cb132b0f-9ce0-4776-9293-7b40be059a97"
       ],
       "settings": {
         "text": "商品の出荷日について。 <br>当日出荷は、1 3 時までのご注文分に限ります。",
