@@ -46,10 +46,10 @@
         "show_large": false
       }
     },
-    "1647335853440d2b3c": {
+    "483bd2ee-e23d-466d-9d04-f2c94be558df": {
       "type": "featured-product",
       "blocks": {
-        "164733585209c96098-0": {
+        "template--15385730646166__483bd2ee-e23d-466d-9d04-f2c94be558df-168074925445d06f59-0": {
           "type": "product_meta",
           "settings": {
             "show_vendor": true,
@@ -60,13 +60,13 @@
         }
       },
       "block_order": [
-        "164733585209c96098-0"
+        "template--15385730646166__483bd2ee-e23d-466d-9d04-f2c94be558df-168074925445d06f59-0"
       ],
       "settings": {
-        "subheading": "レビューを募集しているアイテム",
-        "title": "recruit the review",
+        "subheading": "",
+        "title": "",
         "show_headings_on_mobile": true,
-        "product": "uruoifactor-all-in-one"
+        "product": "uruoifactor-soap"
       }
     },
     "1647336328900608c2": {
@@ -91,13 +91,61 @@
         "show_headings_on_mobile": true,
         "product": "charveil-beauty-oil"
       }
+    },
+    "1647335853440d2b3c": {
+      "type": "featured-product",
+      "blocks": {
+        "164733585209c96098-0": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        }
+      },
+      "block_order": [
+        "164733585209c96098-0"
+      ],
+      "settings": {
+        "subheading": "レビューを募集しているアイテム",
+        "title": "recruit the review",
+        "show_headings_on_mobile": true,
+        "product": "uruoifactor-all-in-one"
+      }
+    },
+    "62e00c89-ee3a-4ec5-a75d-d16d897032c3": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15385730646166__62e00c89-ee3a-4ec5-a75d-d16d897032c3-168074925445d06f59-0": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15385730646166__62e00c89-ee3a-4ec5-a75d-d16d897032c3-168074925445d06f59-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_headings_on_mobile": true,
+        "product": "uf-doubleserum-cb"
+      }
     }
   },
   "order": [
     "16435245431c3b35ec",
     "164733513674275075",
     "main",
+    "483bd2ee-e23d-466d-9d04-f2c94be558df",
+    "1647336328900608c2",
     "1647335853440d2b3c",
-    "1647336328900608c2"
+    "62e00c89-ee3a-4ec5-a75d-d16d897032c3"
   ]
 }
