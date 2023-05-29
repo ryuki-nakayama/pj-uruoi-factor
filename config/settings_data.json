@@ -58,12 +58,15 @@
       },
       "announcement": {
         "type": "announcement",
+        "custom_css": [
+
+        ],
         "settings": {
           "enable_bar": true,
           "home_page_only": false,
           "background": "#000000",
           "text_color": "#ffffff",
-          "content": "amazonpay・コンビニ払いも可能です！",
+          "content": "amazonpay・コンビニ払いもご利用いただけます",
           "link": ""
         }
       },
