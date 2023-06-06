@@ -33,6 +33,7 @@
         },
         "cd95bbb3-7f17-4578-8aa4-d935ae076674": {
           "type": "calendar",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/2023.png"
           }
