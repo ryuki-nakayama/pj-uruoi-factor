@@ -63,8 +63,8 @@
         "template--15385730646166__483bd2ee-e23d-466d-9d04-f2c94be558df-168074925445d06f59-0"
       ],
       "settings": {
-        "subheading": "",
-        "title": "",
+        "subheading": "レビューを募集しているアイテム",
+        "title": "recruit the review",
         "show_headings_on_mobile": true,
         "product": "uruoifactor-soap"
       }
@@ -109,8 +109,8 @@
         "164733585209c96098-0"
       ],
       "settings": {
-        "subheading": "レビューを募集しているアイテム",
-        "title": "recruit the review",
+        "subheading": "",
+        "title": "",
         "show_headings_on_mobile": true,
         "product": "uruoifactor-all-in-one"
       }
