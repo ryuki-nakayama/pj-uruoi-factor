@@ -40,6 +40,7 @@
         },
         "cb132b0f-9ce0-4776-9293-7b40be059a97": {
           "type": "calendar",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/6_47d6637d-e339-4844-a9d2-5db6a4e9082b.jpg"
           }
