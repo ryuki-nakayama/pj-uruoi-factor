@@ -23,6 +23,31 @@
     },
     "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb": {
       "type": "schedule",
+      "blocks": {
+        "c3af8095-f6a7-40e4-a254-1ded089ebf32": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/10_591e9399-1b54-4482-80a5-17c036eed310.jpg"
+          }
+        },
+        "3b7ed274-ef4c-45c0-9bea-80e04709ed89": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/11_623d52b9-2ba4-4bae-b289-779785d16375.jpg"
+          }
+        },
+        "9b7ac090-1936-4cba-a8fd-78dadeabb8f4": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2023_1_6e4a1842-6ee9-4338-9ad7-59bf555e6496.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "c3af8095-f6a7-40e4-a254-1ded089ebf32",
+        "3b7ed274-ef4c-45c0-9bea-80e04709ed89",
+        "9b7ac090-1936-4cba-a8fd-78dadeabb8f4"
+      ],
       "settings": {
         "text": "商品の出荷日について。 <br>当日出荷は１０時までのご注文分に限ります。<br>※9\/22～26は阪神梅田本店３Fイベントウエストにて出店",
         "business_hours": "営業時間 10:00 - 18:00 土・日・祝日定休"
