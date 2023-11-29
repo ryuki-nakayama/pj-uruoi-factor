@@ -24,12 +24,6 @@
     "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb": {
       "type": "schedule",
       "blocks": {
-        "3b7ed274-ef4c-45c0-9bea-80e04709ed89": {
-          "type": "calendar",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/2_f2412fbf-fb4b-42c7-a000-6499594fba2a.jpg"
-          }
-        },
         "9b7ac090-1936-4cba-a8fd-78dadeabb8f4": {
           "type": "calendar",
           "settings": {
@@ -38,11 +32,10 @@
         }
       },
       "block_order": [
-        "3b7ed274-ef4c-45c0-9bea-80e04709ed89",
         "9b7ac090-1936-4cba-a8fd-78dadeabb8f4"
       ],
       "settings": {
-        "text": "商品の出荷日について。 <br>当日出荷は１０時までのご注文分に限ります。",
+        "text": "商品の出荷日について。 <br>当日出荷は１０時までのご注文分に限ります。<br>※12月と1月は通常よりも1日～数日程度の遅れが生じる可能性がございます。",
         "business_hours": "営業時間 10:00 - 18:00 土・日・祝日定休"
       }
     },
