@@ -29,10 +29,17 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/4_6766e6c8-1343-4768-81c6-ae5ec67cbff0.jpg"
           }
+        },
+        "a7b7958a-e954-43bf-9004-cb88a3449181": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/e95b1881d2904179e1a15827b5dbf6df_9cefbfc0-869c-4e61-a3a6-ab98a12944b6.jpg"
+          }
         }
       },
       "block_order": [
-        "9b7ac090-1936-4cba-a8fd-78dadeabb8f4"
+        "9b7ac090-1936-4cba-a8fd-78dadeabb8f4",
+        "a7b7958a-e954-43bf-9004-cb88a3449181"
       ],
       "settings": {
         "text": "商品の出荷日について。 <br>当日出荷は１０時までのご注文分に限ります。<br>※12月と1月は通常よりも1日～数日程度の遅れが生じる可能性がございます。",
