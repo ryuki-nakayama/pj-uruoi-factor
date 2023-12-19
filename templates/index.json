@@ -83,15 +83,6 @@
     "16464548263ae4f520": {
       "type": "ud-banner",
       "blocks": {
-        "1c15e960-2f90-4f98-9f5c-63d651f7097b": {
-          "type": "banner",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/gazou1.jpg",
-            "header": "リサイクル",
-            "link": "https:\/\/uruoi-factor-product.com\/products\/%E5%AE%B9%E5%99%A8%E5%9B%9E%E5%8F%8E%E3%82%AD%E3%83%83%E3%83%88?_pos=1&_sid=c380936a7&_ss=r",
-            "btn-text": "read more"
-          }
-        },
         "728309f2-bf3e-41b9-b908-9c540cf6efb3": {
           "type": "banner",
           "settings": {
@@ -112,7 +103,6 @@
         }
       },
       "block_order": [
-        "1c15e960-2f90-4f98-9f5c-63d651f7097b",
         "728309f2-bf3e-41b9-b908-9c540cf6efb3",
         "c817b3d7-0cca-4dba-8718-aba5a3651ca0"
       ],
