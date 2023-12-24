@@ -160,6 +160,18 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": true,
+        "settings": {
+          "button_color": "#282828",
+          "button_icon": "chat_bubble",
+          "button_horizontal_position": "bottom_left",
+          "button_vertical_position": "lowest",
+          "button_text": "no_text",
+          "greeting_message": "営業日時：平日10:00-18:00\n（祝日・年末年始は除く）\n\nご不明点やお困りごとがございましたら、お気軽にお問い合わせください。（※１）営業や勧誘、そのほか弊社と関係のない内容の返事はいたしかねます（※２）返信が遅くなる場合がございます。予めご了承ください。\n"
+        }
       }
     }
   },
