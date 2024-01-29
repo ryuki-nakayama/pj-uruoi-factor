@@ -14,6 +14,53 @@
         "url": "shopify:\/\/pages\/concept-uruoifactor"
       }
     },
+    "slideshow_7UExnN": {
+      "type": "slideshow",
+      "blocks": {
+        "image_jHn7MQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "Slide title",
+            "title": "Tell your story",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "image_xhwgPw": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "Slide title",
+            "title": "Tell your story",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jHn7MQ",
+        "image_xhwgPw"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
     "3289d2fe-fd32-4491-8b79-13c39cc9eb6a": {
       "type": "blog-list",
       "settings": {
@@ -113,6 +160,7 @@
   "order": [
     "main-index",
     "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d",
+    "slideshow_7UExnN",
     "3289d2fe-fd32-4491-8b79-13c39cc9eb6a",
     "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb",
     "2b837391-4c8d-445c-b2c6-aa41b34f12e1",
