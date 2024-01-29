@@ -35,6 +35,7 @@
         "image_xhwgPw": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
             "mobile_image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
             "apply_overlay": true,
             "content_position": "bottomLeft",
