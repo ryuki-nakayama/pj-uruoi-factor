@@ -26,10 +26,10 @@
             "content_position": "bottomLeft",
             "subheading": "Slide title",
             "title": "Tell your story",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": ""
+            "button_1_text": "詳しくみる",
+            "button_1_link": "shopify:\/\/pages\/copy-of-how-to-use-a-gel",
+            "button_2_text": "ｓｓｓｓ",
+            "button_2_link": "shopify:\/\/products\/uruoifactor-all-in-one"
           }
         },
         "image_xhwgPw": {
@@ -46,11 +46,53 @@
             "button_2_text": "",
             "button_2_link": ""
           }
+        },
+        "image_UEdUde": {
+          "type": "image",
+          "settings": {
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "Slide title",
+            "title": "Tell your story",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "image_Fc9mEE": {
+          "type": "image",
+          "settings": {
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "Slide title",
+            "title": "Tell your story",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "image_rix4xW": {
+          "type": "image",
+          "settings": {
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "Slide title",
+            "title": "Tell your story",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
         }
       },
       "block_order": [
         "image_jHn7MQ",
-        "image_xhwgPw"
+        "image_xhwgPw",
+        "image_UEdUde",
+        "image_Fc9mEE",
+        "image_rix4xW"
       ],
       "settings": {
         "show_fullscreen": false,
