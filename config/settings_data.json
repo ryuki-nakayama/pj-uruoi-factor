@@ -139,7 +139,7 @@
           "show_only_for_visitors": false,
           "show_only_once": false,
           "title": "お支払い方法に関して",
-          "content": "<p>クレジットカードでのお支払いのほか、amazonpay・コンビニ払い・代引き支払いもご利用頂けます。<\/p>",
+          "content": "<p>クレジットカード決済・amazonpay・コンビニ払い・代引き・ペイパルをご利用頂けます。<\/p>",
           "show_newsletter": false,
           "apparition_delay": 4
         }
