@@ -250,7 +250,7 @@
       ],
       "settings": {
         "show_fullscreen": false,
-        "show_arrow": false,
+        "show_arrow": true,
         "autoplay": true,
         "cycle_speed": 5,
         "text_color": "#ffffff",
