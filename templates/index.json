@@ -114,17 +114,6 @@
     },
     "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb": {
       "type": "schedule",
-      "blocks": {
-        "a7b7958a-e954-43bf-9004-cb88a3449181": {
-          "type": "calendar",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/e95b1881d2904179e1a15827b5dbf6df_9cefbfc0-869c-4e61-a3a6-ab98a12944b6.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "a7b7958a-e954-43bf-9004-cb88a3449181"
-      ],
       "settings": {
         "text": "商品の出荷日について。 <br>当日出荷は１０時までのご注文分に限ります。<br>※12月・1月は通常よりも1日～数日ほど配達が遅れます。",
         "business_hours": "営業時間 10:00 - 18:00 土・日・祝日定休"
