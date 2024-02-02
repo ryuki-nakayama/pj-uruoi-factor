@@ -206,57 +206,6 @@
         "content": "<p>スキンケアやお肌のお悩みについてなど<\/p><p>お気軽にご相談ください。<\/p>",
         "link_url": "shopify:\/\/pages\/お問い合わせ"
       }
-    },
-    "slideshow_T6Gqkk": {
-      "type": "slideshow",
-      "blocks": {
-        "image_BfnAzF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
-            "apply_overlay": true,
-            "content_position": "bottomLeft",
-            "subheading": "洗顔後すぐのぬれた肌に",
-            "title": "美容オイルUF",
-            "button_1_text": "詳しく見る",
-            "button_1_link": "shopify:\/\/products\/charveil-beauty-oil",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "image_f6mUEP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
-            "apply_overlay": true,
-            "content_position": "bottomLeft",
-            "subheading": "”うるおい”で健やかな肌に",
-            "title": "URUOI FACTOR",
-            "button_1_text": "ALLITEM",
-            "button_1_link": "shopify:\/\/collections\/frontpage",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_BfnAzF",
-        "image_f6mUEP"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "show_fullscreen": false,
-        "show_arrow": true,
-        "autoplay": true,
-        "cycle_speed": 5,
-        "text_color": "#ffffff",
-        "button_color": "#363636",
-        "button_background": "#ffffff"
-      }
     }
   },
   "order": [
@@ -269,7 +218,6 @@
     "d17c9426-3d45-4347-86ad-d6efcacfaafc",
     "db407fda-c7ed-4586-bf84-a374c306b100",
     "16464548263ae4f520",
-    "94dc05a6-7f7f-4a1c-8209-f18a35632256",
-    "slideshow_T6Gqkk"
+    "94dc05a6-7f7f-4a1c-8209-f18a35632256"
   ]
 }
