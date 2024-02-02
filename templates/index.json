@@ -1,5 +1,65 @@
 {
   "sections": {
+    "collection_list_CEqXcE": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_pJ6PXx": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/package.png",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "collection_VRMrca": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "collection_V4P8r9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/1_279fc608-2786-4ae2-a7d1-6607b76aabaf.jpg",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Collection name",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        }
+      },
+      "block_order": [
+        "collection_pJ6PXx",
+        "collection_VRMrca",
+        "collection_V4P8r9"
+      ],
+      "settings": {
+        "image_size": "normal",
+        "add_spacing": true,
+        "expand_collection": false,
+        "stack_on_mobile": true,
+        "text_color": "#ffffff",
+        "button_color": "#363636"
+      }
+    },
     "main-index": {
       "type": "main-index",
       "settings": {
@@ -7,6 +67,7 @@
     },
     "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d": {
       "type": "key-visual",
+      "disabled": true,
       "settings": {
         "img": "shopify:\/\/shop_images\/key_visual_909dba09-b89f-4a87-93e1-c576c0bd9b4c.jpg",
         "title": "うるおい、のち、晴れ",
@@ -134,6 +195,7 @@
     }
   },
   "order": [
+    "collection_list_CEqXcE",
     "main-index",
     "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d",
     "3289d2fe-fd32-4491-8b79-13c39cc9eb6a",
