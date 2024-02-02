@@ -62,7 +62,7 @@
 
         ],
         "settings": {
-          "enable_bar": true,
+          "enable_bar": false,
           "home_page_only": false,
           "background": "#000000",
           "text_color": "#ffffff",
@@ -134,12 +134,12 @@
       "popup": {
         "type": "popup",
         "settings": {
-          "show_popup": false,
+          "show_popup": true,
           "show_only_on_index": false,
           "show_only_for_visitors": false,
-          "show_only_once": false,
-          "title": "サイトのご利用方法について",
-          "content": "<p>ご利用方法について簡単な動画マニュアルをご用意しております。詳しくはこちらをご確認ください。<\/p>",
+          "show_only_once": true,
+          "title": "お支払い方法に関して",
+          "content": "<p>amazonpay・コンビニ払い・代引き支払いもご利用頂けます。<\/p>",
           "show_newsletter": false,
           "apparition_delay": 4
         }
