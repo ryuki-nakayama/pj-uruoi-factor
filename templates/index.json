@@ -114,6 +114,24 @@
     },
     "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb": {
       "type": "schedule",
+      "blocks": {
+        "calendar_wYbBit": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2_a3fbf527-d49f-4556-8c1e-18eddf229ad9.jpg"
+          }
+        },
+        "calendar_VTYRnK": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/3_04e83256-154d-4eff-a8cd-4a16eb4b0cb2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "calendar_wYbBit",
+        "calendar_VTYRnK"
+      ],
       "settings": {
         "text": "商品の出荷日について。 <br>当日出荷は１０時までのご注文分に限ります。",
         "business_hours": "営業時間 10:00 - 18:00 土・日・祝日定休"
