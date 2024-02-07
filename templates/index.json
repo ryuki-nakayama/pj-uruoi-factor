@@ -206,6 +206,86 @@
         "content": "<p>スキンケアやお肌のお悩みについてなど<\/p><p>お気軽にご相談ください。<\/p>",
         "link_url": "shopify:\/\/pages\/お問い合わせ"
       }
+    },
+    "slideshow_PgQGjJ": {
+      "type": "slideshow",
+      "blocks": {
+        "image_gW9kgT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sitetop__UF.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/sitetop__UF.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/products\/charveil-beauty-oil",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "image_q7pGKa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sitetop_8aa75cbe-e046-446e-8de5-40f4a67d6ecb.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/sitetop_8aa75cbe-e046-446e-8de5-40f4a67d6ecb.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "image_RyHXrJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FV_amazonpay_1080x1080_27a02a0b-a71a-40e3-b8bc-f88feb6c0663.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/FV_amazonpay_1080x1080_27a02a0b-a71a-40e3-b8bc-f88feb6c0663.jpg",
+            "apply_overlay": true,
+            "content_position": "middleLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "image_QjY8Rb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sitetop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/sitetop.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_gW9kgT",
+        "image_q7pGKa",
+        "image_RyHXrJ",
+        "image_QjY8Rb"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
     }
   },
   "order": [
@@ -218,6 +298,7 @@
     "d17c9426-3d45-4347-86ad-d6efcacfaafc",
     "db407fda-c7ed-4586-bf84-a374c306b100",
     "16464548263ae4f520",
-    "94dc05a6-7f7f-4a1c-8209-f18a35632256"
+    "94dc05a6-7f7f-4a1c-8209-f18a35632256",
+    "slideshow_PgQGjJ"
   ]
 }
