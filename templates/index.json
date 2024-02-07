@@ -5,208 +5,6 @@
       "settings": {
       }
     },
-    "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d": {
-      "type": "key-visual",
-      "settings": {
-        "img": "shopify:\/\/shop_images\/key_visual_909dba09-b89f-4a87-93e1-c576c0bd9b4c.jpg",
-        "title": "うるおい、のち、晴れ",
-        "text": "うるおうことで、<br>悩みが晴れる日もあるから",
-        "url": "shopify:\/\/pages\/concept-uruoifactor"
-      }
-    },
-    "slideshow_7UExnN": {
-      "type": "slideshow",
-      "blocks": {
-        "image_jHn7MQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
-            "apply_overlay": true,
-            "content_position": "bottomLeft",
-            "subheading": "Slide title",
-            "title": "Tell your story",
-            "button_1_text": "詳しくみる",
-            "button_1_link": "shopify:\/\/pages\/copy-of-how-to-use-a-gel",
-            "button_2_text": "ｓｓｓｓ",
-            "button_2_link": "shopify:\/\/products\/uruoifactor-all-in-one"
-          }
-        },
-        "image_xhwgPw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/top_DSC00316.jpg",
-            "apply_overlay": true,
-            "content_position": "bottomLeft",
-            "subheading": "Slide title",
-            "title": "Tell your story",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "image_UEdUde": {
-          "type": "image",
-          "settings": {
-            "apply_overlay": true,
-            "content_position": "bottomLeft",
-            "subheading": "Slide title",
-            "title": "Tell your story",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "image_Fc9mEE": {
-          "type": "image",
-          "settings": {
-            "apply_overlay": true,
-            "content_position": "bottomLeft",
-            "subheading": "Slide title",
-            "title": "Tell your story",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        },
-        "image_rix4xW": {
-          "type": "image",
-          "settings": {
-            "apply_overlay": true,
-            "content_position": "bottomLeft",
-            "subheading": "Slide title",
-            "title": "Tell your story",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_jHn7MQ",
-        "image_xhwgPw",
-        "image_UEdUde",
-        "image_Fc9mEE",
-        "image_rix4xW"
-      ],
-      "disabled": true,
-      "settings": {
-        "show_fullscreen": false,
-        "show_arrow": false,
-        "autoplay": true,
-        "cycle_speed": 5,
-        "text_color": "#ffffff",
-        "button_color": "#363636",
-        "button_background": "#ffffff"
-      }
-    },
-    "3289d2fe-fd32-4491-8b79-13c39cc9eb6a": {
-      "type": "blog-list",
-      "settings": {
-        "blog": "news-uruoi",
-        "limit": 10
-      }
-    },
-    "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb": {
-      "type": "schedule",
-      "blocks": {
-        "calendar_wYbBit": {
-          "type": "calendar",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/2_a3fbf527-d49f-4556-8c1e-18eddf229ad9.jpg"
-          }
-        },
-        "calendar_VTYRnK": {
-          "type": "calendar",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/3_04e83256-154d-4eff-a8cd-4a16eb4b0cb2.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "calendar_wYbBit",
-        "calendar_VTYRnK"
-      ],
-      "settings": {
-        "text": "商品の出荷日について。 <br>当日出荷は１０時までのご注文分に限ります。",
-        "business_hours": "営業時間 10:00 - 18:00 土・日・祝日定休"
-      }
-    },
-    "2b837391-4c8d-445c-b2c6-aa41b34f12e1": {
-      "type": "text-with-image",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "image": "shopify:\/\/shop_images\/1_279fc608-2786-4ae2-a7d1-6607b76aabaf.jpg",
-        "image_position": "right",
-        "content": "<p>ただ、水分を入れるのではなく。<\/p><p>ただ、しっとりさせるのではなく。<\/p><p>ただただ、真正面から、<\/p><p>「本当にうるおう肌」を目指していく。<\/p><p>それが、私たちの「スキンケア」の視点です。<\/p>",
-        "link_text": "",
-        "link_url": ""
-      }
-    },
-    "d17c9426-3d45-4347-86ad-d6efcacfaafc": {
-      "type": "text-with-link",
-      "settings": {
-        "title": "SKINCARE ITEM",
-        "content": "<p>肌に水分・油分・保湿成分が満たされていること。<\/p><p>肌が持つ「うるおう力」が十分にあること。<\/p><p>それが私たちの考える「本当にうるおう肌」です。<\/p><p>悩みが生まれにくい、健やかな肌を育みませんか。<\/p>",
-        "link_text": "全商品一覧",
-        "link_url": "shopify:\/\/collections\/frontpage"
-      }
-    },
-    "db407fda-c7ed-4586-bf84-a374c306b100": {
-      "type": "text-with-image",
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "image": "shopify:\/\/shop_images\/Granbrillo-top_4a826cc1-2388-4431-b142-8d3df613c3e2.jpg",
-        "image_position": "left",
-        "content": "<p>毎日を前向きに、楽しく、うるおいのある生活を過ごすイラストレーター保田大輝さんが描く \"Granbrillo（グランブリージョ）\" の世界観が詰まったグッズ販売がスタート。東京・沖縄・スペインなどの暮らしの中から着想を得て描かれた可愛らしいイラストたちが、ハッピーやワクワク感をお届けします！<\/p>",
-        "link_text": "詳しく見る",
-        "link_url": "shopify:\/\/collections\/granbrillo"
-      }
-    },
-    "16464548263ae4f520": {
-      "type": "ud-banner",
-      "blocks": {
-        "728309f2-bf3e-41b9-b908-9c540cf6efb3": {
-          "type": "banner",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/gazou2.jpg",
-            "header": "ギフト包装",
-            "link": "https:\/\/uruoi-factor-product.com\/collections\/%E3%82%AE%E3%83%95%E3%83%88%E5%8C%85%E8%A3%85-0",
-            "btn-text": "READ MORE"
-          }
-        },
-        "c817b3d7-0cca-4dba-8718-aba5a3651ca0": {
-          "type": "banner",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/gazou3.jpg",
-            "header": "定期購入",
-            "link": "shopify:\/\/collections\/定期購入",
-            "btn-text": "READ MORE"
-          }
-        }
-      },
-      "block_order": [
-        "728309f2-bf3e-41b9-b908-9c540cf6efb3",
-        "c817b3d7-0cca-4dba-8718-aba5a3651ca0"
-      ],
-      "settings": {
-      }
-    },
-    "94dc05a6-7f7f-4a1c-8209-f18a35632256": {
-      "type": "contact-link",
-      "settings": {
-        "content": "<p>スキンケアやお肌のお悩みについてなど<\/p><p>お気軽にご相談ください。<\/p>",
-        "link_url": "shopify:\/\/pages\/お問い合わせ"
-      }
-    },
     "slideshow_PgQGjJ": {
       "type": "slideshow",
       "blocks": {
@@ -277,6 +75,7 @@
         "image_q7pGKa",
         "image_RyHXrJ"
       ],
+      "disabled": true,
       "settings": {
         "show_fullscreen": false,
         "show_arrow": false,
@@ -286,19 +85,129 @@
         "button_color": "#363636",
         "button_background": "#ffffff"
       }
+    },
+    "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d": {
+      "type": "key-visual",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/key_visual_909dba09-b89f-4a87-93e1-c576c0bd9b4c.jpg",
+        "title": "うるおい、のち、晴れ",
+        "text": "うるおうことで、<br>悩みが晴れる日もあるから",
+        "url": "shopify:\/\/pages\/concept-uruoifactor"
+      }
+    },
+    "3289d2fe-fd32-4491-8b79-13c39cc9eb6a": {
+      "type": "blog-list",
+      "settings": {
+        "blog": "news-uruoi",
+        "limit": 10
+      }
+    },
+    "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb": {
+      "type": "schedule",
+      "blocks": {
+        "calendar_wYbBit": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2_a3fbf527-d49f-4556-8c1e-18eddf229ad9.jpg"
+          }
+        },
+        "calendar_VTYRnK": {
+          "type": "calendar",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/3_04e83256-154d-4eff-a8cd-4a16eb4b0cb2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "calendar_wYbBit",
+        "calendar_VTYRnK"
+      ],
+      "settings": {
+        "text": "商品の出荷日について。 <br>当日出荷は１０時までのご注文分に限ります。",
+        "business_hours": "営業時間 10:00 - 18:00 土・日・祝日定休"
+      }
+    },
+    "2b837391-4c8d-445c-b2c6-aa41b34f12e1": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "image": "shopify:\/\/shop_images\/1_279fc608-2786-4ae2-a7d1-6607b76aabaf.jpg",
+        "image_position": "right",
+        "content": "<p><\/p><p>ただ、水分を入れるのではなく。<\/p><p>ただ、しっとりさせるのではなく。<\/p><p>ただただ、真正面から、<\/p><p>「本当にうるおう肌」を目指していく。<\/p><p>それが、私たちの「スキンケア」の視点です。<\/p>",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "d17c9426-3d45-4347-86ad-d6efcacfaafc": {
+      "type": "text-with-link",
+      "settings": {
+        "title": "SKINCARE ITEM",
+        "content": "<p>肌に水分・油分・保湿成分が満たされていること。<\/p><p>肌が持つ「うるおう力」が十分にあること。<\/p><p>それが私たちの考える「本当にうるおう肌」です。<\/p><p>悩みが生まれにくい、健やかな肌を育みませんか。<\/p>",
+        "link_text": "全商品一覧",
+        "link_url": "shopify:\/\/collections\/frontpage"
+      }
+    },
+    "db407fda-c7ed-4586-bf84-a374c306b100": {
+      "type": "text-with-image",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "image": "shopify:\/\/shop_images\/Granbrillo-top_4a826cc1-2388-4431-b142-8d3df613c3e2.jpg",
+        "image_position": "left",
+        "content": "<p>毎日を前向きに、楽しく、うるおいのある生活を過ごすイラストレーター保田大輝さんが描く \"Granbrillo（グランブリージョ）\" の世界観が詰まったグッズ販売がスタート。東京・沖縄・スペインなどの暮らしの中から着想を得て描かれた可愛らしいイラストたちが、ハッピーやワクワク感をお届けします！<\/p>",
+        "link_text": "詳しく見る",
+        "link_url": "shopify:\/\/collections\/granbrillo"
+      }
+    },
+    "16464548263ae4f520": {
+      "type": "ud-banner",
+      "blocks": {
+        "728309f2-bf3e-41b9-b908-9c540cf6efb3": {
+          "type": "banner",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/gazou2.jpg",
+            "header": "ギフト包装",
+            "link": "https:\/\/uruoi-factor-product.com\/collections\/%E3%82%AE%E3%83%95%E3%83%88%E5%8C%85%E8%A3%85-0",
+            "btn-text": "READ MORE"
+          }
+        },
+        "c817b3d7-0cca-4dba-8718-aba5a3651ca0": {
+          "type": "banner",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/gazou3.jpg",
+            "header": "定期購入",
+            "link": "shopify:\/\/collections\/定期購入",
+            "btn-text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "728309f2-bf3e-41b9-b908-9c540cf6efb3",
+        "c817b3d7-0cca-4dba-8718-aba5a3651ca0"
+      ],
+      "settings": {
+      }
+    },
+    "94dc05a6-7f7f-4a1c-8209-f18a35632256": {
+      "type": "contact-link",
+      "settings": {
+        "content": "<p>スキンケアやお肌のお悩みについてなど<\/p><p>お気軽にご相談ください。<\/p>",
+        "link_url": "shopify:\/\/pages\/お問い合わせ"
+      }
     }
   },
   "order": [
     "main-index",
+    "slideshow_PgQGjJ",
     "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d",
-    "slideshow_7UExnN",
     "3289d2fe-fd32-4491-8b79-13c39cc9eb6a",
     "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb",
     "2b837391-4c8d-445c-b2c6-aa41b34f12e1",
     "d17c9426-3d45-4347-86ad-d6efcacfaafc",
     "db407fda-c7ed-4586-bf84-a374c306b100",
     "16464548263ae4f520",
-    "94dc05a6-7f7f-4a1c-8209-f18a35632256",
-    "slideshow_PgQGjJ"
+    "94dc05a6-7f7f-4a1c-8209-f18a35632256"
   ]
 }
