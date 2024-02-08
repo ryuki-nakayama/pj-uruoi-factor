@@ -75,6 +75,7 @@
         "image_q7pGKa",
         "image_RyHXrJ"
       ],
+      "disabled": true,
       "settings": {
         "show_fullscreen": false,
         "show_arrow": false,
@@ -87,7 +88,6 @@
     },
     "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d": {
       "type": "key-visual",
-      "disabled": true,
       "settings": {
         "img": "shopify:\/\/shop_images\/key_visual_909dba09-b89f-4a87-93e1-c576c0bd9b4c.jpg",
         "title": "うるおい、のち、晴れ",
