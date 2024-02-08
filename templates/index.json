@@ -153,7 +153,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/67474448a6ec3b23966a307cf2941ddc.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/67474448a6ec3b23966a307cf2941ddc_84956103-5504-4ab5-802a-06387322d6ce.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/67474448a6ec3b23966a307cf2941ddc.jpg",
             "apply_overlay": true,
             "content_position": "bottomLeft",
             "subheading": "",
