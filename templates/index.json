@@ -17,7 +17,7 @@
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
-            "button_1_text": "",
+            "button_1_text": "詳しく見る",
             "button_1_link": "shopify:\/\/products\/charveil-beauty-oil",
             "button_2_text": "",
             "button_2_link": ""
@@ -32,7 +32,7 @@
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
-            "button_1_text": "",
+            "button_1_text": "詳しく見る",
             "button_1_link": "",
             "button_2_text": "",
             "button_2_link": ""
@@ -47,7 +47,7 @@
             "content_position": "bottomLeft",
             "subheading": "",
             "title": "",
-            "button_1_text": "",
+            "button_1_text": "全製品一覧",
             "button_1_link": "",
             "button_2_text": "",
             "button_2_link": ""
@@ -75,12 +75,11 @@
         "image_q7pGKa",
         "image_RyHXrJ"
       ],
-      "disabled": true,
       "settings": {
         "show_fullscreen": false,
         "show_arrow": false,
         "autoplay": true,
-        "cycle_speed": 3,
+        "cycle_speed": 4,
         "text_color": "#ffffff",
         "button_color": "#363636",
         "button_background": "#ffffff"
@@ -88,6 +87,7 @@
     },
     "5b8d2ef1-0b9d-4eac-89d5-49aaf7f77e0d": {
       "type": "key-visual",
+      "disabled": true,
       "settings": {
         "img": "shopify:\/\/shop_images\/key_visual_909dba09-b89f-4a87-93e1-c576c0bd9b4c.jpg",
         "title": "うるおい、のち、晴れ",
