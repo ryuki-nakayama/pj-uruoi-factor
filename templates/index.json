@@ -24,22 +24,15 @@
     "caeebfc8-ce9c-44ae-92af-c24dbbefe1bb": {
       "type": "schedule",
       "blocks": {
-        "calendar_wYbBit": {
+        "calendar_ByhTgG": {
           "type": "calendar",
           "settings": {
-            "img": "shopify:\/\/shop_images\/2_a3fbf527-d49f-4556-8c1e-18eddf229ad9.jpg"
-          }
-        },
-        "calendar_VTYRnK": {
-          "type": "calendar",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/3_f2d0eef3-e7f7-467f-a73d-8167b5097a90.jpg"
+            "img": "shopify:\/\/shop_images\/2024.2.jpg"
           }
         }
       },
       "block_order": [
-        "calendar_wYbBit",
-        "calendar_VTYRnK"
+        "calendar_ByhTgG"
       ],
       "settings": {
         "text": "商品の出荷日について。 <br>当日出荷は１０時までのご注文分に限ります。",
