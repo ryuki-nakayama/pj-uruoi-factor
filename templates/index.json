@@ -26,6 +26,7 @@
       "blocks": {
         "calendar_iFBw4k": {
           "type": "calendar",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/2024.2_a4952b4d-467d-407a-98e3-f80f17df5539.jpg"
           }
