@@ -115,7 +115,7 @@
           "cd3d9343-aa51-4a33-95ba-2ca7953b05cd": {
             "type": "links",
             "settings": {
-              "menu": "link-list"
+              "menu": "new-footer"
             }
           }
         },
@@ -147,7 +147,7 @@
       "new-footer": {
         "type": "new-footer",
         "settings": {
-          "menu": "link-list"
+          "menu": "new-footer"
         }
       }
     },
